@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#">
+   <teiHeader xml:lang="fr">
+      <fileDesc>
+         <titleStmt>
+            <title>B 168/15-23.5 p.3</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>Version électronique TEI des procédures criminelles de la principauté épiscopale de Bâle</edition>
+            <respStmt>
+               <name xml:id="EP">Élodie Paupe</name>
+               <resp>Encodage</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Archives de l'ancien Évêché de Bâle</authority>
+            <address>
+               <addrLine>rue des Annonciades 10</addrLine>
+               <addrLine>2900 Porrentruy</addrLine>
+               <addrLine>www.aaeb.ch</addrLine>
+            </address>
+            <availability status="restricted" n="CC-BY-NC-SA">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+               <p>Creative Commons Attribution 4.0 CC BY-NC-SA 4.0 FR</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Porrentruy</settlement>
+                  <repository>Archives de l'ancien Évêché de Bâle</repository>
+                  <idno type="cote">B 168/15-23.5 p.3</idno>
+                  <idno type="url">https://archives-aaeb.jura.ch/detail.aspx?ID=223582</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab source="https://github.com/aaeb-porrentruy/corpus_prevot_farine_fr/blob/main/README.md">Les normes de transcription sont disponibles en ligne.</ab>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Moyen français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-07-31" who="#EP">Création du fichier TEI à partir des sources alto</change>
+      </revisionDesc>
+   </teiHeader>
+   <sourceDoc xml:id="transcription">
+      <surface xml:id="B_168_15-23-5_0003">
+         <graphic url="https://iiif.unige.ch/iiif/2/fedora_ug27803278/full/full/0/default.jpg"/>
+         <zone xml:id="eSc_textblock_ea82e1b7"
+               type="segmontoZone"
+               corresp="MainZone"
+               n="1"
+               points="2198,2026 2214,2128 2440,2153 2440,2277 2504,2367 1918,2430 1539,2405 1513,2306 1424,2252 1424,2166 1612,2140 1666,2000 "
+               source="https://iiif.unige.ch/iiif/2/fedora_ug27803278/1424,2000,1080,430/full/0/default.jpg">
+            <zone xml:id="eSc_line_cb40ec8e"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="2"
+                  points="1644,2109 1634,2010 2169,2000 2179,2096 2179,2118 2071,2140 2067,2140 2001,2128 1988,2128 1975,2131 1911,2153 1908,2153 1905,2153 1641,2147 "
+                  source="https://iiif.unige.ch/iiif/2/fedora_ug27803278/1634,2000,545,153/full/0/default.jpg">
+               <path n="2"
+                     xml:id="eSc_line_cb40ec8e_baseline_2"
+                     type="baseline"
+                     points="1644,2109 2179,2096 "/>
+               <line xml:id="eSc_line_cb40ec8e_ligne_2">Reconfessions</line>
+            </zone>
+            <zone xml:id="eSc_line_5b87f6c3"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="3"
+                  points="1430,2230 1424,2153 1529,2153 1532,2150 1599,2124 1602,2124 1605,2124 1717,2147 1727,2147 1730,2147 1762,2124 1765,2124 1768,2124 1927,2118 1930,2118 2026,2140 2032,2140 2042,2140 2160,2118 2163,2118 2166,2118 2169,2118 2169,2121 2189,2137 2192,2137 2306,2115 2310,2115 2412,2134 2418,2210 2418,2220 2252,2246 2249,2246 2246,2246 2192,2230 2036,2249 2032,2249 2029,2249 1972,2233 1879,2252 1876,2252 1781,2239 1762,2255 1758,2255 1755,2255 1752,2255 1427,2239 "
+                  source="https://iiif.unige.ch/iiif/2/fedora_ug27803278/1424,2115,994,140/full/0/default.jpg">
+               <path n="3"
+                     xml:id="eSc_line_5b87f6c3_baseline_3"
+                     type="baseline"
+                     points="1430,2230 2418,2210 "/>
+               <line xml:id="eSc_line_5b87f6c3_ligne_3">Des actes crimes et delictz de</line>
+            </zone>
+            <zone xml:id="eSc_line_08440add"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="4"
+                  points="1532,2312 1529,2236 2007,2236 2048,2230 2138,2210 2141,2210 2144,2210 2147,2210 2173,2226 2182,2230 2386,2226 2396,2281 2393,2312 2160,2303 2115,2319 2093,2325 2090,2325 2087,2325 2083,2325 2080,2325 2080,2322 2074,2319 2061,2306 1969,2306 1943,2322 1921,2332 1918,2332 1915,2332 1911,2332 1908,2332 1892,2322 1876,2312 1844,2322 1790,2338 1787,2338 1784,2338 1781,2338 1739,2325 1736,2322 1727,2325 1688,2338 1685,2338 1682,2338 1529,2325 "
+                  source="https://iiif.unige.ch/iiif/2/fedora_ug27803278/1529,2210,867,128/full/0/default.jpg">
+               <path n="4"
+                     xml:id="eSc_line_08440add_baseline_4"
+                     type="baseline"
+                     points="1532,2312 2396,2281 "/>
+               <line xml:id="eSc_line_08440add_ligne_4">Sortilege de Alix vefve</line>
+            </zone>
+            <zone xml:id="eSc_line_2f4d7715"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="5"
+                  points="1554,2386 1548,2316 2479,2296 2488,2367 2482,2389 2252,2389 2236,2392 2176,2414 2173,2414 2169,2414 2017,2395 1997,2395 1981,2395 1860,2421 1857,2421 1634,2402 1628,2402 1625,2402 1602,2421 1599,2421 1596,2421 1593,2421 1590,2421 1548,2402 "
+                  source="https://iiif.unige.ch/iiif/2/fedora_ug27803278/1548,2296,940,125/full/0/default.jpg">
+               <path n="5"
+                     xml:id="eSc_line_2f4d7715_baseline_5"
+                     type="baseline"
+                     points="1554,2386 2488,2367 "/>
+               <line xml:id="eSc_line_2f4d7715_ligne_5">George Rossel de Boncourt</line>
+            </zone>
+         </zone>
+         <zone xml:id="eSc_textblock_0fd05bb7"
+               type="segmontoZone"
+               corresp="NumberingZone:page"
+               n="2"
+               points="2359,3625 2359,3729 2434,3729 2434,3625 "
+               source="https://iiif.unige.ch/iiif/2/fedora_ug27803278/2359,3625,75,104/full/0/default.jpg">
+            <zone xml:id="eSc_line_9dbb039a"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="2"
+                  points="2383,3701 2383,3619 2418,3619 2418,3701 2415,3727 2380,3721 "
+                  source="https://iiif.unige.ch/iiif/2/fedora_ug27803278/2380,3619,38,108/full/0/default.jpg">
+               <path n="2"
+                     xml:id="eSc_line_9dbb039a_baseline_2"
+                     type="baseline"
+                     points="2384,3704 2421,3704 "/>
+               <line xml:id="eSc_line_9dbb039a_ligne_2">4</line>
+            </zone>
+         </zone>
+      </surface>
+   </sourceDoc>
+   <text>
+      <body>
+         <div n="B_168_15-23-5_0003" type="page">
+            <pb facs="https://iiif.unige.ch/iiif/2/fedora_ug27803278/full/full/0/default.jpg"/>
+            <div type="decoration"/>
+            <div>
+               <div type="MainZone">
+                  <lg xml:id="eSc_textblock_ea82e1b7_lg_1">
+                     <l ana="DefaultLine">
+                        <w xml:id="t9102" lemma="réconfession" type="POS=VERcjg|NOMB.=p">Reconfessions</w>
+                     </l>
+                     <l ana="DefaultLine">
+                        <w xml:id="t9105" lemma="de_le" type="POS=PRE.DETdef|NOMB.=p|GENRE=m">Des</w>
+                        <w xml:id="t9106" lemma="acte" type="POS=NOMcom|NOMB.=p|GENRE=m">actes</w>
+                        <w xml:id="t9107" lemma="crime" type="POS=NOMcom|NOMB.=p|GENRE=m">crimes</w>
+                        <w xml:id="t9108" lemma="et" type="POS=CONcoo|MORPH=empty">et</w>
+                        <w xml:id="t9109" lemma="délit" type="POS=NOMcom|NOMB.=p|GENRE=m">delictz</w>
+                        <w xml:id="t9110" lemma="de" type="POS=PRE|MORPH=empty">de</w>
+                     </l>
+                     <l ana="DefaultLine">
+                        <w xml:id="t9113" lemma="sortilège" type="POS=NOMpro|NOMB.=s|GENRE=m">Sortilege</w>
+                        <w xml:id="t9114" lemma="de" type="POS=PRE|MORPH=empty">de</w>
+                        <w xml:id="t9115" lemma="Alix" type="POS=NOMpro|NOMB.=s|GENRE=m">Alix</w>
+                        <w xml:id="t9116" lemma="veuf" type="POS=ADJqua|NOMB.=s|GENRE=f">vefve</w>
+                     </l>
+                     <l ana="DefaultLine">
+                        <w xml:id="t9119" lemma="George" type="POS=NOMpro|NOMB.=s">George</w>
+                        <w xml:id="t9120" lemma="rossel" type="POS=NOMpro|NOMB.=s|GENRE=m">Rossel</w>
+                        <w xml:id="t9121" lemma="de" type="POS=PRE|MORPH=empty">de</w>
+                        <w xml:id="t9122" lemma="Boncourt" type="POS=NOMpro|NOMB.=s|GENRE=m">Boncourt</w>
+                     </l>
+                  </lg>
+               </div>
+            </div>
+            <div type="notes_marginales">
+               <div type="notes_marginales_auteur"/>
+               <div type="notes_marginales_archives"/>
+               <div type="notes_marginales_archives">
+                  <div type="NumberingZone:page">
+                     <lg xml:id="eSc_textblock_0fd05bb7_lg_1">
+                        <l ana="DefaultLine">4</l>
+                     </lg>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <annotationBlock>
+         <spanGrp>
+            <span target="#t9102" ana="#t9102ling"/>
+            <span target="#t9105" ana="#t9105ling"/>
+            <span target="#t9106" ana="#t9106ling"/>
+            <span target="#t9107" ana="#t9107ling"/>
+            <span target="#t9108" ana="#t9108ling"/>
+            <span target="#t9109" ana="#t9109ling"/>
+            <span target="#t9110" ana="#t9110ling"/>
+            <span target="#t9113" ana="#t9113ling"/>
+            <span target="#t9114" ana="#t9114ling"/>
+            <span target="#t9115" ana="#t9115ling"/>
+            <span target="#t9116" ana="#t9116ling"/>
+            <span target="#t9119" ana="#t9119ling"/>
+            <span target="#t9120" ana="#t9120ling"/>
+            <span target="#t9121" ana="#t9121ling"/>
+            <span target="#t9122" ana="#t9122ling"/>
+         </spanGrp>
+      </annotationBlock>
+      <fs xml:id="t9102ling">
+         <f name="lemma">
+            <string>réconfession</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=VERcjg|NOMB.=p"/>
+         </f>
+      </fs>
+      <fs xml:id="t9105ling">
+         <f name="lemma">
+            <string>de_le</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=PRE.DETdef|NOMB.=p|GENRE=m"/>
+         </f>
+      </fs>
+      <fs xml:id="t9106ling">
+         <f name="lemma">
+            <string>acte</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=NOMcom|NOMB.=p|GENRE=m"/>
+         </f>
+      </fs>
+      <fs xml:id="t9107ling">
+         <f name="lemma">
+            <string>crime</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=NOMcom|NOMB.=p|GENRE=m"/>
+         </f>
+      </fs>
+      <fs xml:id="t9108ling">
+         <f name="lemma">
+            <string>et</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=CONcoo|MORPH=empty"/>
+         </f>
+      </fs>
+      <fs xml:id="t9109ling">
+         <f name="lemma">
+            <string>délit</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=NOMcom|NOMB.=p|GENRE=m"/>
+         </f>
+      </fs>
+      <fs xml:id="t9110ling">
+         <f name="lemma">
+            <string>de</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=PRE|MORPH=empty"/>
+         </f>
+      </fs>
+      <fs xml:id="t9113ling">
+         <f name="lemma">
+            <string>sortilège</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=NOMpro|NOMB.=s|GENRE=m"/>
+         </f>
+      </fs>
+      <fs xml:id="t9114ling">
+         <f name="lemma">
+            <string>de</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=PRE|MORPH=empty"/>
+         </f>
+      </fs>
+      <fs xml:id="t9115ling">
+         <f name="lemma">
+            <string>Alix</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=NOMpro|NOMB.=s|GENRE=m"/>
+         </f>
+      </fs>
+      <fs xml:id="t9116ling">
+         <f name="lemma">
+            <string>veuf</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=ADJqua|NOMB.=s|GENRE=f"/>
+         </f>
+      </fs>
+      <fs xml:id="t9119ling">
+         <f name="lemma">
+            <string>George</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=NOMpro|NOMB.=s"/>
+         </f>
+      </fs>
+      <fs xml:id="t9120ling">
+         <f name="lemma">
+            <string>rossel</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=NOMpro|NOMB.=s|GENRE=m"/>
+         </f>
+      </fs>
+      <fs xml:id="t9121ling">
+         <f name="lemma">
+            <string>de</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=PRE|MORPH=empty"/>
+         </f>
+      </fs>
+      <fs xml:id="t9122ling">
+         <f name="lemma">
+            <string>Boncourt</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=NOMpro|NOMB.=s|GENRE=m"/>
+         </f>
+      </fs>
+   </standOff>
+</TEI>

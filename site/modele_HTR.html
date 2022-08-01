@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Projet Crimes et Châtiments</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="../style/feuilledestyle.css"> 
+        <link rel="stylesheet" href="../style/deplier.css">
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Bâle, procédures criminelles, sorcellerie, sorcière, évêché de Bâle"/>
+        <meta name="description" content="Procédures criminelles de la principauté épiscopale de Bâle (16-17e siècles)"/>
+        <meta name="author" content="Elodie Paupe"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    </head>
+
+    <body>
+        <!-- Menus -->
+        <header>
+            <!-- En-tête du site des aaeb: 
+              <img id="logo" src="http://aaeb.ch/htdocs/images/header.jpg"/> -->
+            <a href="../index.html"><img id="logo" src="photos/logo_bis.png"/></a>
+            <nav id="primary_nav_wrap">
+            <ul>
+                <li class="current-menu-item"><a href="../index.html">Accueil</a></li>
+                <li><a href="#">Description du projet</a>
+                    <ul>
+                        <li><a href="description_projet.html">"Crimes et Châtiments"</a></li>
+                        <li><a href="calendrier.html">Calendrier du projet</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Ressources</a>
+                    <ul>
+                        <li><a href="modele_HTR.html">Modèles HTR</a></li>
+                        <li><a href="bdd_cod205a.html">Base de données: Cod.205a</a></li>
+                        <li><a href="bdd_sorciere.html">Base de données: socières</a></li>
+                        <li><a href="abecedaire.html">Abécédaire</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Accéder aux sources</a>
+                    <ul>
+                        <li><a href="lecture.html">Lire les sources</a></li>
+                        <li><a href="infographie.html">Infographie</a>
+                    </ul>
+                </li>
+                <li><a href="liens.html">Liens</a></li> 
+            </ul>
+            </nav>
+        </header>
+
+        <div>
+            <h1>Projet "Crimes et châtiments"</h1>
+            <h2>Procès de sorcelleries et procédures criminelles: numérisation, mise en ligne et médiation</h2>
+            
+            <div>
+                <h3>Qu'est-ce que le HTR (<i>handwriting text recognition</i>)?</h3>
+                <p>
+                    Le HTR est une sous-catégorie de l'OCR (<i>optical character recognition</i>), une procédure qui permet 
+                    de récupérer le texte imprimé sur la photo d'une source. 
+                    Si vous pouvez copier le texte d'un livre numérisé sur Google Books, par exemple, c'est grâce à l'utilisation de l'OCR 
+                    qui transforme une page numérisée en texte interrogeable. 
+                    Le HTR est la procédure qui permet de lire un manuscrit et de transformer une numérisation en texte éditable. <br/>
+                    Pour en savoir plus: 
+                    <ul>
+                        <li><a href="https://fr.wikipedia.org/wiki/Reconnaissance_optique_de_caractères">Wikipedia OCR</a></li>
+                        <li><a href="https://fr.wikipedia.org/wiki/Reconnaissance_de_l%27écriture_manuscrite">Wikipedia HTR</a></li>
+                    </ul>
+                </p>
+            </div> 
+            
+            <div>
+                <h3>Comment utiliser le HTR? </h3>
+                <p>
+                    Plusieurs outils permettent de pratiquer la reconnaissance de l'écriture manuscrite. 
+                    Le plus populaire est sans doute <a href="https://readcoop.eu/transkribus">Transkribus</a> qui permet de se familiariser facilement à cette technologie grâce à une interface web 
+                    et à un logiciel plus complet qui permet une expérience utilisateur plus aboutie. 
+                    L'écosystème Transkribus permet d'utiliser l'interface pour créer ses propres transcriptions, 
+                    de transcrire automatiquement grâce des modèles publics, mais également de développer des modèles spécifiques, 
+                    adaptés aux données de l'utilisateur·trice.
+                    N'importe quel·le utilisateur·trice peut ouvrir un compte et bénéficier de crédits gratuits. <br/>
+                    Pour en savoir plus: 
+                    <ul>
+                        <li><a href="https://readcoop.eu/transkribus/howto/use-transkribus-in-10-steps/">Débuter avec Transkribus en 10 étapes</a></li>
+                    </ul>
+                    <figure style="float:right">
+                        <img class="intext" src="photos/interface_fondue.png">
+                        <figcaption>L'interface de transcription de FoNDUE (e-Scriptorium).</figcaption>
+                    </figure>
+                    Les chercheur·euses les plus motivés se tourneront vers le moteur HTR <i>open source</i> <a href="https://kraken.re/master/index.html">Kraken</a> 
+                    qui peut être utilisé à travers l'interface e-Scriptorium ou directement en lignes de commandes. 
+                    Si le coût d'entrée pour accéder à cet outil est plus élevé, les gains au niveau de la recherche sont également plus importants: 
+                    les modèles développés grâce à Kraken peuvent s'échanger en dehors d'un système fermé 
+                    et il est possible d'entraîner des modèles avec plus de finesse en modifiant l'architecture neuronale d'apprentissage. <br/>
+                    Toutefois, pour le moment, les services e-Scriptorium ne sont pas encore ouverts au grand public. 
+                    Le moteur Kraken, quant à lui, peut être déployer sur un ordinateur privé grâce à Python.<br/>
+                    Pour en savoir plus: 
+                    <ul>
+                        <li><a href="https://lectaurep.hypotheses.org/documentation/prendre-en-main-escriptorium">Prendre en main e-Scriptorium</a></li>
+                        <li><a href="https://test2.fondue.unige.ch">Accéder à l'instance genevoise d'e-Scriptorium: FoNDUE</a></li>
+                    </ul>
+                    
+                </p>
+            </div>
+
+            <div>
+                <h3>Le modèle Farine</h3>
+                <p>
+                    Dans le cadre du projet "Crimes et Châtiments", un modèle a été développé pour transcrire les textes écrits par le prévot Henri Farine, 
+                    actif entre 1580 et 1618. On compte plus de 3'500 documents de sa main dans les fonds des Archives de l'ancien Évêché de Bâle. 
+                </p>
+
+                <p>
+                    L'écriture du Prévot Farine est une cursive française assez régulière. 
+                    On note toutefois qu'à partir de 1610, les &#60;e&#62; finaux sont accentués et qu'elle emprunte 
+                    quelques traits <i>Kurrentschrift</i> germanique (&#60;r&#62; minuscule ou signe diacritique occasionnel sur le &#60;u/v&#62;).
+                </p>
+
+                <aside>
+                    <figure>
+                        <img class="intext" src="photos/B_168_15-10-3_0001_perpetrez.jpg" style="width:500px"/>
+                        <figcaption style="width: 500px;">En rouge, &#60;r&#62; minuscule ("perpetrez"; "Par"); 
+                                en vert, signe diacritique sur &#60;u/v&#62; (nom de famille "fouvent") ; 
+                                en jaune, différents &#60;s&#62;; 
+                                en violet, abréviations "par" et "present". 
+                                <br/>AAEB B 168/15-10.3 p. 1</figcaption>
+                    </figure>
+                </aside>
+
+                Deux modèles ont été développés pour les deux outils présentés ci-dessus en utilisant un corpus de 57 pages déposé <a href="https://github.com/aaeb-porrentruy/corpus_prevot_farine_fr">en ligne</a>. <a href="https://github.com/aaeb-porrentruy/corpus_prevot_farine_fr"> <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" style="float:right; padding: 5px; width:100px"/></a>
+                
+                <table style="width:600px; margin-top: 12px; margin-left: auto;margin-right: auto; text-align: center;">
+                    <tr>
+                        <th>Transkribus</th>
+                        <th>Kraken</th>
+                    </tr>
+                    <tr>
+                        <td>CER (validation set): 4,68%</td>
+                        <td>Accuracy (test set): 85,70%</td>
+                    </tr>
+                    <tr>
+                        <td><a href="mailto:elodie.paupe@unine.ch">Demander l'accès au modèle</a></td>
+                        <td><a href="../ressources/best_model.mlmodel" download>Télécharger le modèle</a></td>
+                      </tr>
+                  </table>
+
+            </div>
+            
+            
+        </div>
+            
+        <footer>
+            <p>Archives de l'ancien Évêché de Bâle – <a href="mailto:jean-claude.rebetez@aaeb.ch">Nous écrire</a></p>
+            <p>2022 - Tous droits réservés.</p>
+        </footer>
+    </body>
+</html>

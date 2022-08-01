@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#">
+   <teiHeader xml:lang="fr">
+      <fileDesc>
+         <titleStmt>
+            <title>B 168/15-2.1 p.3</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>Version électronique TEI des procédures criminelles de la principauté épiscopale de Bâle</edition>
+            <respStmt>
+               <name xml:id="EP">Élodie Paupe</name>
+               <resp>Encodage</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Archives de l'ancien Évêché de Bâle</authority>
+            <address>
+               <addrLine>rue des Annonciades 10</addrLine>
+               <addrLine>2900 Porrentruy</addrLine>
+               <addrLine>www.aaeb.ch</addrLine>
+            </address>
+            <availability status="restricted" n="CC-BY-NC-SA">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+               <p>Creative Commons Attribution 4.0 CC BY-NC-SA 4.0 FR</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Porrentruy</settlement>
+                  <repository>Archives de l'ancien Évêché de Bâle</repository>
+                  <idno type="cote">B 168/15-2.1 p.3</idno>
+                  <idno type="url">https://archives-aaeb.jura.ch/detail.aspx?ID=223582</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab source="https://github.com/aaeb-porrentruy/corpus_prevot_farine_fr/blob/main/README.md">Les normes de transcription sont disponibles en ligne.</ab>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Moyen français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-07-31" who="#EP">Création du fichier TEI à partir des sources alto</change>
+      </revisionDesc>
+   </teiHeader>
+   <sourceDoc xml:id="transcription">
+      <surface xml:id="B_168_15-2-1_0003">
+         <graphic url="https://iiif.unige.ch/iiif/2/fedora_ug27803476/full/full/0/default.jpg"/>
+         <zone xml:id="eSc_textblock_224412d8"
+               type="segmontoZone"
+               corresp="MainZone"
+               n="1"
+               points="2145,2306 2439,2333 2452,2424 2142,2518 1497,2505 1430,2451 1430,2319 1642,2306 1659,2130 2115,2157 2169,2238 "
+               source="https://iiif.unige.ch/iiif/2/fedora_ug27803476/1430,2130,1022,388/full/0/default.jpg">
+            <zone xml:id="eSc_line_96f91e9c"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="2"
+                  points="1703,2255 1703,2144 1804,2171 1831,2161 1835,2161 1838,2161 1841,2161 1845,2161 1845,2164 1872,2188 2054,2188 2132,2167 2135,2272 2132,2316 2067,2323 2064,2323 2061,2323 2051,2319 1956,2275 1882,2275 1791,2323 1784,2326 1781,2326 1777,2326 1696,2323 "
+                  source="https://iiif.unige.ch/iiif/2/fedora_ug27803476/1696,2144,439,182/full/0/default.jpg">
+               <path n="2"
+                     xml:id="eSc_line_96f91e9c_baseline_2"
+                     type="baseline"
+                     points="1703,2255 1916,2252 2135,2272 "/>
+               <line xml:id="eSc_line_96f91e9c_ligne_2">Informations</line>
+            </zone>
+            <zone xml:id="eSc_line_e28598de"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="3"
+                  points="1447,2393 1447,2319 1723,2329 1740,2319 1781,2296 1784,2296 1787,2296 1791,2296 1794,2296 1862,2323 1868,2323 1922,2302 1926,2302 1929,2302 2027,2316 2145,2299 2148,2299 2152,2299 2155,2299 2182,2316 2270,2299 2273,2299 2428,2329 2432,2410 2425,2441 2020,2434 2017,2434 2014,2434 1983,2417 1636,2430 1632,2430 1504,2414 1447,2430 "
+                  source="https://iiif.unige.ch/iiif/2/fedora_ug27803476/1447,2296,985,145/full/0/default.jpg">
+               <path n="3"
+                     xml:id="eSc_line_e28598de_baseline_3"
+                     type="baseline"
+                     points="1447,2393 2165,2393 2432,2410 "/>
+               <line xml:id="eSc_line_e28598de_ligne_3">Contre Annelin fille henrisat</line>
+            </zone>
+            <zone xml:id="eSc_line_2fba8d89"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="4"
+                  points="1477,2474 1477,2400 2169,2414 2172,2484 2169,2525 1943,2538 1939,2538 1470,2505 "
+                  source="https://iiif.unige.ch/iiif/2/fedora_ug27803476/1470,2400,702,138/full/0/default.jpg">
+               <path n="4"
+                     xml:id="eSc_line_2fba8d89_baseline_4"
+                     type="baseline"
+                     points="1477,2474 2172,2484 "/>
+               <line xml:id="eSc_line_2fba8d89_ligne_4">Boulet de Courthedoubs</line>
+            </zone>
+         </zone>
+         <zone xml:id="eSc_textblock_c2bd68ee"
+               type="segmontoZone"
+               corresp="NumberingZone:page"
+               n="2"
+               points="2301,3802 2302,3714 2359,3715 2368,3797 "
+               source="https://iiif.unige.ch/iiif/2/fedora_ug27803476/2301,3714,67,88/full/0/default.jpg">
+            <zone xml:id="eSc_line_92004085"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="2"
+                  points="2307,3786 2300,3722 2341,3718 2351,3783 2354,3796 2310,3809 "
+                  source="https://iiif.unige.ch/iiif/2/fedora_ug27803476/2300,3718,54,91/full/0/default.jpg">
+               <path n="2"
+                     xml:id="eSc_line_92004085_baseline_2"
+                     type="baseline"
+                     points="2309,3787 2353,3784 "/>
+               <line xml:id="eSc_line_92004085_ligne_2">4</line>
+            </zone>
+         </zone>
+      </surface>
+   </sourceDoc>
+   <text>
+      <body>
+         <div n="B_168_15-2-1_0003" type="page">
+            <pb facs="https://iiif.unige.ch/iiif/2/fedora_ug27803476/full/full/0/default.jpg"/>
+            <div type="decoration"/>
+            <div type="texte_principal">
+               <div type="MainZone">
+                  <lg xml:id="eSc_textblock_224412d8_lg_1">
+                     <l ana="DefaultLine">Informations</l>
+                     <l ana="DefaultLine">Contre Annelin fille henrisat</l>
+                     <l ana="DefaultLine">Boulet de Courthedoubs</l>
+                  </lg>
+               </div>
+            </div>
+            <div type="notes_marginales">
+               <div type="notes_marginales_auteur"/>
+               <div type="notes_marginales_archives"/>
+               <div type="notes_marginales_archives">
+                  <div type="NumberingZone:page">
+                     <lg xml:id="eSc_textblock_c2bd68ee_lg_1">
+                        <l ana="DefaultLine">4</l>
+                     </lg>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

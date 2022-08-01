@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#">
+   <teiHeader xml:lang="fr">
+      <fileDesc>
+         <titleStmt>
+            <title>B 168/15-23.2 p.3</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>Version électronique TEI des procédures criminelles de la principauté épiscopale de Bâle</edition>
+            <respStmt>
+               <name xml:id="EP">Élodie Paupe</name>
+               <resp>Encodage</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Archives de l'ancien Évêché de Bâle</authority>
+            <address>
+               <addrLine>rue des Annonciades 10</addrLine>
+               <addrLine>2900 Porrentruy</addrLine>
+               <addrLine>www.aaeb.ch</addrLine>
+            </address>
+            <availability status="restricted" n="CC-BY-NC-SA">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+               <p>Creative Commons Attribution 4.0 CC BY-NC-SA 4.0 FR</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Porrentruy</settlement>
+                  <repository>Archives de l'ancien Évêché de Bâle</repository>
+                  <idno type="cote">B 168/15-23.2 p.3</idno>
+                  <idno type="url">https://archives-aaeb.jura.ch/detail.aspx?ID=223582</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab source="https://github.com/aaeb-porrentruy/corpus_prevot_farine_fr/blob/main/README.md">Les normes de transcription sont disponibles en ligne.</ab>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Moyen français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-07-31" who="#EP">Création du fichier TEI à partir des sources alto</change>
+      </revisionDesc>
+   </teiHeader>
+   <sourceDoc xml:id="transcription">
+      <surface xml:id="B_168_15-23-2_0003">
+         <graphic url="https://iiif.unige.ch/iiif/2/fedora_ug27803336/full/full/0/default.jpg"/>
+         <zone xml:id="eSc_textblock_a054aeef"
+               type="segmontoZone"
+               corresp="NumberingZone:other"
+               n="1"
+               points="190,402 228,240 329,177 581,162 581,424 "
+               source="https://iiif.unige.ch/iiif/2/fedora_ug27803336/190,162,391,262/full/0/default.jpg">
+            <zone xml:id="eSc_line_cf799978"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="2"
+                  points="193,383 183,218 313,212 335,196 361,180 364,180 367,180 370,180 374,180 377,180 389,190 415,205 497,177 513,376 516,604 446,608 443,608 440,608 323,560 247,528 193,528 "
+                  source="https://iiif.unige.ch/iiif/2/fedora_ug27803336/183,177,333,431/full/0/default.jpg">
+               <path n="2"
+                     xml:id="eSc_line_cf799978_baseline_2"
+                     type="baseline"
+                     points="196,386 514,379 "/>
+               <line xml:id="eSc_line_cf799978_ligne_2">184</line>
+            </zone>
+         </zone>
+         <zone xml:id="eSc_textblock_41adf207"
+               type="segmontoZone"
+               corresp="MainZone"
+               n="2"
+               points="1949,76 2142,215 2507,215 2545,503 2380,655 2431,820 2519,861 2519,972 1911,1023 748,997 684,430 681,430 681,156 757,152 836,202 1074,202 1128,88 1204,63 "
+               source="https://iiif.unige.ch/iiif/2/fedora_ug27803336/681,63,1864,960/full/0/default.jpg">
+            <zone xml:id="eSc_line_f0c0483f"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="2"
+                  points="1137,171 1134,107 1467,91 1470,91 1473,91 1511,114 1515,114 1534,114 1749,98 1752,98 1756,98 1759,98 1759,101 1778,117 1889,101 1892,101 1895,101 1971,123 1968,186 1965,196 1470,221 1467,221 1318,190 1299,186 1290,190 1248,205 1245,205 1242,205 1131,186 "
+                  source="https://iiif.unige.ch/iiif/2/fedora_ug27803336/1131,91,840,130/full/0/default.jpg">
+               <path n="2"
+                     xml:id="eSc_line_f0c0483f_baseline_2"
+                     type="baseline"
+                     points="1137,171 1968,186 "/>
+               <line xml:id="eSc_line_f0c0483f_ligne_2">Le 25 dudit mois 1610</line>
+            </zone>
+            <zone xml:id="eSc_line_57249587"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="3"
+                  points="690,300 684,221 897,205 900,205 903,205 941,221 966,231 1026,221 1042,221 1046,221 1049,221 1052,221 1087,237 1122,221 1134,218 1137,218 1141,218 1169,224 1207,231 1290,224 1426,212 1429,212 1432,212 1435,212 1454,224 1489,247 1619,231 1622,231 1746,253 1962,253 2025,228 2041,224 2044,224 2047,224 2050,224 2063,231 2114,253 2164,234 2168,234 2171,234 2174,234 2250,259 2342,259 2399,231 2418,224 2421,224 2424,224 2507,234 2507,319 2510,335 2485,357 2481,357 2478,357 2475,357 2145,342 2117,354 2114,354 2111,354 2107,354 2104,354 2104,351 2088,338 2015,354 2012,354 1892,335 1876,332 1860,335 1765,351 1762,351 1759,351 1708,332 1667,319 1622,332 1616,335 1613,335 1610,335 1607,335 1603,335 1603,332 1588,319 1530,332 1505,338 1502,338 1499,338 1496,338 1496,335 1492,332 1470,316 1359,316 1207,332 1182,335 1179,335 1175,335 1169,332 1103,313 1065,332 1061,335 1058,335 1055,335 1052,335 1042,332 947,310 687,332 "
+                  source="https://iiif.unige.ch/iiif/2/fedora_ug27803336/684,205,1826,152/full/0/default.jpg">
+               <path n="3"
+                     xml:id="eSc_line_57249587_baseline_3"
+                     type="baseline"
+                     points="690,300 1492,294 2507,319 "/>
+               <line xml:id="eSc_line_57249587_ligne_3">Ladite Adelheit librement recognut les faictz predits</line>
+            </zone>
+            <zone xml:id="eSc_line_de508481"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="4"
+                  points="735,380 732,300 1182,329 1236,310 1239,310 1242,310 1407,313 1410,313 1413,313 1445,332 1683,319 1689,319 1692,319 1695,319 1781,338 1936,323 1962,323 1965,323 2003,326 2282,354 2402,354 2424,332 2437,405 2434,433 2307,440 2304,440 2301,440 2298,440 2288,430 2263,414 2234,430 2221,437 2218,437 2215,437 2060,433 2057,433 2053,433 2041,424 2009,405 1936,405 1854,421 1841,421 1838,421 1835,421 1828,421 1781,402 1765,418 1756,424 1756,427 1752,427 1749,427 1749,430 1683,430 1679,427 1597,414 1499,395 1477,411 1473,414 1470,414 1467,414 1464,414 1461,414 1458,414 1451,408 1432,392 1248,392 1223,405 1201,414 1198,414 1194,414 1191,414 1141,402 1115,395 1093,399 1042,414 1039,414 1036,414 1033,414 992,399 963,386 950,395 944,402 941,402 938,402 935,402 729,389 "
+                  source="https://iiif.unige.ch/iiif/2/fedora_ug27803336/729,300,1708,140/full/0/default.jpg">
+               <path n="4"
+                     xml:id="eSc_line_de508481_baseline_4"
+                     type="baseline"
+                     points="735,380 1290,373 2437,405 "/>
+               <line xml:id="eSc_line_de508481_ligne_4">les avoir Commis et perpetres Priant quon lui</line>
+            </zone>
+            <zone xml:id="eSc_line_6e0cfea9"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="5"
+                  points="748,468 744,402 1052,405 1055,405 1074,386 1077,386 1080,386 1084,386 1210,386 1214,386 1280,408 1290,411 1299,408 1350,389 1353,389 1356,389 1359,389 1439,411 1445,411 1448,411 1470,395 1473,395 1477,395 1480,395 1483,395 1486,395 1508,411 1521,418 1556,411 1645,395 1648,395 1778,414 1841,424 1879,418 1936,405 1939,405 1943,405 1946,405 1946,408 1958,418 1965,427 1984,418 2015,405 2019,405 2022,405 2107,421 2171,430 2196,421 2228,408 2231,408 2234,408 2355,414 2358,414 2361,414 2370,424 2389,437 2523,427 2526,497 2519,522 2437,506 2336,519 2310,522 2307,522 2304,522 2298,519 2253,497 2038,513 2000,516 1996,516 1993,516 1987,513 1933,487 1879,509 1876,509 1873,509 1870,509 1825,490 1790,509 1787,509 1784,509 1784,513 1648,513 1645,509 1641,509 1632,506 1578,478 1496,478 1423,478 1378,500 1375,500 1372,500 1369,500 1366,500 1366,497 1362,497 1347,475 1242,490 1239,490 1236,490 1191,471 1036,471 979,494 976,494 973,494 969,494 741,487 "
+                  source="https://iiif.unige.ch/iiif/2/fedora_ug27803336/741,386,1785,136/full/0/default.jpg">
+               <path n="5"
+                     xml:id="eSc_line_6e0cfea9_baseline_5"
+                     type="baseline"
+                     points="748,468 1401,459 2526,497 "/>
+               <line xml:id="eSc_line_6e0cfea9_ligne_5">heust a faire bonne et brieve justice, Criant</line>
+            </zone>
+            <zone xml:id="eSc_line_77bf16a8"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="6"
+                  points="719,544 716,500 1179,497 1182,497 1185,497 1214,506 1274,532 1381,532 2424,528 2428,563 2424,576 2253,585 2231,608 2228,608 2225,608 2221,608 2126,604 2123,604 2120,604 2085,579 2082,579 2063,579 1914,598 1911,598 1908,598 1873,582 1854,573 1787,582 1660,601 1657,601 1394,595 1391,595 1388,595 1375,585 1353,570 1271,582 1267,582 1264,582 1233,566 928,589 865,592 862,592 858,592 855,592 852,589 824,566 716,589 "
+                  source="https://iiif.unige.ch/iiif/2/fedora_ug27803336/716,497,1712,111/full/0/default.jpg">
+               <path n="6"
+                     xml:id="eSc_line_77bf16a8_baseline_6"
+                     type="baseline"
+                     points="719,544 2428,563 "/>
+               <line xml:id="eSc_line_77bf16a8_ligne_6">merci a Dieu a mon Seigneur et a la Justice.</line>
+            </zone>
+            <zone xml:id="eSc_line_4c5a6407"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="7"
+                  points="1188,681 1182,592 1290,589 1293,589 1296,589 1299,589 1305,595 1340,617 1473,601 1572,589 1575,589 1578,589 1581,589 1600,604 1610,614 1641,604 1670,598 1673,598 1676,598 1828,614 1835,668 1835,681 1188,703 "
+                  source="https://iiif.unige.ch/iiif/2/fedora_ug27803336/1182,589,653,114/full/0/default.jpg">
+               <path n="7"
+                     xml:id="eSc_line_4c5a6407_baseline_7"
+                     type="baseline"
+                     points="1188,681 1835,668 "/>
+               <line xml:id="eSc_line_4c5a6407_ligne_7">Le 26. dudit mois</line>
+            </zone>
+            <zone xml:id="eSc_line_821377d0"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="8"
+                  points="735,766 729,700 824,677 827,677 830,677 906,696 982,681 985,681 988,681 992,681 992,684 995,684 1007,700 1026,700 1451,681 1454,681 1575,703 1594,687 1594,684 1597,684 1600,684 1603,684 1607,684 1679,703 1683,703 1686,703 1832,684 1835,684 1838,684 1898,703 2139,687 2142,687 2145,687 2196,706 2250,690 2253,690 2256,690 2383,709 2386,769 2383,785 2028,807 2025,807 2022,807 2019,807 2019,804 2000,788 1990,782 1943,791 1908,795 1905,795 1901,795 1889,791 1860,779 1492,779 1461,795 1448,801 1445,801 1445,804 1353,804 1350,801 1347,801 1343,801 1343,798 1337,795 1315,776 1207,795 1204,795 1201,795 1198,795 1074,776 1033,798 1023,801 1020,801 1017,801 1014,801 1011,801 1007,798 973,776 890,798 887,798 887,801 732,801 "
+                  source="https://iiif.unige.ch/iiif/2/fedora_ug27803336/729,677,1657,130/full/0/default.jpg">
+               <path n="8"
+                     xml:id="eSc_line_821377d0_baseline_8"
+                     type="baseline"
+                     points="735,766 1163,757 2386,769 "/>
+               <line xml:id="eSc_line_821377d0_ligne_8">Elle cougnut derechieff avoir commis lesdits actes.</line>
+            </zone>
+            <zone xml:id="eSc_line_a447ee35"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="9"
+                  points="1207,864 1204,791 1534,801 1578,779 1584,772 1588,772 1591,772 1594,772 1689,772 1705,776 1809,795 1876,769 1889,852 1885,867 1721,867 1711,871 1676,893 1673,893 1670,893 1543,896 1540,896 1334,880 1252,893 1248,893 1245,893 1201,874 "
+                  source="https://iiif.unige.ch/iiif/2/fedora_ug27803336/1201,769,688,127/full/0/default.jpg">
+               <path n="9"
+                     xml:id="eSc_line_a447ee35_baseline_9"
+                     type="baseline"
+                     points="1207,864 1889,852 "/>
+               <line xml:id="eSc_line_a447ee35_ligne_9">Le 27 dudit mois</line>
+            </zone>
+            <zone xml:id="eSc_line_8670a430"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="10"
+                  points="738,966 729,874 1125,867 1128,867 1131,867 1150,874 1191,883 1242,874 1267,867 1271,867 1299,874 1372,886 1410,874 1432,864 1435,864 1439,864 1442,864 1470,874 1511,883 1540,874 1569,861 1572,861 1575,861 1578,861 1613,874 1651,883 1857,883 1870,874 1879,864 1882,864 1885,864 1889,864 2164,871 2190,855 2193,855 2196,855 2199,855 2202,855 2253,874 2260,874 2263,874 2294,852 2298,852 2301,852 2304,852 2307,852 2310,852 2332,874 2507,874 2510,947 2497,997 2459,972 2348,997 2310,1004 2307,1004 2304,1004 2301,1004 2301,1000 2294,997 2266,969 2158,969 2114,997 2101,1007 2098,1007 2095,1007 2092,1007 2088,1007 2063,997 2019,978 1990,997 1977,1007 1974,1007 1971,1007 1885,1010 1635,1013 1632,1013 1629,1013 1626,1013 1600,997 1569,978 1502,997 1429,1016 1426,1016 1426,1019 1286,1019 1283,1016 1280,1016 1233,997 1198,981 1147,997 1099,1010 1096,1010 1093,1010 1090,1010 1058,997 1030,985 979,997 941,1004 938,1004 735,994 "
+                  source="https://iiif.unige.ch/iiif/2/fedora_ug27803336/729,852,1781,167/full/0/default.jpg">
+               <path n="10"
+                     xml:id="eSc_line_8670a430_baseline_10"
+                     type="baseline"
+                     points="738,966 1885,943 2510,947 "/>
+               <line xml:id="eSc_line_8670a430_ligne_10">En presentce des .7. hommes elle feist le semblable</line>
+            </zone>
+         </zone>
+         <zone xml:id="eSc_textblock_c933af2a"
+               type="segmontoZone"
+               corresp="NumberingZone:page"
+               n="3"
+               points="2370,3604 2370,3704 2480,3704 2480,3604 "
+               source="https://iiif.unige.ch/iiif/2/fedora_ug27803336/2370,3604,110,100/full/0/default.jpg">
+            <zone xml:id="eSc_line_9baba413"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="2"
+                  points="2389,3680 2383,3591 2453,3595 2459,3677 2462,3690 2393,3712 "
+                  source="https://iiif.unige.ch/iiif/2/fedora_ug27803336/2383,3591,79,121/full/0/default.jpg">
+               <path n="2"
+                     xml:id="eSc_line_9baba413_baseline_2"
+                     type="baseline"
+                     points="2392,3682 2461,3680 "/>
+               <line xml:id="eSc_line_9baba413_ligne_2">3</line>
+            </zone>
+         </zone>
+      </surface>
+   </sourceDoc>
+   <text>
+      <body>
+         <div n="B_168_15-23-2_0003" type="page">
+            <pb facs="https://iiif.unige.ch/iiif/2/fedora_ug27803336/full/full/0/default.jpg"/>
+            <div type="decoration"/>
+            <div>
+               <div  type="MainZone">
+                  <lg xml:id="eSc_textblock_41adf207_lg_1">
+                     <l ana="DefaultLine">
+                        <w xml:id="t6469" lemma="le" type="POS=NOMpro|NOMB.=s|GENRE=m">Le</w>
+                        <w xml:id="t6470" lemma="25" type="POS=PROcar|NOMB.=p">25</w>
+                        <w xml:id="t6471" lemma="de_ledit" type="POS=ADJqua|NOMB.=s|GENRE=m">dudit</w>
+                        <w xml:id="t6472" lemma="mois" type="POS=NOMcom|NOMB.=p|GENRE=m">mois</w>
+                        <w xml:id="t6473" lemma="1610" type="POS=ADJqua|NOMB.=p">1610</w>
+                     </l>
+                     <l ana="DefaultLine">
+                        <w xml:id="t6476" lemma="Ladite" type="POS=NOMpro|NOMB.=s">Ladite</w>
+                        <w xml:id="t6477"
+                           lemma="Adelheit"
+                           type="POS=VERcjg|MODE=ind|TEMPS=ipf|PERS.=3|NOMB.=s">Adelheit</w>
+                        <w xml:id="t6478" lemma="librement" type="POS=ADVgen|MORPH=empty">librement</w>
+                        <w xml:id="t6479" lemma="reconnaître" type="POS=VERppa|MORPH=empty">recognut</w>
+                        <w xml:id="t6480" lemma="le" type="POS=DETdef|NOMB.=p|GENRE=m">les</w>
+                        <w xml:id="t6481" lemma="fait" type="POS=NOMcom|NOMB.=p|GENRE=m">faictz</w>
+                        <w xml:id="t6482" lemma="prédire" type="POS=VERppe|NOMB.=p|GENRE=m">predits</w>
+                     </l>
+                     <l ana="DefaultLine">
+                        <w xml:id="t6485" lemma="il" type="POS=PROper|PERS.=3|NOMB.=p|CAS=r">les</w>
+                        <w xml:id="t6486" lemma="avoir" type="POS=VERinf|MORPH=empty">avoir</w>
+                        <w xml:id="t6487" lemma="commettre" type="POS=NOMpro|NOMB.=p|GENRE=m">Commis</w>
+                        <w xml:id="t6488" lemma="et" type="POS=CONcoo|MORPH=empty">et</w>
+                        <w xml:id="t6489" lemma="perpétrer" type="POS=ADJqua|NOMB.=p|GENRE=m">perpetres</w>
+                        <w xml:id="t6490" lemma="priant" type="POS=VERppa|GENRE=m">Priant</w>
+                        <w xml:id="t6491" lemma="con" type="POS=PROrel|MORPH=empty">quon</w>
+                        <w xml:id="t6492" lemma="il" type="POS=PROper|PERS.=3|NOMB.=s|CAS=i">lui</w>
+                     </l>
+                     <l ana="DefaultLine">
+                        <w xml:id="t6495"
+                           lemma="heus"
+                           type="POS=VERcjg|MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s">heust</w>
+                        <w xml:id="t6496"
+                           lemma="à"
+                           type="POS=VERcjg|MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s">a</w>
+                        <w xml:id="t6497" lemma="faire" type="POS=VERinf|MORPH=empty">faire</w>
+                        <w xml:id="t6498" lemma="bon" type="POS=ADJqua|NOMB.=s|GENRE=f">bonne</w>
+                        <w xml:id="t6499" lemma="et" type="POS=CONcoo|MORPH=empty">et</w>
+                        <w xml:id="t6500" lemma="bref" type="POS=ADJqua|NOMB.=s|GENRE=f">brieve</w>
+                        <w xml:id="t6501" lemma="justice" type="POS=NOMcom|NOMB.=s|GENRE=f">justice</w>
+                        <w xml:id="t6502" lemma="," type="POS=PONfbl|MORPH=empty">,</w>
+                        <w xml:id="t6503" lemma="crier" type="POS=VERppa|NOMB.=s|GENRE=m">Criant</w>
+                     </l>
+                     <l ana="DefaultLine">
+                        <w xml:id="t6506" lemma="merci" type="POS=NOMcom|NOMB.=s|GENRE=m">merci</w>
+                        <w xml:id="t6507"
+                           lemma="à"
+                           type="POS=VERcjg|MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s">a</w>
+                        <w xml:id="t6508" lemma="Dieu" type="POS=NOMpro|NOMB.=s|GENRE=m">Dieu</w>
+                        <w xml:id="t6509"
+                           lemma="à"
+                           type="POS=VERcjg|MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s">a</w>
+                        <w xml:id="t6510"
+                           lemma="mon"
+                           type="POS=DETpos|PERS.=1|NOMB.=s|GENRE=m">mon</w>
+                        <w xml:id="t6511" lemma="seigneur" type="POS=NOMcom|NOMB.=s|GENRE=m">Seigneur</w>
+                        <w xml:id="t6512" lemma="et" type="POS=CONcoo|MORPH=empty">et</w>
+                        <w xml:id="t6513"
+                           lemma="à"
+                           type="POS=VERcjg|MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s">a</w>
+                        <w xml:id="t6514" lemma="le" type="POS=DETdef|NOMB.=s|GENRE=f">la</w>
+                        <w xml:id="t6515" lemma="justice" type="POS=NOMcom|NOMB.=s|GENRE=f">Justice</w>
+                        <w xml:id="t6516" lemma="." type="POS=PONfrt|MORPH=empty">.</w>
+                     </l>
+                     <l ana="DefaultLine">
+                        <w xml:id="t6519" lemma="le" type="POS=PROper|NOMB.=s|GENRE=m">Le</w>
+                        <w xml:id="t6520" lemma="26" type="POS=PROcar|NOMB.=p">26</w>
+                        <w xml:id="t6521" lemma="." type="POS=PONfrt|MORPH=empty">.</w>
+                        <w xml:id="t6522" lemma="de_ledit" type="POS=VERcjg|NOMB.=s|GENRE=m">dudit</w>
+                        <w xml:id="t6523" lemma="mois" type="POS=NOMcom|NOMB.=p|GENRE=m">mois</w>
+                     </l>
+                     <l ana="DefaultLine">
+                        <w xml:id="t6526"
+                           lemma="il"
+                           type="POS=PROper|PERS.=3|NOMB.=s|GENRE=f|CAS=n">Elle</w>
+                        <w xml:id="t6527" lemma="connaître" type="POS=ADVgen|MORPH=empty">cougnut</w>
+                        <w xml:id="t6528" lemma="derecheff" type="POS=VERppe|NOMB.=s|GENRE=m">derechieff</w>
+                        <w xml:id="t6529" lemma="avoir" type="POS=VERinf|MORPH=empty">avoir</w>
+                        <w xml:id="t6530" lemma="commettre" type="POS=VERppe|GENRE=m">commis</w>
+                        <w xml:id="t6531" lemma="ledit" type="POS=NOMcom|NOMB.=p|GENRE=m">lesdits</w>
+                        <w xml:id="t6532" lemma="acte" type="POS=NOMcom|NOMB.=p|GENRE=f">actes</w>
+                        <w xml:id="t6533" lemma="." type="POS=PONfrt|MORPH=empty">.</w>
+                     </l>
+                     <l ana="DefaultLine">
+                        <w xml:id="t6536" lemma="le" type="POS=DETdef|NOMB.=s|GENRE=m">Le</w>
+                        <w xml:id="t6537" lemma="27" type="POS=PROcar|NOMB.=p">27</w>
+                        <w xml:id="t6538" lemma="de_ledit" type="POS=ADJqua|NOMB.=s|GENRE=m">dudit</w>
+                        <w xml:id="t6539" lemma="mois" type="POS=NOMcom|NOMB.=p|GENRE=m">mois</w>
+                     </l>
+                     <l ana="DefaultLine">
+                        <w xml:id="t6542" lemma="en" type="POS=PRE|MORPH=empty">En</w>
+                        <w xml:id="t6543" lemma="présenter" type="POS=NOMcom|NOMB.=s|GENRE=f">presentce</w>
+                        <w xml:id="t6544" lemma="de_le" type="POS=PRE.DETdef|NOMB.=p">des</w>
+                        <w xml:id="t6545" lemma="." type="POS=PONfrt|MORPH=empty">.</w>
+                        <w xml:id="t6546" lemma="7" type="POS=INJ|MORPH=empty">7</w>
+                        <w xml:id="t6547" lemma="." type="POS=PONfrt|MORPH=empty">.</w>
+                        <w xml:id="t6548" lemma="homme" type="POS=NOMcom|NOMB.=p|GENRE=m">hommes</w>
+                        <w xml:id="t6549"
+                           lemma="il"
+                           type="POS=PROper|PERS.=3|NOMB.=s|GENRE=f|CAS=n">elle</w>
+                        <w xml:id="t6550"
+                           lemma="faire"
+                           type="POS=VERcjg|MODE=ind|TEMPS=psp|PERS.=3|NOMB.=s">feist</w>
+                        <w xml:id="t6551" lemma="le" type="POS=DETdef|NOMB.=s|GENRE=m">le</w>
+                        <w xml:id="t6552" lemma="semblable" type="POS=NOMcom|NOMB.=s|GENRE=m">semblable</w>
+                     </l>
+                  </lg>
+               </div>
+            </div>
+            <div type="notes_marginales">
+               <div type="notes_marginales_auteur"/>
+               <div type="notes_marginales_archives">
+                  <div type="NumberingZone:other">
+                     <lg xml:id="eSc_textblock_a054aeef_lg_1">
+                        <l ana="DefaultLine">184</l>
+                     </lg>
+                  </div>
+               </div>
+               <div type="notes_marginales_archives">
+                  <div type="NumberingZone:page">
+                     <lg xml:id="eSc_textblock_c933af2a_lg_1">
+                        <l ana="DefaultLine">3</l>
+                     </lg>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

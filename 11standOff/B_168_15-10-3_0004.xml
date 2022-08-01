@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#">
+   <teiHeader xml:lang="fr">
+      <fileDesc>
+         <titleStmt>
+            <title>B 168/15-10.3 p.4</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>Version électronique TEI des procédures criminelles de la principauté épiscopale de Bâle</edition>
+            <respStmt>
+               <name xml:id="EP">Élodie Paupe</name>
+               <resp>Encodage</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Archives de l'ancien Évêché de Bâle</authority>
+            <address>
+               <addrLine>rue des Annonciades 10</addrLine>
+               <addrLine>2900 Porrentruy</addrLine>
+               <addrLine>www.aaeb.ch</addrLine>
+            </address>
+            <availability status="restricted" n="CC-BY-NC-SA">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+               <p>Creative Commons Attribution 4.0 CC BY-NC-SA 4.0 FR</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Porrentruy</settlement>
+                  <repository>Archives de l'ancien Évêché de Bâle</repository>
+                  <idno type="cote">B 168/15-10.3 p.4</idno>
+                  <idno type="url">https://archives-aaeb.jura.ch/detail.aspx?ID=223582</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab source="https://github.com/aaeb-porrentruy/corpus_prevot_farine_fr/blob/main/README.md">Les normes de transcription sont disponibles en ligne.</ab>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Moyen français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-07-31" who="#EP">Création du fichier TEI à partir des sources alto</change>
+      </revisionDesc>
+   </teiHeader>
+   <sourceDoc xml:id="transcription">
+      <surface xml:id="B_168_15-10-3_0004">
+         <graphic url="https://iiif.unige.ch/iiif/2/fedora_ug27803421/full/full/0/default.jpg"/>
+         <zone xml:id="eSc_textblock_5f15bdd3"
+               type="segmontoZone"
+               corresp="MainZone"
+               n="1"
+               points="1704,1946 1795,2058 2254,2071 2341,2354 2241,2492 1745,2517 1617,2567 1373,2529 1195,2592 874,2579 799,2096 849,2058 1120,2058 1124,1946 1186,1921 "
+               source="https://iiif.unige.ch/iiif/2/fedora_ug27803421/799,1921,1542,671/full/0/default.jpg">
+            <zone xml:id="eSc_line_798fd6c6"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="2"
+                  points="1177,2030 1158,1915 1189,1893 1192,1893 1195,1893 1308,1890 1311,1890 1314,1890 1386,1927 1423,1949 1451,1930 1467,1921 1470,1921 1473,1921 1476,1921 1676,1946 1683,2008 1683,2036 1629,2036 1595,2071 1595,2074 1592,2074 1589,2074 1586,2074 1480,2061 1395,2089 1392,2089 1389,2089 1174,2055 "
+                  source="https://iiif.unige.ch/iiif/2/fedora_ug27803421/1158,1890,525,199/full/0/default.jpg">
+               <path n="2"
+                     xml:id="eSc_line_798fd6c6_baseline_2"
+                     type="baseline"
+                     points="1177,2030 1683,2008 "/>
+               <line xml:id="eSc_line_798fd6c6_ligne_2">Reconfession</line>
+            </zone>
+            <zone xml:id="eSc_line_ce2301d2"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="3"
+                  points="836,2139 821,2071 852,2052 855,2052 858,2052 861,2052 864,2052 918,2068 958,2046 961,2046 964,2046 1192,2064 1252,2046 1255,2046 1258,2046 1420,2064 1426,2064 1458,2043 1461,2043 1464,2043 1467,2043 1539,2043 1542,2043 1545,2043 1545,2046 1564,2064 1567,2064 1608,2046 1611,2046 1614,2046 1617,2046 1661,2061 1667,2064 1807,2064 1811,2061 1832,2043 1832,2039 1836,2039 1839,2039 1842,2039 1951,2058 1967,2061 1979,2058 2045,2039 2048,2039 2051,2039 2241,2058 2248,2130 2245,2145 2017,2158 2013,2158 2010,2158 1982,2152 1942,2142 1898,2152 1867,2158 1864,2158 1836,2155 1773,2142 1551,2158 1486,2161 1483,2161 1455,2158 1330,2145 1136,2164 1120,2164 1117,2164 1108,2164 958,2149 836,2167 "
+                  source="https://iiif.unige.ch/iiif/2/fedora_ug27803421/821,2039,1427,128/full/0/default.jpg">
+               <path n="3"
+                     xml:id="eSc_line_ce2301d2_baseline_3"
+                     type="baseline"
+                     points="836,2139 2248,2130 "/>
+               <line xml:id="eSc_line_ce2301d2_ligne_3">Des Actes Crimes et delitz de Aignelate</line>
+            </zone>
+            <zone xml:id="eSc_line_bda90838"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="4"
+                  points="836,2205 836,2149 2238,2152 2238,2205 2238,2220 2160,2239 2157,2239 2088,2223 2082,2223 836,2236 "
+                  source="https://iiif.unige.ch/iiif/2/fedora_ug27803421/836,2149,1402,90/full/0/default.jpg">
+               <path n="4"
+                     xml:id="eSc_line_bda90838_baseline_4"
+                     type="baseline"
+                     points="836,2205 2238,2205 "/>
+               <line xml:id="eSc_line_bda90838_ligne_4">vefve de feu Thiebault fouvent de</line>
+            </zone>
+            <zone xml:id="eSc_line_708e3668"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="5"
+                  points="833,2305 821,2248 886,2220 889,2220 893,2220 958,2220 961,2220 964,2220 996,2245 1061,2217 1064,2217 1067,2217 1071,2217 1127,2230 1370,2214 1373,2214 1377,2214 1380,2214 1380,2217 1401,2236 1405,2242 1467,2242 1473,2236 1492,2217 1492,2214 1495,2214 1498,2214 1501,2214 1505,2214 1548,2233 1558,2236 1573,2233 1648,2217 1651,2217 1654,2217 1701,2230 1726,2236 1761,2230 1807,2220 1811,2220 1907,2227 2001,2233 2013,2223 2038,2205 2042,2205 2045,2205 2048,2205 2107,2205 2110,2205 2113,2205 2113,2208 2129,2223 2135,2227 2145,2220 2157,2211 2160,2211 2163,2211 2166,2211 2170,2211 2173,2211 2185,2220 2198,2230 2288,2220 2298,2286 2298,2298 2029,2326 2029,2330 1882,2330 1879,2326 1876,2326 1873,2326 1851,2311 1848,2308 1842,2311 1789,2330 1786,2330 1782,2330 1651,2314 1620,2311 1611,2314 1567,2333 1564,2333 1564,2336 1489,2336 1486,2333 1483,2333 1480,2333 1480,2330 1467,2317 1464,2314 1455,2317 1414,2333 1411,2333 1408,2333 1405,2333 1401,2333 1383,2320 1370,2314 1255,2314 1248,2323 1236,2333 1236,2336 1233,2336 1230,2336 1230,2339 1117,2339 1114,2336 1111,2336 1108,2336 1108,2333 1099,2326 1092,2317 1074,2326 1042,2339 1039,2339 1036,2339 1033,2339 1030,2339 1017,2326 1008,2320 996,2326 980,2336 977,2336 974,2336 830,2330 "
+                  source="https://iiif.unige.ch/iiif/2/fedora_ug27803421/821,2205,1477,134/full/0/default.jpg">
+               <path n="5"
+                     xml:id="eSc_line_708e3668_baseline_5"
+                     type="baseline"
+                     points="833,2305 2298,2286 "/>
+               <line xml:id="eSc_line_708e3668_ligne_5">Bonfols Que fust condempne destre</line>
+            </zone>
+            <zone xml:id="eSc_line_baffddc4"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="6"
+                  points="868,2383 861,2336 1099,2311 1102,2311 1252,2326 1267,2326 1270,2326 1289,2311 1292,2311 1295,2311 1298,2311 1492,2320 1564,2323 1570,2320 1586,2305 1589,2305 1592,2305 1595,2305 1679,2317 1714,2320 1745,2314 1811,2301 1814,2301 1817,2301 1820,2301 1839,2314 1848,2317 2282,2305 2291,2364 2291,2398 2188,2407 2185,2407 2182,2407 2179,2407 2179,2404 2173,2401 2151,2383 2067,2383 1967,2389 1951,2404 1948,2407 1948,2411 1945,2411 1942,2411 1757,2414 1754,2414 1751,2414 1736,2411 1676,2389 1645,2411 1642,2411 1639,2411 1514,2417 1511,2417 1508,2417 1505,2417 1505,2414 1501,2414 1480,2392 1339,2407 1336,2407 1111,2395 1055,2420 1052,2420 1049,2420 1046,2420 980,2404 868,2423 "
+                  source="https://iiif.unige.ch/iiif/2/fedora_ug27803421/861,2301,1430,122/full/0/default.jpg">
+               <path n="6"
+                     xml:id="eSc_line_baffddc4_baseline_6"
+                     type="baseline"
+                     points="868,2383 2291,2364 "/>
+               <line xml:id="eSc_line_baffddc4_ligne_6">executee par le feug. Mais par grace fust</line>
+            </zone>
+            <zone xml:id="eSc_line_8663fd0e"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="7"
+                  points="868,2464 858,2417 902,2398 905,2398 908,2398 1099,2411 1133,2395 1136,2395 1139,2395 1142,2395 1145,2395 1167,2414 1298,2414 1370,2392 1373,2392 1377,2392 1380,2392 1383,2392 1383,2395 1395,2404 1408,2392 1408,2389 1411,2389 1414,2389 1417,2389 1592,2407 1645,2386 1648,2386 1651,2386 1701,2386 1704,2386 1707,2386 1707,2389 1729,2407 1814,2386 1817,2386 1820,2386 1823,2386 1826,2386 1860,2407 1942,2386 1945,2386 1948,2386 2160,2386 2163,2386 2223,2411 2226,2457 2226,2473 2054,2492 2023,2520 2020,2520 2017,2520 2013,2520 1920,2510 1857,2535 1854,2535 1451,2539 1448,2539 1445,2539 1370,2498 1336,2482 1170,2482 1120,2507 1105,2514 1102,2514 1099,2514 1095,2514 1092,2514 1092,2510 1086,2507 1067,2489 1036,2504 1033,2504 1030,2504 1027,2504 1024,2504 992,2482 921,2482 874,2514 "
+                  source="https://iiif.unige.ch/iiif/2/fedora_ug27803421/858,2386,1368,153/full/0/default.jpg">
+               <path n="7"
+                     xml:id="eSc_line_8663fd0e_baseline_7"
+                     type="baseline"
+                     points="868,2464 2226,2457 "/>
+               <line xml:id="eSc_line_8663fd0e_ligne_7">decapitee et dela son corps jecte</line>
+            </zone>
+            <zone xml:id="eSc_line_0ea9c14c"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="8"
+                  points="861,2554 855,2507 911,2485 914,2485 918,2485 921,2485 961,2504 1027,2485 1030,2485 1033,2485 1220,2507 1220,2554 1220,2610 1114,2610 1111,2607 1108,2607 1105,2607 1089,2595 1061,2573 1033,2588 1027,2592 1024,2592 1021,2592 1017,2592 1008,2585 980,2570 967,2582 958,2588 958,2592 955,2592 952,2592 949,2592 858,2570 "
+                  source="https://iiif.unige.ch/iiif/2/fedora_ug27803421/855,2485,365,125/full/0/default.jpg">
+               <path n="8"
+                     xml:id="eSc_line_0ea9c14c_baseline_8"
+                     type="baseline"
+                     points="864,2557 1221,2555 "/>
+               <line xml:id="eSc_line_0ea9c14c_ligne_8">au feug.</line>
+            </zone>
+         </zone>
+         <zone xml:id="eSc_textblock_0be80759"
+               type="segmontoZone"
+               corresp="NumberingZone:page"
+               n="2"
+               points="2353,3421 2353,3533 2461,3533 2461,3421 "
+               source="https://iiif.unige.ch/iiif/2/fedora_ug27803421/2353,3421,108,112/full/0/default.jpg">
+            <zone xml:id="eSc_line_2e13e4cb"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="2"
+                  points="2376,3505 2373,3431 2435,3424 2438,3505 2438,3530 2376,3537 "
+                  source="https://iiif.unige.ch/iiif/2/fedora_ug27803421/2373,3424,65,113/full/0/default.jpg">
+               <path n="2"
+                     xml:id="eSc_line_2e13e4cb_baseline_2"
+                     type="baseline"
+                     points="2377,3507 2439,3507 "/>
+               <line xml:id="eSc_line_2e13e4cb_ligne_2">4</line>
+            </zone>
+         </zone>
+      </surface>
+   </sourceDoc>
+   <text>
+      <body>
+         <div n="B_168_15-10-3_0004" type="page">
+            <pb facs="https://iiif.unige.ch/iiif/2/fedora_ug27803421/full/full/0/default.jpg"/>
+            <div type="decoration"/>
+            <div>
+               <div type="MainZone">
+                  <lg xml:id="eSc_textblock_5f15bdd3_lg_1">
+                     <l ana="DefaultLine">
+                        <w xml:id="t810"
+                           lemma="réconfession"
+                           type="POS=NOMcom|NOMB.=s|GENRE=m">Reconfession</w>
+                     </l>
+                     <l ana="DefaultLine">
+                        <w xml:id="t813" lemma="de_le" type="POS=PRE.DETdef|NOMB.=p|GENRE=m">Des</w>
+                        <w xml:id="t814" lemma="acte" type="POS=NOMcom|NOMB.=p|GENRE=m">Actes</w>
+                        <w xml:id="t815" lemma="crime" type="POS=NOMpro|NOMB.=p|GENRE=m">Crimes</w>
+                        <w xml:id="t816" lemma="et" type="POS=CONcoo|MORPH=empty">et</w>
+                        <w xml:id="t817" lemma="délit" type="POS=ADJqua|NOMB.=p">delitz</w>
+                        <w xml:id="t818" lemma="de" type="POS=PRE|MORPH=empty">de</w>
+                        <w xml:id="t819" lemma="Aignelate" type="POS=NOMpro|NOMB.=s|GENRE=f">Aignelate</w>
+                     </l>
+                     <l ana="DefaultLine">
+                        <w xml:id="t822"
+                           lemma="veuf"
+                           type="POS=VERcjg|MODE=ind|TEMPS=pst|NOMB.=s">vefve</w>
+                        <w xml:id="t823" lemma="de" type="POS=PRE|MORPH=empty">de</w>
+                        <w xml:id="t824" lemma="feu" type="POS=NOMcom|NOMB.=s|GENRE=m">feu</w>
+                        <w xml:id="t825" lemma="thiebault" type="POS=NOMpro|NOMB.=s|GENRE=m">Thiebault</w>
+                        <w xml:id="t826"
+                           lemma="fouvoir"
+                           type="POS=VERcjg|MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s">fouvent</w>
+                        <w xml:id="t827" lemma="de" type="POS=PRE|MORPH=empty">de</w>
+                     </l>
+                     <l ana="DefaultLine">
+                        <w xml:id="t830" lemma="bonfols" type="POS=NOMpro|NOMB.=p|GENRE=m">Bonfols</w>
+                        <w xml:id="t831" lemma="que" type="POS=CONsub|MORPH=empty">Que</w>
+                        <w xml:id="t832"
+                           lemma="être"
+                           type="POS=VERcjg|MODE=ind|TEMPS=psp|PERS.=3|NOMB.=s">fust</w>
+                        <w xml:id="t833" lemma="condamner" type="POS=ADJqua|NOMB.=s|GENRE=f">condempne</w>
+                        <w xml:id="t834"
+                           lemma="destre"
+                           type="POS=DETpos|PERS.=2|NOMB.=s|GENRE=m">destre</w>
+                     </l>
+                     <l ana="DefaultLine">
+                        <w xml:id="t837" lemma="exécuter" type="POS=VERcjg|NOMB.=s">executee</w>
+                        <w xml:id="t838" lemma="par" type="POS=PRE|MORPH=empty">par</w>
+                        <w xml:id="t839" lemma="le" type="POS=DETdef|NOMB.=s|GENRE=m">le</w>
+                        <w xml:id="t840" lemma="feug" type="POS=NOMcom|NOMB.=s|GENRE=m">feug</w>
+                        <w xml:id="t841" lemma="." type="POS=PONfrt|MORPH=empty">.</w>
+                        <w xml:id="t842" lemma="mais" type="POS=CONcoo|MORPH=empty">Mais</w>
+                        <w xml:id="t843" lemma="par" type="POS=PRE|MORPH=empty">par</w>
+                        <w xml:id="t844" lemma="grâce" type="POS=NOMcom|NOMB.=s|GENRE=f">grace</w>
+                        <w xml:id="t845"
+                           lemma="être"
+                           type="POS=VERcjg|MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s">fust</w>
+                     </l>
+                     <l ana="DefaultLine">
+                        <w xml:id="t848" lemma="décapité" type="POS=NOMcom|NOMB.=s|GENRE=f">decapitee</w>
+                        <w xml:id="t849" lemma="et" type="POS=CONcoo|MORPH=empty">et</w>
+                        <w xml:id="t850" lemma="delà" type="POS=PROint|NOMB.=s|GENRE=m">dela</w>
+                        <w xml:id="t851" lemma="son" type="POS=DETpos|PERS.=3|NOMB.=s|GENRE=m">son</w>
+                        <w xml:id="t852" lemma="corps" type="POS=NOMcom|NOMB.=s|GENRE=m">corps</w>
+                        <w xml:id="t853" lemma="jeter" type="POS=ADJqua|NOMB.=s|GENRE=m">jecte</w>
+                     </l>
+                     <l ana="DefaultLine">
+                        <w xml:id="t856" lemma="à_le" type="POS=PRE.DETdef|NOMB.=s|GENRE=m">au</w>
+                        <w xml:id="t857" lemma="feug" type="POS=NOMcom|NOMB.=s|GENRE=m">feug</w>
+                        <w xml:id="t858" lemma="." type="POS=PONfrt|MORPH=empty">.</w>
+                     </l>
+                  </lg>
+               </div>
+            </div>
+            <div type="notes_marginales">
+               <div type="notes_marginales_auteur"/>
+               <div type="notes_marginales_archives"/>
+               <div type="notes_marginales_archives">
+                  <div type="NumberingZone:page">
+                     <lg xml:id="eSc_textblock_0be80759_lg_1">
+                        <l ana="DefaultLine">4</l>
+                     </lg>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+   <standOff>
+      <annotationBlock>
+         <spanGrp>
+            <span target="#t810" ana="#t810ling"/>
+            <span target="#t813" ana="#t813ling"/>
+            <span target="#t814" ana="#t814ling"/>
+            <span target="#t815" ana="#t815ling"/>
+            <span target="#t816" ana="#t816ling"/>
+            <span target="#t817" ana="#t817ling"/>
+            <span target="#t818" ana="#t818ling"/>
+            <span target="#t819" ana="#t819ling"/>
+            <span target="#t822" ana="#t822ling"/>
+            <span target="#t823" ana="#t823ling"/>
+            <span target="#t824" ana="#t824ling"/>
+            <span target="#t825" ana="#t825ling"/>
+            <span target="#t826" ana="#t826ling"/>
+            <span target="#t827" ana="#t827ling"/>
+            <span target="#t830" ana="#t830ling"/>
+            <span target="#t831" ana="#t831ling"/>
+            <span target="#t832" ana="#t832ling"/>
+            <span target="#t833" ana="#t833ling"/>
+            <span target="#t834" ana="#t834ling"/>
+            <span target="#t837" ana="#t837ling"/>
+            <span target="#t838" ana="#t838ling"/>
+            <span target="#t839" ana="#t839ling"/>
+            <span target="#t840" ana="#t840ling"/>
+            <span target="#t841" ana="#t841ling"/>
+            <span target="#t842" ana="#t842ling"/>
+            <span target="#t843" ana="#t843ling"/>
+            <span target="#t844" ana="#t844ling"/>
+            <span target="#t845" ana="#t845ling"/>
+            <span target="#t848" ana="#t848ling"/>
+            <span target="#t849" ana="#t849ling"/>
+            <span target="#t850" ana="#t850ling"/>
+            <span target="#t851" ana="#t851ling"/>
+            <span target="#t852" ana="#t852ling"/>
+            <span target="#t853" ana="#t853ling"/>
+            <span target="#t856" ana="#t856ling"/>
+            <span target="#t857" ana="#t857ling"/>
+            <span target="#t858" ana="#t858ling"/>
+         </spanGrp>
+      </annotationBlock>
+      <fs xml:id="t810ling">
+         <f name="lemma">
+            <string>réconfession</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=NOMcom|NOMB.=s|GENRE=m"/>
+         </f>
+      </fs>
+      <fs xml:id="t813ling">
+         <f name="lemma">
+            <string>de_le</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=PRE.DETdef|NOMB.=p|GENRE=m"/>
+         </f>
+      </fs>
+      <fs xml:id="t814ling">
+         <f name="lemma">
+            <string>acte</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=NOMcom|NOMB.=p|GENRE=m"/>
+         </f>
+      </fs>
+      <fs xml:id="t815ling">
+         <f name="lemma">
+            <string>crime</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=NOMpro|NOMB.=p|GENRE=m"/>
+         </f>
+      </fs>
+      <fs xml:id="t816ling">
+         <f name="lemma">
+            <string>et</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=CONcoo|MORPH=empty"/>
+         </f>
+      </fs>
+      <fs xml:id="t817ling">
+         <f name="lemma">
+            <string>délit</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=ADJqua|NOMB.=p"/>
+         </f>
+      </fs>
+      <fs xml:id="t818ling">
+         <f name="lemma">
+            <string>de</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=PRE|MORPH=empty"/>
+         </f>
+      </fs>
+      <fs xml:id="t819ling">
+         <f name="lemma">
+            <string>Aignelate</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=NOMpro|NOMB.=s|GENRE=f"/>
+         </f>
+      </fs>
+      <fs xml:id="t822ling">
+         <f name="lemma">
+            <string>veuf</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=VERcjg|MODE=ind|TEMPS=pst|NOMB.=s"/>
+         </f>
+      </fs>
+      <fs xml:id="t823ling">
+         <f name="lemma">
+            <string>de</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=PRE|MORPH=empty"/>
+         </f>
+      </fs>
+      <fs xml:id="t824ling">
+         <f name="lemma">
+            <string>feu</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=NOMcom|NOMB.=s|GENRE=m"/>
+         </f>
+      </fs>
+      <fs xml:id="t825ling">
+         <f name="lemma">
+            <string>thiebault</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=NOMpro|NOMB.=s|GENRE=m"/>
+         </f>
+      </fs>
+      <fs xml:id="t826ling">
+         <f name="lemma">
+            <string>fouvoir</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=VERcjg|MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s"/>
+         </f>
+      </fs>
+      <fs xml:id="t827ling">
+         <f name="lemma">
+            <string>de</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=PRE|MORPH=empty"/>
+         </f>
+      </fs>
+      <fs xml:id="t830ling">
+         <f name="lemma">
+            <string>bonfols</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=NOMpro|NOMB.=p|GENRE=m"/>
+         </f>
+      </fs>
+      <fs xml:id="t831ling">
+         <f name="lemma">
+            <string>que</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=CONsub|MORPH=empty"/>
+         </f>
+      </fs>
+      <fs xml:id="t832ling">
+         <f name="lemma">
+            <string>être</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=VERcjg|MODE=ind|TEMPS=psp|PERS.=3|NOMB.=s"/>
+         </f>
+      </fs>
+      <fs xml:id="t833ling">
+         <f name="lemma">
+            <string>condamner</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=ADJqua|NOMB.=s|GENRE=f"/>
+         </f>
+      </fs>
+      <fs xml:id="t834ling">
+         <f name="lemma">
+            <string>destre</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=DETpos|PERS.=2|NOMB.=s|GENRE=m"/>
+         </f>
+      </fs>
+      <fs xml:id="t837ling">
+         <f name="lemma">
+            <string>exécuter</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=VERcjg|NOMB.=s"/>
+         </f>
+      </fs>
+      <fs xml:id="t838ling">
+         <f name="lemma">
+            <string>par</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=PRE|MORPH=empty"/>
+         </f>
+      </fs>
+      <fs xml:id="t839ling">
+         <f name="lemma">
+            <string>le</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=DETdef|NOMB.=s|GENRE=m"/>
+         </f>
+      </fs>
+      <fs xml:id="t840ling">
+         <f name="lemma">
+            <string>feug</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=NOMcom|NOMB.=s|GENRE=m"/>
+         </f>
+      </fs>
+      <fs xml:id="t841ling">
+         <f name="lemma">
+            <string>.</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=PONfrt|MORPH=empty"/>
+         </f>
+      </fs>
+      <fs xml:id="t842ling">
+         <f name="lemma">
+            <string>mais</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=CONcoo|MORPH=empty"/>
+         </f>
+      </fs>
+      <fs xml:id="t843ling">
+         <f name="lemma">
+            <string>par</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=PRE|MORPH=empty"/>
+         </f>
+      </fs>
+      <fs xml:id="t844ling">
+         <f name="lemma">
+            <string>grâce</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=NOMcom|NOMB.=s|GENRE=f"/>
+         </f>
+      </fs>
+      <fs xml:id="t845ling">
+         <f name="lemma">
+            <string>être</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=VERcjg|MODE=ind|TEMPS=pst|PERS.=3|NOMB.=s"/>
+         </f>
+      </fs>
+      <fs xml:id="t848ling">
+         <f name="lemma">
+            <string>décapité</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=NOMcom|NOMB.=s|GENRE=f"/>
+         </f>
+      </fs>
+      <fs xml:id="t849ling">
+         <f name="lemma">
+            <string>et</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=CONcoo|MORPH=empty"/>
+         </f>
+      </fs>
+      <fs xml:id="t850ling">
+         <f name="lemma">
+            <string>delà</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=PROint|NOMB.=s|GENRE=m"/>
+         </f>
+      </fs>
+      <fs xml:id="t851ling">
+         <f name="lemma">
+            <string>son</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=DETpos|PERS.=3|NOMB.=s|GENRE=m"/>
+         </f>
+      </fs>
+      <fs xml:id="t852ling">
+         <f name="lemma">
+            <string>corps</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=NOMcom|NOMB.=s|GENRE=m"/>
+         </f>
+      </fs>
+      <fs xml:id="t853ling">
+         <f name="lemma">
+            <string>jeter</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=ADJqua|NOMB.=s|GENRE=m"/>
+         </f>
+      </fs>
+      <fs xml:id="t856ling">
+         <f name="lemma">
+            <string>à_le</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=PRE.DETdef|NOMB.=s|GENRE=m"/>
+         </f>
+      </fs>
+      <fs xml:id="t857ling">
+         <f name="lemma">
+            <string>feug</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=NOMcom|NOMB.=s|GENRE=m"/>
+         </f>
+      </fs>
+      <fs xml:id="t858ling">
+         <f name="lemma">
+            <string>.</string>
+         </f>
+         <f name="pos">
+            <symbol value="POS=PONfrt|MORPH=empty"/>
+         </f>
+      </fs>
+   </standOff>
+</TEI>

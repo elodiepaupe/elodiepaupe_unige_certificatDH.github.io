@@ -1,0 +1,124 @@
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v4#"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# http://www.loc.gov/standards/alto/v4/alto-4-2.xsd">
+   <Description>
+      <MeasurementUnit>pixel</MeasurementUnit>
+      <sourceImageInformation>
+         <fileName>B_168_15-23-2_0004.jpg</fileName>
+      </sourceImageInformation>
+   </Description>
+   <Tags>
+      <OtherTag ID="BT365"
+                LABEL="MainZone:column"
+                DESCRIPTION="block type MainZone:column"/>
+      <OtherTag ID="BT367" LABEL="MainZone" DESCRIPTION="block type MainZone"/>
+      <OtherTag ID="BT368"
+                LABEL="MarginTextZone"
+                DESCRIPTION="block type MarginTextZone"/>
+      <OtherTag ID="BT369"
+                LABEL="MarginTextZone:note"
+                DESCRIPTION="block type MarginTextZone:note"/>
+      <OtherTag ID="BT370"
+                LABEL="NumberingZone:other"
+                DESCRIPTION="block type NumberingZone:other"/>
+      <OtherTag ID="BT371"
+                LABEL="NumberingZone:page"
+                DESCRIPTION="block type NumberingZone:page"/>
+      <OtherTag ID="BT379"
+                LABEL="DecorationZone"
+                DESCRIPTION="block type DecorationZone"/>
+      <OtherTag ID="BT380"
+                LABEL="CustomZone:signature"
+                DESCRIPTION="block type CustomZone:signature"/>
+      <OtherTag ID="LT118" LABEL="DefaultLine" DESCRIPTION="line type DefaultLine"/>
+      <OtherTag ID="LT119" LABEL="HeadingLine" DESCRIPTION="line type HeadingLine"/>
+      <OtherTag ID="LT120"
+                LABEL="InterlinearLine"
+                DESCRIPTION="line type InterlinearLine"/>
+   </Tags>
+   <Layout>
+      <Page WIDTH="2572"
+            HEIGHT="3813"
+            PHYSICAL_IMG_NR="45"
+            ID="eSc_dummypage_">
+         <PrintSpace HPOS="0" VPOS="0" WIDTH="2572" HEIGHT="3813">
+            <TextBlock HPOS="1065"
+                       VPOS="1944"
+                       WIDTH="1125"
+                       HEIGHT="277"
+                       ID="eSc_textblock_2f2cbba0"
+                       TAGREFS="BT367">
+               <Shape>
+                  <Polygon POINTS="2114 2020 2190 2170 1987 2221 1077 2208 1065 2046 1115 1944"/>
+               </Shape>
+               <TextLine ID="eSc_line_c98c0d46"
+                         BASELINE="1125 2055 1337 2047 1652 2069 2114 2096"
+                         HPOS="1119"
+                         VPOS="1931"
+                         WIDTH="995"
+                         HEIGHT="201">
+                  <Shape>
+                     <Polygon POINTS="1122 2052 1122 1931 1227 1935 1230 1935 1233 1935 1236 1938 1262 1960 1306 1947 1309 1947 1313 1947 1316 1947 1379 1982 1433 1957 1437 1957 1440 1957 1443 1957 1510 1992 1907 1998 1952 1989 2025 1973 2028 1973 2031 1973 2114 2001 2111 2093 2111 2106 2056 2132 2053 2132 2050 2132 2047 2132 1939 2103 1901 2093 1840 2100 1719 2116 1716 2116 1713 2116 1665 2097 1624 2081 1580 2097 1554 2103 1551 2103 1548 2103 1545 2103 1526 2093 1500 2081 1360 2090 1344 2090 1341 2090 1338 2090 1335 2090 1249 2062 1119 2084"/>
+                  </Shape>
+                  <String CONTENT="Proces Criminel de Adelheit"
+                          HPOS="1119"
+                          VPOS="1931"
+                          WIDTH="995"
+                          HEIGHT="201"/>
+               </TextLine>
+               <TextLine ID="eSc_line_69811d58"
+                         BASELINE="1211 2119 2145 2154"
+                         HPOS="1198"
+                         VPOS="2046"
+                         WIDTH="944"
+                         HEIGHT="159">
+                  <Shape>
+                     <Polygon POINTS="1208 2116 1214 2046 1239 2068 1278 2052 1284 2049 1287 2049 1290 2049 1293 2049 1303 2052 1351 2068 1452 2062 1503 2059 1506 2059 1510 2059 1522 2065 1557 2084 1716 2087 1815 2084 1964 2074 1967 2074 2142 2103 2142 2151 2139 2186 1974 2205 1971 2205 1630 2173 1551 2189 1548 2189 1545 2189 1541 2189 1497 2160 1491 2154 1354 2151 1347 2151 1303 2170 1300 2170 1297 2170 1293 2170 1198 2144"/>
+                  </Shape>
+                  <String CONTENT="vefve Borquin Betteny de"
+                          HPOS="1198"
+                          VPOS="2046"
+                          WIDTH="944"
+                          HEIGHT="159"/>
+               </TextLine>
+               <TextLine ID="eSc_line_70000547"
+                         BASELINE="1154 2198 1342 2194 1578 2209"
+                         HPOS="1144"
+                         VPOS="2128"
+                         WIDTH="432"
+                         HEIGHT="118">
+                  <Shape>
+                     <Polygon POINTS="1150 2195 1144 2132 1573 2128 1576 2208 1576 2217 1513 2243 1510 2243 1506 2243 1503 2243 1500 2243 1471 2224 1459 2217 1430 2227 1421 2230 1417 2230 1414 2230 1411 2230 1405 2230 1360 2214 1300 2236 1265 2246 1262 2246 1258 2246 1144 2243"/>
+                  </Shape>
+                  <String CONTENT="Boncourt."
+                          HPOS="1144"
+                          VPOS="2128"
+                          WIDTH="432"
+                          HEIGHT="118"/>
+               </TextLine>
+            </TextBlock>
+            <TextBlock HPOS="2348"
+                       VPOS="3575"
+                       WIDTH="117"
+                       HEIGHT="102"
+                       ID="eSc_textblock_7f65f776"
+                       TAGREFS="BT371">
+               <Shape>
+                  <Polygon POINTS="2348 3575 2348 3677 2465 3677 2465 3575"/>
+               </Shape>
+               <TextLine ID="eSc_line_59994f08"
+                         BASELINE="2377 3648 2440 3648"
+                         HPOS="2371"
+                         VPOS="3574"
+                         WIDTH="67"
+                         HEIGHT="102">
+                  <Shape>
+                     <Polygon POINTS="2374 3647 2371 3577 2435 3574 2438 3647 2438 3670 2374 3676"/>
+                  </Shape>
+                  <String CONTENT="4" HPOS="2371" VPOS="3574" WIDTH="67" HEIGHT="102"/>
+               </TextLine>
+            </TextBlock>
+         </PrintSpace>
+      </Page>
+   </Layout>
+</alto>

@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <row>
+        <Heading0></Heading0>
+        <Heading1>label</Heading1>
+        <Heading2>iiif_manifest</Heading2>
+        <Heading3>iiif_url</Heading3>
+        <Heading4>mirador_url</Heading4>
+        <Heading5>img_filename</Heading5>
+        <Heading6>cote</Heading6>
+        <Heading7>accused</Heading7>
+        <Heading8>copyist</Heading8>
+        <Heading9>begin_date</Heading9>
+        <Heading10>end_date</Heading10>
+        <Heading11>img</Heading11>
+        <Heading12>AAEB pièce</Heading12>
+        <Heading13>AAEB dossier</Heading13>
+    </row>
+    <row>
+        <Heading0>6</Heading0>
+        <Heading1>Information secrète contre Annelin Boulay</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803334/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803420/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803334;1</Heading4>
+        <Heading5>B_168_15-2-1_0001.jpg</Heading5>
+        <Heading6>B_168_15-2-1</Heading6>
+        <Heading7>Annelin Boulay</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1603-04-16T00:00:00+00:00</Heading9>
+        <Heading10>1603-04-16T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-2-1_0001.jpg</Heading11>
+        <Heading12>B 168/15-2.1 p.1</Heading12>
+        <Heading13>B 168/15-2.1</Heading13>
+    </row>
+    <row>
+        <Heading0>4</Heading0>
+        <Heading1>Information secrète contre Annelin Boulay</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803334/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803398/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803334;2</Heading4>
+        <Heading5>B_168_15-2-1_0002.jpg</Heading5>
+        <Heading6>B_168_15-2-1</Heading6>
+        <Heading7>Annelin Boulay</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1603-04-16T00:00:00+00:00</Heading9>
+        <Heading10>1603-04-16T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-2-1_0002.jpg</Heading11>
+        <Heading12>B 168/15-2.1 p.2</Heading12>
+        <Heading13>B 168/15-2.1</Heading13>
+    </row>
+    <row>
+        <Heading0>5</Heading0>
+        <Heading1>Information secrète contre Annelin Boulay</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803334/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803476/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803334;3</Heading4>
+        <Heading5>B_168_15-2-1_0003.jpg</Heading5>
+        <Heading6>B_168_15-2-1</Heading6>
+        <Heading7>Annelin Boulay</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1603-04-16T00:00:00+00:00</Heading9>
+        <Heading10>1603-04-16T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-2-1_0003.jpg</Heading11>
+        <Heading12>B 168/15-2.1 p.3</Heading12>
+        <Heading13>B 168/15-2.1</Heading13>
+    </row>
+    <row>
+        <Heading0>7</Heading0>
+        <Heading1>Informations levées d'office par le prévôt de Porrentruy Henri Farine et le maire de Courtedoux Claudat Bruat (Briot?)</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803280/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803450/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803280;1</Heading4>
+        <Heading5>B_168_15-2-2_0001.jpg</Heading5>
+        <Heading6>B_168_15-2-2</Heading6>
+        <Heading7>Annelin Boulay</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1608-09-24T00:00:00+00:00</Heading9>
+        <Heading10>1608-11-22T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-2-2_0001.jpg</Heading11>
+        <Heading12>B 168/15-2.2 p.1</Heading12>
+        <Heading13>B 168/15-2.2</Heading13>
+    </row>
+    <row>
+        <Heading0>13</Heading0>
+        <Heading1>Informations levées d'office par le prévôt de Porrentruy Henri Farine et le maire de Courtedoux Claudat Bruat (Briot?)</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803280/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803317/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803280;2</Heading4>
+        <Heading5>B_168_15-2-2_0002.jpg</Heading5>
+        <Heading6>B_168_15-2-2</Heading6>
+        <Heading7>Annelin Boulay</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1608-09-24T00:00:00+00:00</Heading9>
+        <Heading10>1608-11-22T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-2-2_0002.jpg</Heading11>
+        <Heading12>B 168/15-2.2 p.2</Heading12>
+        <Heading13>B 168/15-2.2</Heading13>
+    </row>
+    <row>
+        <Heading0>11</Heading0>
+        <Heading1>Informations levées d'office par le prévôt de Porrentruy Henri Farine et le maire de Courtedoux Claudat Bruat (Briot?)</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803280/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803517/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803280;3</Heading4>
+        <Heading5>B_168_15-2-2_0003.jpg</Heading5>
+        <Heading6>B_168_15-2-2</Heading6>
+        <Heading7>Annelin Boulay</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1608-09-24T00:00:00+00:00</Heading9>
+        <Heading10>1608-11-22T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-2-2_0003.jpg</Heading11>
+        <Heading12>B 168/15-2.2 p.3</Heading12>
+        <Heading13>B 168/15-2.2</Heading13>
+    </row>
+    <row>
+        <Heading0>10</Heading0>
+        <Heading1>Informations levées d'office par le prévôt de Porrentruy Henri Farine et le maire de Courtedoux Claudat Bruat (Briot?)</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803280/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803504/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803280;4</Heading4>
+        <Heading5>B_168_15-2-2_0004.jpg</Heading5>
+        <Heading6>B_168_15-2-2</Heading6>
+        <Heading7>Annelin Boulay</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1608-09-24T00:00:00+00:00</Heading9>
+        <Heading10>1608-11-22T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-2-2_0004.jpg</Heading11>
+        <Heading12>B 168/15-2.2 p.4</Heading12>
+        <Heading13>B 168/15-2.2</Heading13>
+    </row>
+    <row>
+        <Heading0>12</Heading0>
+        <Heading1>Informations levées d'office par le prévôt de Porrentruy Henri Farine et le maire de Courtedoux Claudat Bruat (Briot?)</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803280/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803503/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803280;5</Heading4>
+        <Heading5>B_168_15-2-2_0005.jpg</Heading5>
+        <Heading6>B_168_15-2-2</Heading6>
+        <Heading7>Annelin Boulay</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1608-09-24T00:00:00+00:00</Heading9>
+        <Heading10>1608-11-22T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-2-2_0005.jpg</Heading11>
+        <Heading12>B 168/15-2.2 p.5</Heading12>
+        <Heading13>B 168/15-2.2</Heading13>
+    </row>
+    <row>
+        <Heading0>17</Heading0>
+        <Heading1>Informations levées d'office par le prévôt de Porrentruy Henri Farine et le maire de Courtedoux Claudat Bruat (Briot?)</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803280/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803505/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803280;6</Heading4>
+        <Heading5>B_168_15-2-2_0006.jpg</Heading5>
+        <Heading6>B_168_15-2-2</Heading6>
+        <Heading7>Annelin Boulay</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1608-09-24T00:00:00+00:00</Heading9>
+        <Heading10>1608-11-22T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-2-2_0006.jpg</Heading11>
+        <Heading12>B 168/15-2.2 p.6</Heading12>
+        <Heading13>B 168/15-2.2</Heading13>
+    </row>
+    <row>
+        <Heading0>16</Heading0>
+        <Heading1>Informations levées d'office par le prévôt de Porrentruy Henri Farine et le maire de Courtedoux Claudat Bruat (Briot?)</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803280/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803488/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803280;7</Heading4>
+        <Heading5>B_168_15-2-2_0007.jpg</Heading5>
+        <Heading6>B_168_15-2-2</Heading6>
+        <Heading7>Annelin Boulay</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1608-09-24T00:00:00+00:00</Heading9>
+        <Heading10>1608-11-22T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-2-2_0007.jpg</Heading11>
+        <Heading12>B 168/15-2.2 p.7</Heading12>
+        <Heading13>B 168/15-2.2</Heading13>
+    </row>
+    <row>
+        <Heading0>8</Heading0>
+        <Heading1>Informations levées d'office par le prévôt de Porrentruy Henri Farine et le maire de Courtedoux Claudat Bruat (Briot?)</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803280/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803329/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803280;8</Heading4>
+        <Heading5>B_168_15-2-2_0008.jpg</Heading5>
+        <Heading6>B_168_15-2-2</Heading6>
+        <Heading7>Annelin Boulay</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1608-09-24T00:00:00+00:00</Heading9>
+        <Heading10>1608-11-22T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-2-2_0008.jpg</Heading11>
+        <Heading12>B 168/15-2.2 p.8</Heading12>
+        <Heading13>B 168/15-2.2</Heading13>
+    </row>
+    <row>
+        <Heading0>14</Heading0>
+        <Heading1>Informations levées d'office par le prévôt de Porrentruy Henri Farine et le maire de Courtedoux Claudat Bruat (Briot?)</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803280/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803485/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803280;9</Heading4>
+        <Heading5>B_168_15-2-2_0009.jpg</Heading5>
+        <Heading6>B_168_15-2-2</Heading6>
+        <Heading7>Annelin Boulay</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1608-09-24T00:00:00+00:00</Heading9>
+        <Heading10>1608-11-22T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-2-2_0009.jpg</Heading11>
+        <Heading12>B 168/15-2.2 p.9</Heading12>
+        <Heading13>B 168/15-2.2</Heading13>
+    </row>
+    <row>
+        <Heading0>15</Heading0>
+        <Heading1>Informations levées d'office par le prévôt de Porrentruy Henri Farine et le maire de Courtedoux Claudat Bruat (Briot?)</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803280/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803487/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803280;10</Heading4>
+        <Heading5>B_168_15-2-2_0010.jpg</Heading5>
+        <Heading6>B_168_15-2-2</Heading6>
+        <Heading7>Annelin Boulay</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1608-09-24T00:00:00+00:00</Heading9>
+        <Heading10>1608-11-22T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-2-2_0010.jpg</Heading11>
+        <Heading12>B 168/15-2.2 p.10 </Heading12>
+        <Heading13>B 168/15-2.2</Heading13>
+    </row>
+    <row>
+        <Heading0>9</Heading0>
+        <Heading1>Informations levées d'office par le prévôt de Porrentruy Henri Farine et le maire de Courtedoux Claudat Bruat (Briot?)</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803280/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803445/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803280;11</Heading4>
+        <Heading5>B_168_15-2-2_0011.jpg</Heading5>
+        <Heading6>B_168_15-2-2</Heading6>
+        <Heading7>Annelin Boulay</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1608-09-24T00:00:00+00:00</Heading9>
+        <Heading10>1608-11-22T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-2-2_0011.jpg</Heading11>
+        <Heading12>B 168/15-2.2 p.11</Heading12>
+        <Heading13>B 168/15-2.2</Heading13>
+    </row>
+    <row>
+        <Heading0>50</Heading0>
+        <Heading1>Interrogatoires d'Annelin Boulay</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803335/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803341/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803335;1</Heading4>
+        <Heading5>B_168_15-2-3_0001.jpg</Heading5>
+        <Heading6>B_168_15-2-3</Heading6>
+        <Heading7>Annelin Boulay</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1608-11-24T00:00:00+00:00</Heading9>
+        <Heading10>1608-11-25T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-2-3_0001.jpg</Heading11>
+        <Heading12>B 168/15-2.3 p.1</Heading12>
+        <Heading13>B 168/15-2.3</Heading13>
+    </row>
+    <row>
+        <Heading0>49</Heading0>
+        <Heading1>Interrogatoires d'Annelin Boulay</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803335/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803282/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803335;2</Heading4>
+        <Heading5>B_168_15-2-3_0002.jpg</Heading5>
+        <Heading6>B_168_15-2-3</Heading6>
+        <Heading7>Annelin Boulay</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1608-11-24T00:00:00+00:00</Heading9>
+        <Heading10>1608-11-25T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-2-3_0002.jpg</Heading11>
+        <Heading12>B 168/15-2.3 p.2</Heading12>
+        <Heading13>B 168/15-2.3</Heading13>
+    </row>
+    <row>
+        <Heading0>52</Heading0>
+        <Heading1>Interrogatoires d'Annelin Boulay</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803335/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803484/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803335;3</Heading4>
+        <Heading5>B_168_15-2-3_0003.jpg</Heading5>
+        <Heading6>B_168_15-2-3</Heading6>
+        <Heading7>Annelin Boulay</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1608-11-24T00:00:00+00:00</Heading9>
+        <Heading10>1608-11-25T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-2-3_0003.jpg</Heading11>
+        <Heading12>B 168/15-2.3 p.3</Heading12>
+        <Heading13>B 168/15-2.3</Heading13>
+    </row>
+    <row>
+        <Heading0>51</Heading0>
+        <Heading1>Interrogatoires d'Annelin Boulay</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803335/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803402/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803335;4</Heading4>
+        <Heading5>B_168_15-2-3_0004.jpg</Heading5>
+        <Heading6>B_168_15-2-3</Heading6>
+        <Heading7>Annelin Boulay</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1608-11-24T00:00:00+00:00</Heading9>
+        <Heading10>1608-11-25T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-2-3_0004.jpg</Heading11>
+        <Heading12>B 168/15-2.3 p.4</Heading12>
+        <Heading13>B 168/15-2.3</Heading13>
+    </row>
+    <row>
+        <Heading0>48</Heading0>
+        <Heading1>Urphède d'Annelin Boulay</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803403/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803507/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803403;1</Heading4>
+        <Heading5>B_168_15-2-4_0001.jpg</Heading5>
+        <Heading6>B_168_15-2-4</Heading6>
+        <Heading7>Annelin Boulay</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1608-12-05T00:00:00+00:00</Heading9>
+        <Heading10>1608-12-05T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-2-4_0001.jpg</Heading11>
+        <Heading12>B 168/15-2.4 p.1</Heading12>
+        <Heading13>B 168/15-2.4</Heading13>
+    </row>
+    <row>
+        <Heading0>46</Heading0>
+        <Heading1>Urphède d'Annelin Boulay</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803403/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803400/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803403;2</Heading4>
+        <Heading5>B_168_15-2-4_0002.jpg</Heading5>
+        <Heading6>B_168_15-2-4</Heading6>
+        <Heading7>Annelin Boulay</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1608-12-05T00:00:00+00:00</Heading9>
+        <Heading10>1608-12-05T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-2-4_0002.jpg</Heading11>
+        <Heading12>B 168/15-2.4 p.2</Heading12>
+        <Heading13>B 168/15-2.4</Heading13>
+    </row>
+    <row>
+        <Heading0>45</Heading0>
+        <Heading1>Urphède d'Annelin Boulay</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803403/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803460/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803403;3</Heading4>
+        <Heading5>B_168_15-2-4_0003.jpg</Heading5>
+        <Heading6>B_168_15-2-4</Heading6>
+        <Heading7>Annelin Boulay</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1608-12-05T00:00:00+00:00</Heading9>
+        <Heading10>1608-12-05T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-2-4_0003.jpg</Heading11>
+        <Heading12>B 168/15-2.4 p.3</Heading12>
+        <Heading13>B 168/15-2.4</Heading13>
+    </row>
+    <row>
+        <Heading0>47</Heading0>
+        <Heading1>Urphède d'Annelin Boulay</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803403/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803494/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803403;4</Heading4>
+        <Heading5>B_168_15-2-4_0004.jpg</Heading5>
+        <Heading6>B_168_15-2-4</Heading6>
+        <Heading7>Annelin Boulay</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1608-12-05T00:00:00+00:00</Heading9>
+        <Heading10>1608-12-05T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-2-4_0004.jpg</Heading11>
+        <Heading12>B 168/15-2.4 p.4</Heading12>
+        <Heading13>B 168/15-2.4</Heading13>
+    </row>
+    <row>
+        <Heading0>33</Heading0>
+        <Heading1>Informations levées contre Agathe Voélin (dépositions des témoins)</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803310/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803364/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803310;1</Heading4>
+        <Heading5>B_168_15-9-2_0001.jpg</Heading5>
+        <Heading6>B_168_15-9-2</Heading6>
+        <Heading7>Agathe Voélin</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1609-08-12T00:00:00+00:00</Heading9>
+        <Heading10>1609-08-12T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-9-2_0001.jpg</Heading11>
+        <Heading12>B 168/15-9.2 p.1</Heading12>
+        <Heading13>B 168/15-9.2</Heading13>
+    </row>
+    <row>
+        <Heading0>43</Heading0>
+        <Heading1>Informations levées contre Agathe Voélin (dépositions des témoins)</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803310/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803495/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803310;2</Heading4>
+        <Heading5>B_168_15-9-2_0002.jpg</Heading5>
+        <Heading6>B_168_15-9-2</Heading6>
+        <Heading7>Agathe Voélin</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1609-08-12T00:00:00+00:00</Heading9>
+        <Heading10>1609-08-12T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-9-2_0002.jpg</Heading11>
+        <Heading12>B 168/15-9.2 p.2</Heading12>
+        <Heading13>B 168/15-9.2</Heading13>
+    </row>
+    <row>
+        <Heading0>36</Heading0>
+        <Heading1>Informations levées contre Agathe Voélin (dépositions des témoins)</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803310/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803392/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803310;3</Heading4>
+        <Heading5>B_168_15-9-2_0003.jpg</Heading5>
+        <Heading6>B_168_15-9-2</Heading6>
+        <Heading7>Agathe Voélin</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1609-08-12T00:00:00+00:00</Heading9>
+        <Heading10>1609-08-12T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-9-2_0003.jpg</Heading11>
+        <Heading12>B 168/15-9.2 p.3</Heading12>
+        <Heading13>B 168/15-9.2</Heading13>
+    </row>
+    <row>
+        <Heading0>41</Heading0>
+        <Heading1>Informations levées contre Agathe Voélin (dépositions des témoins)</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803310/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803479/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803310;4</Heading4>
+        <Heading5>B_168_15-9-2_0004.jpg</Heading5>
+        <Heading6>B_168_15-9-2</Heading6>
+        <Heading7>Agathe Voélin</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1609-08-12T00:00:00+00:00</Heading9>
+        <Heading10>1609-08-12T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-9-2_0004.jpg</Heading11>
+        <Heading12>B 168/15-9.2 p.4</Heading12>
+        <Heading13>B 168/15-9.2</Heading13>
+    </row>
+    <row>
+        <Heading0>35</Heading0>
+        <Heading1>Informations levées contre Agathe Voélin (dépositions des témoins)</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803310/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803416/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803310;5</Heading4>
+        <Heading5>B_168_15-9-2_0005.jpg</Heading5>
+        <Heading6>B_168_15-9-2</Heading6>
+        <Heading7>Agathe Voélin</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1609-08-12T00:00:00+00:00</Heading9>
+        <Heading10>1609-08-12T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-9-2_0005.jpg</Heading11>
+        <Heading12>B 168/15-9.2 p.5</Heading12>
+        <Heading13>B 168/15-9.2</Heading13>
+    </row>
+    <row>
+        <Heading0>40</Heading0>
+        <Heading1>Informations levées contre Agathe Voélin (dépositions des témoins)</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803310/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803418/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803310;6</Heading4>
+        <Heading5>B_168_15-9-2_0006.jpg</Heading5>
+        <Heading6>B_168_15-9-2</Heading6>
+        <Heading7>Agathe Voélin</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1609-08-12T00:00:00+00:00</Heading9>
+        <Heading10>1609-08-12T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-9-2_0006.jpg</Heading11>
+        <Heading12>B 168/15-9.2 p.6</Heading12>
+        <Heading13>B 168/15-9.2</Heading13>
+    </row>
+    <row>
+        <Heading0>42</Heading0>
+        <Heading1>Informations levées contre Agathe Voélin (dépositions des témoins)</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803310/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803377/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803310;7</Heading4>
+        <Heading5>B_168_15-9-2_0007.jpg</Heading5>
+        <Heading6>B_168_15-9-2</Heading6>
+        <Heading7>Agathe Voélin</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1609-08-12T00:00:00+00:00</Heading9>
+        <Heading10>1609-08-12T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-9-2_0007.jpg</Heading11>
+        <Heading12>B 168/15-9.2 p.7</Heading12>
+        <Heading13>B 168/15-9.2</Heading13>
+    </row>
+    <row>
+        <Heading0>39</Heading0>
+        <Heading1>Informations levées contre Agathe Voélin (dépositions des témoins)</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803310/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803471/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803310;8</Heading4>
+        <Heading5>B_168_15-9-2_0008.jpg</Heading5>
+        <Heading6>B_168_15-9-2</Heading6>
+        <Heading7>Agathe Voélin</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1609-08-12T00:00:00+00:00</Heading9>
+        <Heading10>1609-08-12T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-9-2_0008.jpg</Heading11>
+        <Heading12>B 168/15-9.2 p.8</Heading12>
+        <Heading13>B 168/15-9.2</Heading13>
+    </row>
+    <row>
+        <Heading0>37</Heading0>
+        <Heading1>Informations levées contre Agathe Voélin (dépositions des témoins)</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803310/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803480/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803310;9</Heading4>
+        <Heading5>B_168_15-9-2_0009.jpg</Heading5>
+        <Heading6>B_168_15-9-2</Heading6>
+        <Heading7>Agathe Voélin</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1609-08-12T00:00:00+00:00</Heading9>
+        <Heading10>1609-08-12T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-9-2_0009.jpg</Heading11>
+        <Heading12>B 168/15-9.2 p.9</Heading12>
+        <Heading13>B 168/15-9.2</Heading13>
+    </row>
+    <row>
+        <Heading0>34</Heading0>
+        <Heading1>Informations levées contre Agathe Voélin (dépositions des témoins)</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803310/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803374/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803310;10</Heading4>
+        <Heading5>B_168_15-9-2_0010.jpg</Heading5>
+        <Heading6>B_168_15-9-2</Heading6>
+        <Heading7>Agathe Voélin</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1609-08-12T00:00:00+00:00</Heading9>
+        <Heading10>1609-08-12T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-9-2_0010.jpg</Heading11>
+        <Heading12>B 168/15-9.2 p.10</Heading12>
+        <Heading13>B 168/15-9.2</Heading13>
+    </row>
+    <row>
+        <Heading0>38</Heading0>
+        <Heading1>Informations levées contre Agathe Voélin (dépositions des témoins)</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803310/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803465/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803310;12</Heading4>
+        <Heading5>B_168_15-9-2_0012.jpg</Heading5>
+        <Heading6>B_168_15-9-2</Heading6>
+        <Heading7>Agathe Voélin</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1609-08-12T00:00:00+00:00</Heading9>
+        <Heading10>1609-08-12T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-9-2_0012.jpg</Heading11>
+        <Heading12>B 168/15-9.2 p.11</Heading12>
+        <Heading13>B 168/15-9.2</Heading13>
+    </row>
+    <row>
+        <Heading0>21</Heading0>
+        <Heading1>Aveux définitifs d'Agathe Voélin – résumés de ses aveux des 17, 20, 26 et 31 août </Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803426/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803508/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803426;1</Heading4>
+        <Heading5>B_168_15-9-4_0001.jpg</Heading5>
+        <Heading6>B_168_15-9-4</Heading6>
+        <Heading7>Agathe Voélin</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1609-09-01T00:00:00+00:00</Heading9>
+        <Heading10>1609-09-01T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-9-4_0001.jpg</Heading11>
+        <Heading12>B 168/15-9.4 p.1</Heading12>
+        <Heading13>B 168/15-9.4</Heading13>
+    </row>
+    <row>
+        <Heading0>19</Heading0>
+        <Heading1>Aveux définitifs d'Agathe Voélin – résumés de ses aveux des 17, 20, 26 et 31 août </Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803426/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803438/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803426;2</Heading4>
+        <Heading5>B_168_15-9-4_0002.jpg</Heading5>
+        <Heading6>B_168_15-9-4</Heading6>
+        <Heading7>Agathe Voélin</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1609-09-01T00:00:00+00:00</Heading9>
+        <Heading10>1609-09-01T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-9-4_0002.jpg</Heading11>
+        <Heading12>B 168/15-9.4 p.2</Heading12>
+        <Heading13>B 168/15-9.4</Heading13>
+    </row>
+    <row>
+        <Heading0>20</Heading0>
+        <Heading1>Aveux définitifs d'Agathe Voélin – résumés de ses aveux des 17, 20, 26 et 31 août </Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803426/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803412/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803426;3</Heading4>
+        <Heading5>B_168_15-9-4_0003.jpg</Heading5>
+        <Heading6>B_168_15-9-4</Heading6>
+        <Heading7>Agathe Voélin</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1609-09-01T00:00:00+00:00</Heading9>
+        <Heading10>1609-09-01T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-9-4_0003.jpg</Heading11>
+        <Heading12>B 168/15-9.4 p.3</Heading12>
+        <Heading13>B 168/15-9.4</Heading13>
+    </row>
+    <row>
+        <Heading0>18</Heading0>
+        <Heading1>Aveux définitifs d'Agathe Voélin – résumés de ses aveux des 17, 20, 26 et 31 août </Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803426/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803417/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803426;4</Heading4>
+        <Heading5>B_168_15-9-4_0004.jpg</Heading5>
+        <Heading6>B_168_15-9-4</Heading6>
+        <Heading7>Agathe Voélin</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1609-09-01T00:00:00+00:00</Heading9>
+        <Heading10>1609-09-01T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-9-4_0004.jpg</Heading11>
+        <Heading12>B 168/15-9.4 p.4</Heading12>
+        <Heading13>B 168/15-9.4</Heading13>
+    </row>
+    <row>
+        <Heading0>53</Heading0>
+        <Heading1>Aveux définitifs d'Aignelatte Thiebault résumant ses aveux des 18, 20, 26 et 31 août</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803441/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803361/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803441;1</Heading4>
+        <Heading5>B_168_15-10-3_0001.jpg</Heading5>
+        <Heading6>B_168_15-10-3</Heading6>
+        <Heading7>Aignelatte Thiebault</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1609-09-01T00:00:00+00:00</Heading9>
+        <Heading10>1609-09-01T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-10-3_0001.jpg</Heading11>
+        <Heading12>B 168/15-10.3 p.1</Heading12>
+        <Heading13>B 168/15-10.3</Heading13>
+    </row>
+    <row>
+        <Heading0>54</Heading0>
+        <Heading1>Aveux définitifs d'Aignelatte Thiebault résumant ses aveux des 18, 20, 26 et 31 août</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803441/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803486/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803441;2</Heading4>
+        <Heading5>B_168_15-10-3_0002.jpg</Heading5>
+        <Heading6>B_168_15-10-3</Heading6>
+        <Heading7>Aignelatte Thiebault</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1609-09-01T00:00:00+00:00</Heading9>
+        <Heading10>1609-09-01T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-10-3_0002.jpg</Heading11>
+        <Heading12>B 168/15-10.3 p.2</Heading12>
+        <Heading13>B 168/15-10.3</Heading13>
+    </row>
+    <row>
+        <Heading0>55</Heading0>
+        <Heading1>Aveux définitifs d'Aignelatte Thiebault résumant ses aveux des 18, 20, 26 et 31 août</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803441/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803501/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803441;3</Heading4>
+        <Heading5>B_168_15-10-3_0003.jpg</Heading5>
+        <Heading6>B_168_15-10-3</Heading6>
+        <Heading7>Aignelatte Thiebault</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1609-09-01T00:00:00+00:00</Heading9>
+        <Heading10>1609-09-01T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-10-3_0003.jpg</Heading11>
+        <Heading12>B 168/15-10.3 p.3</Heading12>
+        <Heading13>B 168/15-10.3</Heading13>
+    </row>
+    <row>
+        <Heading0>56</Heading0>
+        <Heading1>Aveux définitifs d'Aignelatte Thiebault résumant ses aveux des 18, 20, 26 et 31 août</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803441/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803421/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803441;4</Heading4>
+        <Heading5>B_168_15-10-3_0004.jpg</Heading5>
+        <Heading6>B_168_15-10-3</Heading6>
+        <Heading7>Aignelatte Thiebault</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1609-09-01T00:00:00+00:00</Heading9>
+        <Heading10>1609-09-01T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-10-3_0004.jpg</Heading11>
+        <Heading12>B 168/15-10.3 p.4</Heading12>
+        <Heading13>B 168/15-10.3</Heading13>
+    </row>
+    <row>
+        <Heading0>44</Heading0>
+        <Heading1>Résumé des griefs contre Adelheid Bourquin et Alix Rossel</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803458/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803362/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803458;1</Heading4>
+        <Heading5>B_168_15-23-1_0001.jpg</Heading5>
+        <Heading6>B_168_15-23-1</Heading6>
+        <Heading7>Adelheid Bourquin et Alix Rossel</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>- d-sT00:00:00+00:00</Heading9>
+        <Heading10>- d-sT23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-23-1_0001.jpg</Heading11>
+        <Heading12>B 168/15-23.1 p.1</Heading12>
+        <Heading13>B 168/15-23.1</Heading13>
+    </row>
+    <row>
+        <Heading0>2</Heading0>
+        <Heading1>Interrogatoires d'Adelheid Bourquin</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803343/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803347/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803343;1</Heading4>
+        <Heading5>B_168_15-23-2_0001.jpg</Heading5>
+        <Heading6>B_168_15-23-2</Heading6>
+        <Heading7>Adelheid Bourquin</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1610-05-17T00:00:00+00:00</Heading9>
+        <Heading10>1610-05-27T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-23-2_0001.jpg</Heading11>
+        <Heading12>B 168/15-23.2 p.1</Heading12>
+        <Heading13>B 168/15-23.2</Heading13>
+    </row>
+    <row>
+        <Heading0>0</Heading0>
+        <Heading1>Interrogatoires d'Adelheid Bourquin</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803343/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803466/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803343;2</Heading4>
+        <Heading5>B_168_15-23-2_0002.jpg</Heading5>
+        <Heading6>B_168_15-23-2</Heading6>
+        <Heading7>Adelheid Bourquin</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1610-05-17T00:00:00+00:00</Heading9>
+        <Heading10>1610-05-27T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-23-2_0002.jpg</Heading11>
+        <Heading12>B 168/15-23.2 p.2</Heading12>
+        <Heading13>B 168/15-23.2</Heading13>
+    </row>
+    <row>
+        <Heading0>1</Heading0>
+        <Heading1>Interrogatoires d'Adelheid Bourquin</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803343/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803336/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803343;3</Heading4>
+        <Heading5>B_168_15-23-2_0003.jpg</Heading5>
+        <Heading6>B_168_15-23-2</Heading6>
+        <Heading7>Adelheid Bourquin</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1610-05-17T00:00:00+00:00</Heading9>
+        <Heading10>1610-05-27T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-23-2_0003.jpg</Heading11>
+        <Heading12>B 168/15-23.2 p.3</Heading12>
+        <Heading13>B 168/15-23.2</Heading13>
+    </row>
+    <row>
+        <Heading0>3</Heading0>
+        <Heading1>Interrogatoires d'Adelheid Bourquin</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803343/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803346/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803343;4</Heading4>
+        <Heading5>B_168_15-23-2_0004.jpg</Heading5>
+        <Heading6>B_168_15-23-2</Heading6>
+        <Heading7>Adelheid Bourquin</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1610-05-17T00:00:00+00:00</Heading9>
+        <Heading10>1610-05-27T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-23-2_0004.jpg</Heading11>
+        <Heading12>B 168/15-23.2 p.4</Heading12>
+        <Heading13>B 168/15-23.2</Heading13>
+    </row>
+    <row>
+        <Heading0>31</Heading0>
+        <Heading1>Aveux définitifs d'Adelheid Bourquin</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803363/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803425/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803363;1</Heading4>
+        <Heading5>B_168_15-23-3_0001.jpg</Heading5>
+        <Heading6>B_168_15-23-3</Heading6>
+        <Heading7>Adelheid Bourquin</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1610-05-27T00:00:00+00:00</Heading9>
+        <Heading10>1610-05-27T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-23-3_0001.jpg</Heading11>
+        <Heading12>B 168/15-23.3 p.1</Heading12>
+        <Heading13>B 168/15-23.3</Heading13>
+    </row>
+    <row>
+        <Heading0>32</Heading0>
+        <Heading1>Aveux définitifs d'Adelheid Bourquin</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803363/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803472/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803363;2</Heading4>
+        <Heading5>B_168_15-23-3_0002.jpg</Heading5>
+        <Heading6>B_168_15-23-3</Heading6>
+        <Heading7>Adelheid Bourquin</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1610-05-27T00:00:00+00:00</Heading9>
+        <Heading10>1610-05-27T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-23-3_0002.jpg</Heading11>
+        <Heading12>B 168/15-23.3 p.2</Heading12>
+        <Heading13>B 168/15-23.3</Heading13>
+    </row>
+    <row>
+        <Heading0>29</Heading0>
+        <Heading1>Aveux définitifs d'Adelheid Bourquin</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803363/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803437/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803363;3</Heading4>
+        <Heading5>B_168_15-23-3_0003.jpg</Heading5>
+        <Heading6>B_168_15-23-3</Heading6>
+        <Heading7>Adelheid Bourquin</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1610-05-27T00:00:00+00:00</Heading9>
+        <Heading10>1610-05-27T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-23-3_0003.jpg</Heading11>
+        <Heading12>B 168/15-23.3 p.3</Heading12>
+        <Heading13>B 168/15-23.3</Heading13>
+    </row>
+    <row>
+        <Heading0>30</Heading0>
+        <Heading1>Aveux définitifs d'Adelheid Bourquin</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803363/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803342/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803363;4</Heading4>
+        <Heading5>B_168_15-23-3_0004.jpg</Heading5>
+        <Heading6>B_168_15-23-3</Heading6>
+        <Heading7>Adelheid Bourquin</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1610-05-27T00:00:00+00:00</Heading9>
+        <Heading10>1610-05-27T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-23-3_0004.jpg</Heading11>
+        <Heading12>B 168/15-23.3 p.4</Heading12>
+        <Heading13>B 168/15-23.3</Heading13>
+    </row>
+    <row>
+        <Heading0>25</Heading0>
+        <Heading1>Interrogatoires d'Alix Rossel</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803475/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803509/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803475;1</Heading4>
+        <Heading5>B_168_15-23-4_0001.jpg</Heading5>
+        <Heading6>B_168_15-23-4</Heading6>
+        <Heading7>Alix Rossel</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1610-05-17T00:00:00+00:00</Heading9>
+        <Heading10>1610-05-27T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-23-4_0001.jpg</Heading11>
+        <Heading12>B 168/15-23.4 p.1</Heading12>
+        <Heading13>B 168/15-23.4</Heading13>
+    </row>
+    <row>
+        <Heading0>26</Heading0>
+        <Heading1>Interrogatoires d'Alix Rossel</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803475/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803321/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803475;2</Heading4>
+        <Heading5>B_168_15-23-4_0002.jpg</Heading5>
+        <Heading6>B_168_15-23-4</Heading6>
+        <Heading7>Alix Rossel</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1610-05-17T00:00:00+00:00</Heading9>
+        <Heading10>1610-05-27T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-23-4_0002.jpg</Heading11>
+        <Heading12>B 168/15-23.4 p.2</Heading12>
+        <Heading13>B 168/15-23.4</Heading13>
+    </row>
+    <row>
+        <Heading0>28</Heading0>
+        <Heading1>Interrogatoires d'Alix Rossel</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803475/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803368/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803475;3</Heading4>
+        <Heading5>B_168_15-23-4_0003.jpg</Heading5>
+        <Heading6>B_168_15-23-4</Heading6>
+        <Heading7>Alix Rossel</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1610-05-17T00:00:00+00:00</Heading9>
+        <Heading10>1610-05-27T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-23-4_0003.jpg</Heading11>
+        <Heading12>B 168/15-23.4 p.3</Heading12>
+        <Heading13>B 168/15-23.4</Heading13>
+    </row>
+    <row>
+        <Heading0>27</Heading0>
+        <Heading1>Interrogatoires d'Alix Rossel</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803475/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803330/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803475;4</Heading4>
+        <Heading5>B_168_15-23-4_0004.jpg</Heading5>
+        <Heading6>B_168_15-23-4</Heading6>
+        <Heading7>Alix Rossel</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1610-05-17T00:00:00+00:00</Heading9>
+        <Heading10>1610-05-27T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-23-4_0004.jpg</Heading11>
+        <Heading12>B 168/15-23.4 p.4</Heading12>
+        <Heading13>B 168/15-23.4</Heading13>
+    </row>
+    <row>
+        <Heading0>22</Heading0>
+        <Heading1>Aveux définitifs d'Alix Rossel</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803405/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803286/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803405;1</Heading4>
+        <Heading5>B_168_15-23-5_0001.jpg</Heading5>
+        <Heading6>B_168_15-23-5</Heading6>
+        <Heading7>Alix Rossel</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1610-05-27T00:00:00+00:00</Heading9>
+        <Heading10>1610-05-27T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-23-5_0001.jpg</Heading11>
+        <Heading12>B 168/15-23.5 p.1</Heading12>
+        <Heading13>B 168/15-23.5</Heading13>
+    </row>
+    <row>
+        <Heading0>23</Heading0>
+        <Heading1>Aveux définitifs d'Alix Rossel</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803405/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803502/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803405;2</Heading4>
+        <Heading5>B_168_15-23-5_0002.jpg</Heading5>
+        <Heading6>B_168_15-23-5</Heading6>
+        <Heading7>Alix Rossel</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1610-05-27T00:00:00+00:00</Heading9>
+        <Heading10>1610-05-27T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-23-5_0002.jpg</Heading11>
+        <Heading12>B 168/15-23.5 p.2</Heading12>
+        <Heading13>B 168/15-23.5</Heading13>
+    </row>
+    <row>
+        <Heading0>24</Heading0>
+        <Heading1>Aveux définitifs d'Alix Rossel</Heading1>
+        <Heading2>https://iiif.unige.ch/dhportal/ug27803405/manifest</Heading2>
+        <Heading3>https://iiif.unige.ch/iiif/2/fedora_ug27803278/full/full/0/default.jpg</Heading3>
+        <Heading4>https://iiif.unige.ch/mirador/ug27803405;3</Heading4>
+        <Heading5>B_168_15-23-5_0003.jpg</Heading5>
+        <Heading6>B_168_15-23-5</Heading6>
+        <Heading7>Alix Rossel</Heading7>
+        <Heading8>Henri Farine</Heading8>
+        <Heading9>1610-05-27T00:00:00+00:00</Heading9>
+        <Heading10>1610-05-27T23:59:59+00:00</Heading10>
+        <Heading11>B_168_15-23-5_0003.jpg</Heading11>
+        <Heading12>B 168/15-23.5 p.3</Heading12>
+        <Heading13>B 168/15-23.5</Heading13>
+    </row>
+</root>

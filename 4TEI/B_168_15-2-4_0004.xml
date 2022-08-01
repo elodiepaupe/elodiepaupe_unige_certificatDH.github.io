@@ -1,0 +1,146 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#">
+   <teiHeader xml:lang="fr">
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <editionStmt>
+            <edition>Version électronique TEI des procédures criminelles de la principauté épiscopale de Bâle</edition>
+            <respStmt>
+               <name xml:id="EP">Élodie Paupe</name>
+               <resp>Encodage</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Archives de l'ancien Évêché de Bâle</authority>
+            <address>
+               <addrLine>rue des Annonciades 10</addrLine>
+               <addrLine>2900 Porrentruy</addrLine>
+               <addrLine>www.aaeb.ch</addrLine>
+            </address>
+            <availability status="restricted" n="CC-BY-NC-SA">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+               <p>Creative Commons Attribution 4.0 CC BY-NC-SA 4.0 FR</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Porrentruy</settlement>
+                  <repository>Archives de l'ancien Évêché de Bâle</repository>
+                  <idno type="cote"/>
+                  <idno type="url">https://archives-aaeb.jura.ch/detail.aspx?ID=223582</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab source="https://github.com/aaeb-porrentruy/corpus_prevot_farine_fr/blob/main/README.md">Les normes de transcription sont disponibles en ligne.</ab>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Moyen français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-07-31" who="#EP">Création du fichier TEI à partir des sources alto</change>
+      </revisionDesc>
+   </teiHeader>
+   <sourceDoc xml:id="transcription">
+      <surface xml:id="B_168_15-2-4_0004">
+         <graphic url=""/>
+         <zone xml:id="eSc_textblock_8196714d"
+               type="segmontoZone"
+               corresp="MainZone"
+               n="1"
+               points="2374,2219 2427,2389 2201,2535 1606,2495 1632,2379 1579,2219 1659,2166 "
+               source="/1579,2166,848,369/full/0/default.jpg">
+            <zone xml:id="eSc_line_96ea02b0"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="2"
+                  points="1619,2303 1609,2246 2367,2233 2377,2289 2384,2309 2364,2329 2364,2332 2361,2332 2358,2332 2354,2332 2261,2316 2248,2313 2241,2316 2211,2329 2208,2329 2205,2329 2095,2319 2035,2316 2022,2323 2002,2339 1998,2339 1995,2339 1992,2339 1988,2339 1935,2326 1905,2319 1862,2329 1809,2342 1805,2342 1802,2342 1616,2336 "
+                  source="/1609,2233,775,109/full/0/default.jpg">
+               <path n="2"
+                     xml:id="eSc_line_96ea02b0_baseline_2"
+                     type="baseline"
+                     points="1622,2306 2378,2293 "/>
+               <line xml:id="eSc_line_96ea02b0_ligne_2">Urphed de Annelin</line>
+            </zone>
+            <zone xml:id="eSc_line_f1940c12"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="3"
+                  points="1646,2389 1642,2316 1812,2319 1855,2313 1942,2296 1945,2296 2015,2313 2038,2316 2055,2309 2108,2293 2111,2293 2115,2293 2195,2309 2198,2309 2238,2289 2241,2289 2244,2289 2404,2309 2411,2376 2407,2409 2224,2426 2221,2426 2161,2416 2028,2396 1918,2416 1915,2416 1835,2402 1789,2422 1785,2422 1782,2422 1706,2409 1649,2429 "
+                  source="/1642,2289,769,140/full/0/default.jpg">
+               <path n="3"
+                     xml:id="eSc_line_f1940c12_baseline_3"
+                     type="baseline"
+                     points="1646,2389 2411,2376 "/>
+               <line xml:id="eSc_line_f1940c12_ligne_3">vefve Pierrat vauthier</line>
+            </zone>
+            <zone xml:id="eSc_line_40074720"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="4"
+                  points="1692,2465 1686,2392 2191,2372 2201,2445 2201,2535 2101,2542 2098,2542 2095,2542 2091,2542 2065,2525 2032,2505 2005,2522 1965,2542 1962,2542 1958,2542 1955,2542 1859,2509 1809,2492 1692,2492 "
+                  source="/1686,2372,515,170/full/0/default.jpg">
+               <path n="4"
+                     xml:id="eSc_line_40074720_baseline_4"
+                     type="baseline"
+                     points="1695,2468 2205,2449 "/>
+               <line xml:id="eSc_line_40074720_ligne_4">de Courthedoubs</line>
+            </zone>
+         </zone>
+         <zone xml:id="eSc_textblock_bf9f92c5"
+               type="segmontoZone"
+               corresp="NumberingZone:page"
+               n="2"
+               points="2492,3816 2492,3687 2380,3687 2380,3816 "
+               source="/2380,3687,112,129/full/0/default.jpg">
+            <zone xml:id="eSc_line_2ee9b3b7"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="2"
+                  points="2417,3785 2417,3688 2477,3692 2477,3788 2467,3851 2407,3831 "
+                  source="/2407,3688,70,163/full/0/default.jpg">
+               <path n="2"
+                     xml:id="eSc_line_2ee9b3b7_baseline_2"
+                     type="baseline"
+                     points="2419,3786 2479,3790 "/>
+               <line xml:id="eSc_line_2ee9b3b7_ligne_2">4</line>
+            </zone>
+         </zone>
+      </surface>
+   </sourceDoc>
+   <text>
+      <body>
+         <div n="B_168_15-2-4_0004" type="page">
+            <pb n="B_168_15-2-4_0004"/>
+            <div type="decoration"/>
+            <div type="texte_principal">
+               <div type="MainZone">
+                  <lg xml:id="eSc_textblock_8196714d_lg_1">
+                     <l ana="DefaultLine">Urphed de Annelin</l>
+                     <l ana="DefaultLine">vefve Pierrat vauthier</l>
+                     <l ana="DefaultLine">de Courthedoubs</l>
+                  </lg>
+               </div>
+            </div>
+            <div type="notes_marginales">
+               <div type="notes_marginales_auteur"/>
+               <div type="notes_marginales_archives"/>
+               <div type="notes_marginales_archives">
+                  <div type="NumberingZone:page">
+                     <lg xml:id="eSc_textblock_bf9f92c5_lg_1">
+                        <l ana="DefaultLine">4</l>
+                     </lg>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

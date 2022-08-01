@@ -1,0 +1,3809 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Projet Crimes et Châtiments</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="../style/feuilledestyle.css">
+    <link rel="stylesheet" href="../style/tableau.css">
+    <link rel="stylesheet" href="../style/sorcieres.css">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Bâle, procédures criminelles, sorcellerie, sorcière, évêché de Bâle"/>
+        <meta name="description" content="Procédures criminelles de la principauté épiscopale de Bâle (16-17e siècles)"/>
+        <meta name="author" content="Elodie Paupe"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+</head>
+
+<body>
+    <!-- Menus -->
+    <header>
+        <!-- En-tête du site des aaeb: 
+              <img id="logo" src="http://aaeb.ch/htdocs/images/header.jpg"/> -->
+        <a href="../index.html"><img id="logo" src="photos/logo_bis.png" /></a>
+        <nav id="primary_nav_wrap">
+            <ul>
+                <li class="current-menu-item"><a href="../index.html">Accueil</a></li>
+                <li><a href="#">Description du projet</a>
+                    <ul>
+                        <li><a href="description_projet.html">"Crimes et Châtiments"</a></li>
+                        <li><a href="calendrier.html">Calendrier du projet</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Ressources</a>
+                    <ul>
+                        <li><a href="modele_HTR.html">Modèles HTR</a></li>
+                        <li><a href="bdd_cod205a.html">Base de données: Cod.205a</a></li>
+                        <li><a href="bdd_sorciere.html">Base de données: socières</a></li>
+                        <li><a href="abecedaire.html">Abécédaire</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Accéder aux sources</a>
+                    <ul>
+                        <li><a href="lecture.html">Lire les sources</a></li>
+                        <li><a href="#">Infographie</a>
+                    </ul>
+                </li>
+                <li><a href="liens.html">Liens</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+            <!-- https://gitlab.com/ErwanDelory/tableau-interactif/-/blob/master/index.html pour le tableau qui n'a pas marché (impossible de trier)
+            http://www.trucsweb.com/tutoriels/javascript/tableau-tri/ pour la seconde solution testée.-->
+
+            <h1>Tableau des condamnations extraites du registre des sentences criminelles (<a href="https://archives-aaeb.jura.ch/detail.aspx?id=199441">Cod. 205A</a>)
+                
+            </h1>
+
+            <p style="margin:50px 0">
+                <a href="https://docs.google.com/spreadsheets/d/1upZi_r5nEYM11R6jxL08fTpgD9gfs6FnEaXVm2JdfiM/edit?usp=sharing">
+                    <button class="w3-button w3-white w3-border w3-border-blue w3-round-large w3-hover-blue w3-small" style="float:right">Télécharger le fichier</button>
+                </a>
+                Cod. 205A: Registre des sentences criminelles, de 1656 à 1717 <br/>
+                Le tableau ci-dessous est une version légèrement allégée d'un tableau plus complet à télécharger. 
+            </p>
+            <div id="tab">
+            <table class="avectri tableau">
+                <thead>
+                        <tr>
+                            <th>Nom</th>
+                                <th>Prénom</th>
+                                    <th>Commune</th>
+                                        <th>Bailliage, région, canton…</th>
+                                            <th data-tri="1" class="selection" data-type="num">Année</th>
+                                                <th>Délit 1</th>
+                                                    <th>Délit 2 (plus grave)</th>
+                                                        <th>Sentence (peine la plus grave)</th>
+                                                            <th>Langue</th>
+                                                                <th>Cote</th>
+                          </tr>
+                </thead>
+
+                <tbody>
+                      <tr>
+                        <td>Erbel</td>
+                        <td>Peter</td>
+                        <td></td>
+                        <td>Berne</td>
+                        <td>1656</td>
+                        <td>insultes contre le prince</td>
+                        <td>Propos séditieux</td>
+                        <td>s'engage à quitter le pays</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 1</td>
+                      </tr>
+                      <tr>
+                        <td>Burckhardt</td>
+                        <td>Melchior</td>
+                        <td>La Scheulte</td>
+                        <td>Moutier-Grandval</td>
+                        <td>1656</td>
+                        <td>Fornication</td>
+                        <td></td>
+                        <td>bannissement perpétuel de la
+                          seigneurie</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 1</td>
+                      </tr>
+                      <tr>
+                        <td>Chastellain
+                          Moissenat</td>
+                        <td>Adrian</td>
+                        <td>Charquemont</td>
+                        <td>Franche-Comté</td>
+                        <td>1657</td>
+                        <td>Meurtre</td>
+                        <td></td>
+                        <td></td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 2-3</td>
+                      </tr>
+                      <tr>
+                        <td>Gérard</td>
+                        <td>Neze (Agnès)</td>
+                        <td>Corgémont</td>
+                        <td>Erguël</td>
+                        <td>1657</td>
+                        <td>Adultère</td>
+                        <td>inceste</td>
+                        <td>exposition publique</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 3</td>
+                      </tr>
+                      <tr>
+                        <td>Triponel
+                          (Triponez)</td>
+                        <td>Adam</td>
+                        <td>Les Bois</td>
+                        <td>Franches-Montagnes</td>
+                        <td>1657</td>
+                        <td>Violence avec arme</td>
+                        <td></td>
+                        <td></td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 3-4</td>
+                      </tr>
+                      <tr>
+                        <td>Bidenne</td>
+                        <td>Pierre</td>
+                        <td>Lugnez</td>
+                        <td>Ajoie</td>
+                        <td>1657</td>
+                        <td>Adultère</td>
+                        <td>inceste</td>
+                        <td>prison</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 4</td>
+                      </tr>
+                      <tr>
+                        <td>Reton</td>
+                        <td>Marguerite</td>
+                        <td>Concise</td>
+                        <td>Grandson</td>
+                        <td>1657</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>mort</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 4</td>
+                      </tr>
+                      <tr>
+                        <td>Chiquet</td>
+                        <td>Richard</td>
+                        <td>Cornol</td>
+                        <td>Ajoie</td>
+                        <td>1659</td>
+                        <td>Incendie</td>
+                        <td></td>
+                        <td>mort (feu)</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 5</td>
+                      </tr>
+                      <tr>
+                        <td>Québatte</td>
+                        <td>Henry</td>
+                        <td>Saignelégier</td>
+                        <td>Franches-Montagnes</td>
+                        <td>1660</td>
+                        <td>Homicide</td>
+                        <td></td>
+                        <td>mort</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 5-6</td>
+                      </tr>
+                      <tr>
+                        <td>Mojean</td>
+                        <td>Catherine</td>
+                        <td>Sonceboz</td>
+                        <td>Erguël</td>
+                        <td>1664</td>
+                        <td>Infanticide</td>
+                        <td></td>
+                        <td>mort (décapitation)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 6</td>
+                      </tr>
+                      <tr>
+                        <td>Chappatte</td>
+                        <td>Jean Jacques</td>
+                        <td>Saignelégier</td>
+                        <td>Franches-Montagnes</td>
+                        <td>1664</td>
+                        <td>Vol</td>
+                        <td>assassinat</td>
+                        <td>mort (roue)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 7-8</td>
+                      </tr>
+                      <tr>
+                        <td>Frésard</td>
+                        <td>Antoine</td>
+                        <td>Saignelégier</td>
+                        <td>Franches-Montagnes</td>
+                        <td>1664</td>
+                        <td>Vol</td>
+                        <td>assassinat</td>
+                        <td>mort (roue)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 8</td>
+                      </tr>
+                      <tr>
+                        <td>Gossin</td>
+                        <td>Adam</td>
+                        <td>Crémines</td>
+                        <td>Moutier-Grandval</td>
+                        <td>1666</td>
+                        <td>Assassinat</td>
+                        <td></td>
+                        <td>mort (roue)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 9</td>
+                      </tr>
+                      <tr>
+                        <td>Bacon</td>
+                        <td>Jean Pierre</td>
+                        <td></td>
+                        <td></td>
+                        <td>1666</td>
+                        <td>Assassinat (complicité de)</td>
+                        <td></td>
+                        <td>mort (roue)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 9</td>
+                      </tr>
+                      <tr>
+                        <td>Vöeblet
+                          (Voiblet)</td>
+                        <td>Hansoz</td>
+                        <td>Plagne</td>
+                        <td>Erguël</td>
+                        <td>1666</td>
+                        <td>Vol</td>
+                        <td>prostitution de sa femme</td>
+                        <td>mort (pendaison)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 10</td>
+                      </tr>
+                      <tr>
+                        <td>Vöeblet
+                          (Voiblet)</td>
+                        <td>Magdelon</td>
+                        <td>Plagne</td>
+                        <td>Erguël</td>
+                        <td>1666</td>
+                        <td>Adultère</td>
+                        <td></td>
+                        <td>bannissement temporaire de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 10</td>
+                      </tr>
+                      <tr>
+                        <td>Ramser</td>
+                        <td>Anne</td>
+                        <td>Pieterlen</td>
+                        <td>Erguël</td>
+                        <td>1666</td>
+                        <td>Sorcellerie</td>
+                        <td></td>
+                        <td>mort (décapitation puis feu)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 11</td>
+                      </tr>
+                      <tr>
+                        <td>Sütterlin</td>
+                        <td>Agathe</td>
+                        <td>Ederswiler</td>
+                        <td>Delémont</td>
+                        <td>1667</td>
+                        <td>Infanticide</td>
+                        <td>enfant illégitime</td>
+                        <td>mort (décapitation)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 11</td>
+                      </tr>
+                      <tr>
+                        <td>Begueré</td>
+                        <td>Marguerite</td>
+                        <td>Lamboing</td>
+                        <td>Montagne de Diesse</td>
+                        <td>1667</td>
+                        <td>Sorcellerie</td>
+                        <td></td>
+                        <td>mort (décapitation puis feu)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 12</td>
+                      </tr>
+                      <tr>
+                        <td>Montavon</td>
+                        <td>Henry</td>
+                        <td>Montavon</td>
+                        <td>Delémont</td>
+                        <td>1668</td>
+                        <td>Meurtre</td>
+                        <td></td>
+                        <td>assignation à résidence</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 12-13</td>
+                      </tr>
+                      <tr>
+                        <td>Bruner</td>
+                        <td>Victor</td>
+                        <td ></td>
+                        <td>Soleure</td>
+                        <td>1668</td>
+                        <td>Inceste</td>
+                        <td>infanticide</td>
+                        <td>mort (roue)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 13-14</td>
+                      </tr>
+                      <tr>
+                        <td>Moser</td>
+                        <td>Marie</td>
+                        <td></td>
+                        <td>Soleure</td>
+                        <td>1668</td>
+                        <td>Adultère</td>
+                        <td></td>
+                        <td>bannissement temporaire de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 14</td>
+                      </tr>
+                      <tr>
+                        <td>Preste</td>
+                        <td>Jean</td>
+                        <td>Tavannes</td>
+                        <td>Moutier-Grandval</td>
+                        <td>1669</td>
+                        <td>Blasphème</td>
+                        <td></td>
+                        <td>langue percée</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 14-15</td>
+                      </tr>
+                      <tr>
+                        <td>Meister</td>
+                        <td>Friderich</td>
+                        <td></td>
+                        <td></td>
+                        <td>1669</td>
+                        <td>Violence avec arme</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 15</td>
+                      </tr>
+                      <tr>
+                        <td>Risoux</td>
+                        <td>Marie</td>
+                        <td>Môtier en Vully</td>
+                        <td>Fribourg</td>
+                        <td>1669</td>
+                        <td>Infanticide</td>
+                        <td></td>
+                        <td>mort</td>
+                        <td>Latin</td>
+                        <td>Cod. 205A p. 16</td>
+                      </tr>
+                      <tr>
+                        <td>Favergier</td>
+                        <td>Marie Madeleine</td>
+                        <td>Neuchâtel</td>
+                        <td>Neuchâtel</td>
+                        <td>1669</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 16</td>
+                      </tr>
+                      <tr>
+                        <td>Petterhans</td>
+                        <td>Marie</td>
+                        <td>Lignières</td>
+                        <td>Neuchâtel</td>
+                        <td>1669</td>
+                        <td>Adultère</td>
+                        <td>infanticide</td>
+                        <td>mort (la main gauche coupée puis
+                          la tête tranchée)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 17</td>
+                      </tr>
+                      <tr>
+                        <td>Gottenkhueni</td>
+                        <td>Clauss</td>
+                        <td>Schönenbuch</td>
+                        <td>Birseck</td>
+                        <td>1670</td>
+                        <td>Blasphème</td>
+                        <td></td>
+                        <td>langue percée</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 18</td>
+                      </tr>
+                      <tr>
+                        <td>Heilbrunner</td>
+                        <td>Eva</td>
+                        <td>Lützelflüh</td>
+                        <td>Berne</td>
+                        <td>1670</td>
+                        <td>Infanticide</td>
+                        <td></td>
+                        <td>mort</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 19</td>
+                      </tr>
+                      <tr>
+                        <td>Guenat</td>
+                        <td>Magdeleine</td>
+                        <td></td>
+                        <td>Franches-Montagnes</td>
+                        <td>1670</td>
+                        <td>Sorcellerie</td>
+                        <td></td>
+                        <td>mort (décapitation puis feu)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 19-21</td>
+                      </tr>
+                      <tr>
+                        <td>Maillard</td>
+                        <td>Jeannette</td>
+                        <td></td>
+                        <td>Franches-Montagnes</td>
+                        <td>1670</td>
+                        <td>Infanticide</td>
+                        <td>sorcellerie</td>
+                        <td>mort (décapitation puis feu)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 21-22</td>
+                      </tr>
+                      <tr>
+                        <td>Des
+                          Rouilles</td>
+                        <td>Jean Jacques</td>
+                        <td>Cully</td>
+                        <td>Pays de Vaud</td>
+                        <td>1670</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement temporaire de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 22-23</td>
+                      </tr>
+                      <tr>
+                        <td>Aubin</td>
+                        <td></td>
+                        <td>Fribourg</td>
+                        <td>Fribourg</td>
+                        <td>1670</td>
+                        <td>Adultère</td>
+                        <td>inceste</td>
+                        <td>exposition publique</td>
+                        <td>Latin</td>
+                        <td>Cod. 205A p. 23</td>
+                      </tr>
+                      <tr>
+                        <td>Tschann</td>
+                        <td>Else</td>
+                        <td>Matzendorf</td>
+                        <td>Soleure</td>
+                        <td>1670</td>
+                        <td>Adultère</td>
+                        <td>inceste</td>
+                        <td>exposition publique</td>
+                        <td>Latin</td>
+                        <td>Cod. 205A p. 23</td>
+                      </tr>
+                      <tr>
+                        <td>Lombard</td>
+                        <td>Marguerite</td>
+                        <td>Saint-Ursanne</td>
+                        <td>Ajoie</td>
+                        <td>1670</td>
+                        <td>Adultère</td>
+                        <td></td>
+                        <td>exposition publique</td>
+                        <td>Latin</td>
+                        <td>Cod. 205A p. 23</td>
+                      </tr>
+                      <tr>
+                        <td>Huguenin</td>
+                        <td>Elias</td>
+                        <td>Saint-Ursanne</td>
+                        <td>Ajoie</td>
+                        <td>1670</td>
+                        <td>Adultère</td>
+                        <td></td>
+                        <td>exposition publique</td>
+                        <td>Latin</td>
+                        <td>Cod. 205A p. 23</td>
+                      </tr>
+                      <tr>
+                        <td>Wuille</td>
+                        <td>Suzanne</td>
+                        <td></td>
+                        <td></td>
+                        <td>1670</td>
+                        <td>Inceste</td>
+                        <td></td>
+                        <td>exposition publique</td>
+                        <td>Latin</td>
+                        <td>Cod. 205A p. 24</td>
+                      </tr>
+                      <tr>
+                        <td>Rodé</td>
+                        <td>Henry</td>
+                        <td>Courgenay</td>
+                        <td>Ajoie</td>
+                        <td>1671</td>
+                        <td>Homicide</td>
+                        <td></td>
+                        <td>mort (décapitation)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 24</td>
+                      </tr>
+                      <tr>
+                        <td>Bornot</td>
+                        <td>Bonaventure</td>
+                        <td></td>
+                        <td></td>
+                        <td>1671</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>mort (pendaison)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 25</td>
+                      </tr>
+                      <tr>
+                        <td>Cloistier</td>
+                        <td>Jean</td>
+                        <td>Montclair près de Metz</td>
+                        <td>Lorraine</td>
+                        <td>1671</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 25</td>
+                      </tr>
+                      <tr>
+                        <td>Sanin</td>
+                        <td>Ursule</td>
+                        <td>Montet</td>
+                        <td>Fribourg</td>
+                        <td>1671</td>
+                        <td>Vol</td>
+                        <td>sacrilège</td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 25-26</td>
+                      </tr>
+                      <tr>
+                        <td>Gobat</td>
+                        <td>David</td>
+                        <td>Crémines</td>
+                        <td>Moutier-Grandval</td>
+                        <td>1672</td>
+                        <td>Propos séditieux</td>
+                        <td></td>
+                        <td>bannissement temporaire de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 26-27</td>
+                      </tr>
+                      <tr>
+                        <td>Ballichard
+                          (Belrichard)</td>
+                        <td>Richard</td>
+                        <td>Courtelary</td>
+                        <td>Erguël</td>
+                        <td>1673</td>
+                        <td>Homicide</td>
+                        <td></td>
+                        <td>prison et amende</td>
+                        <td>Latin</td>
+                        <td>Cod. 205A p. 27</td>
+                      </tr>
+                      <tr>
+                        <td>Quillerat</td>
+                        <td>Nicolas</td>
+                        <td>Saint-Ursanne</td>
+                        <td>Ajoie</td>
+                        <td>1673</td>
+                        <td>Adultère</td>
+                        <td>inceste</td>
+                        <td>prison et amende</td>
+                        <td>Latin</td>
+                        <td>Cod. 205A p. 27-28</td>
+                      </tr>
+                      <tr>
+                        <td>Beurnet
+                          (Brunet)</td>
+                        <td >Anne marie</td>
+                        <td>Saint-Ursanne</td>
+                        <td>Ajoie</td>
+                        <td>1673</td>
+                        <td>Adultère</td>
+                        <td>inceste</td>
+                        <td>exposition publique</td>
+                        <td>Latin</td>
+                        <td>Cod. 205A p. 27-28</td>
+                      </tr>
+                      <tr>
+                        <td>Boillat</td>
+                        <td>Johanna</td>
+                        <td>Pieterlen</td>
+                        <td>Erguël</td>
+                        <td>1673</td>
+                        <td>Sorcellerie</td>
+                        <td></td>
+                        <td>assignation à résidence</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 27</td>
+                      </tr>
+                      <tr>
+                        <td>Berset</td>
+                        <td>Jacques</td>
+                        <td>Villargiroud</td>
+                        <td>Fribourg</td>
+                        <td>1674</td>
+                        <td>Faux certificat</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>Latin</td>
+                        <td>Cod. 205A p. 28</td>
+                      </tr>
+                      <tr>
+                        <td>Gallaz</td>
+                        <td>Abraham</td>
+                        <td>Ormont</td>
+                        <td>Berne</td>
+                        <td>1674</td>
+                        <td>Faux certificat</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>Latin</td>
+                        <td>Cod. 205A p. 28</td>
+                      </tr>
+                      <tr>
+                        <td>Huguenin</td>
+                        <td>Elias</td>
+                        <td>Saint-Ursanne</td>
+                        <td>Ajoie</td>
+                        <td>1674</td>
+                        <td>Adultère</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>Latin</td>
+                        <td>Cod. 205A p. 28</td>
+                      </tr>
+                      <tr>
+                        <td>Poutier</td>
+                        <td>Germain</td>
+                        <td>Porrentruy</td>
+                        <td>Ajoie</td>
+                        <td>1674</td>
+                        <td>Injures et menaces</td>
+                        <td></td>
+                        <td>mort</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 29-30</td>
+                      </tr>
+                      <tr>
+                        <td>Senn</td>
+                        <td>Hans</td>
+                        <td></td>
+                        <td></td>
+                        <td>1675</td>
+                        <td>Homicide</td>
+                        <td></td>
+                        <td ></td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 31-32</td>
+                      </tr>
+                      <tr>
+                        <td>Häring</td>
+                        <td>Martin</td>
+                        <td></td>
+                        <td></td>
+                        <td>1675</td>
+                        <td>Homicide</td>
+                        <td></td>
+                        <td ></td>
+                        <td></td>
+                        <td>Cod. 205A p. 31-32</td>
+                      </tr>
+                      <tr>
+                        <td>Simonin</td>
+                        <td>Pierre</td>
+                        <td>Saint-Brais (Moron)</td>
+                        <td>Saint-Ursanne</td>
+                        <td>1675</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>mort (décapitation)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 33</td>
+                      </tr>
+                      <tr>
+                        <td>Hirtz</td>
+                        <td>Conradt</td>
+                        <td>Michelbach-le-Haut</td>
+                        <td>Alsace</td>
+                        <td>1676</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 34</td>
+                      </tr>
+                      <tr>
+                        <td>Voisard</td>
+                        <td>Simon</td>
+                        <td>Sancey-le-Grand</td>
+                        <td>Franche-Comté</td>
+                        <td>1676</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 34</td>
+                      </tr>
+                      <tr>
+                        <td>De
+                          Mesche</td>
+                        <td>Ursule</td>
+                        <td>Alle</td>
+                        <td>Ajoie</td>
+                        <td>1676</td>
+                        <td>Exposition d'enfant</td>
+                        <td>enfant illégitime</td>
+                        <td>exposition publique</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 35</td>
+                      </tr>
+                      <tr>
+                        <td>Gueth</td>
+                        <td>Peter</td>
+                        <td></td>
+                        <td></td>
+                        <td>1676</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>???</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 35</td>
+                      </tr>
+                      <tr>
+                        <td>Wäber</td>
+                        <td>Marguerite</td>
+                        <td></td>
+                        <td></td>
+                        <td>1676</td>
+                        <td>Assassinat</td>
+                        <td></td>
+                        <td>mort (décapitation)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 36</td>
+                      </tr>
+                      <tr>
+                        <td>Forchelette</td>
+                        <td>Eve</td>
+                        <td></td>
+                        <td></td>
+                        <td>1676</td>
+                        <td>Sorcellerie</td>
+                        <td></td>
+                        <td>mort</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 37</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>la Jeannaine</td>
+                        <td></td>
+                        <td></td>
+                        <td>1676</td>
+                        <td>Sorcellerie</td>
+                        <td></td>
+                        <td></td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 37</td>
+                      </tr>
+                      <tr>
+                        <td>Guetwil</td>
+                        <td>Christ</td>
+                        <td>Saint-Brais (La Malmaison)</td>
+                        <td>Saint-Ursanne</td>
+                        <td>1676</td>
+                        <td></td>
+                        <td></td>
+                        <td>exposition publique</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 38</td>
+                      </tr>
+                      <tr>
+                        <td>Desbrosse</td>
+                        <td>Marie</td>
+                        <td>Chervillers</td>
+                        <td>Saint-Ursanne</td>
+                        <td>1676</td>
+                        <td></td>
+                        <td></td>
+                        <td>exposition publique</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 38</td>
+                      </tr>
+                      <tr>
+                        <td>Karrer</td>
+                        <td>Hans Jacob</td>
+                        <td>Zwingen</td>
+                        <td>Zwingen-Laufon</td>
+                        <td>1677</td>
+                        <td>Homicide</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 39-40</td>
+                      </tr>
+                      <tr>
+                        <td>Jobin</td>
+                        <td>Normand Marie</td>
+                        <td></td>
+                        <td></td>
+                        <td>1678</td>
+                        <td>Blasphème</td>
+                        <td>menace de mort</td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 41</td>
+                      </tr>
+                      <tr>
+                        <td>Eberhardt</td>
+                        <td>Jacob</td>
+                        <td>Schliengen?</td>
+                        <td>Schliengen?</td>
+                        <td>1678</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td >exposition publique</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 42-43</td>
+                      </tr>
+                      <tr>
+                        <td>Lang</td>
+                        <td>Hans</td>
+                        <td>Schliengen?</td>
+                        <td>Schliengen?</td>
+                        <td>1678</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td >exposition publique</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 42-43</td>
+                      </tr>
+                      <tr>
+                        <td>Schwirmer</td>
+                        <td>Hans</td>
+                        <td></td>
+                        <td></td>
+                        <td>1678</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>amende</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 43-44</td>
+                      </tr>
+                      <tr>
+                        <td>Grabe</td>
+                        <td>Hans</td>
+                        <td></td>
+                        <td></td>
+                        <td>1678</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 43-44</td>
+                      </tr>
+                      <tr>
+                        <td>Schwan</td>
+                        <td>Georg</td>
+                        <td></td>
+                        <td></td>
+                        <td>1678</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 43-44</td>
+                      </tr>
+                      <tr>
+                        <td>Gintrat</td>
+                        <td>Adam</td>
+                        <td></td>
+                        <td></td>
+                        <td>1678</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>Allemamd</td>
+                        <td>Cod. 205A p. 43-44</td>
+                      </tr>
+                      <tr>
+                        <td>Pécaut</td>
+                        <td>Petermand</td>
+                        <td>Sonceboz</td>
+                        <td>Erguël</td>
+                        <td>1678</td>
+                        <td>Homicide</td>
+                        <td></td>
+                        <td>bannissement temporaire de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 44</td>
+                      </tr>
+                      <tr>
+                        <td>Gorgé</td>
+                        <td>Abraham</td>
+                        <td>Moutier</td>
+                        <td>Moutier-Grandval</td>
+                        <td>1678</td>
+                        <td>Homicide</td>
+                        <td></td>
+                        <td>bannissement temporaire de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 45</td>
+                      </tr>
+                      <tr>
+                        <td>Schmidlin</td>
+                        <td>Hans Dieboldt</td>
+                        <td>Arlesheim</td>
+                        <td>Birseck</td>
+                        <td>1679</td>
+                        <td>Homicide</td>
+                        <td></td>
+                        <td>mort</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 45</td>
+                      </tr>
+                      <tr>
+                        <td>Copin</td>
+                        <td>Joseph</td>
+                        <td>Plancher-les-Mines</td>
+                        <td>Murbach, seigneurie de</td>
+                        <td>1679</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 46-47</td>
+                      </tr>
+                      <tr>
+                        <td>Varrey</td>
+                        <td>Adam</td>
+                        <td>Wimmis (bailliage de)</td>
+                        <td>Berne</td>
+                        <td>1680</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 47</td>
+                      </tr>
+                      <tr>
+                        <td>Lombard</td>
+                        <td>Jean-Baptiste</td>
+                        <td>Saint-Ursanne</td>
+                        <td>Saint-Ursanne</td>
+                        <td>1680</td>
+                        <td>Vol</td>
+                        <td>adultère</td>
+                        <td>mort (pendaison)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 48-49</td>
+                      </tr>
+                      <tr>
+                        <td>Dupré</td>
+                        <td>Nicolas</td>
+                        <td>Boncourt</td>
+                        <td>Ajoie</td>
+                        <td>1680</td>
+                        <td>Vol</td>
+                        <td>dégât à la propriété</td>
+                        <td>mort (pendaison)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 50</td>
+                      </tr>
+                      <tr>
+                        <td>Chaboudez</td>
+                        <td>André</td>
+                        <td>Miécourt</td>
+                        <td>Ajoie</td>
+                        <td>1680</td>
+                        <td>Superstition</td>
+                        <td></td>
+                        <td>privation de sa charge de
+                          clavier ou marguillier ainsi que de celle de maître d'école</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 51</td>
+                      </tr>
+                      <tr>
+                        <td>Faibvre</td>
+                        <td>Jean François</td>
+                        <td>Montfaucon (Le Pré-Petitjean)</td>
+                        <td>Franches-Montagnes</td>
+                        <td>1681</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 51</td>
+                      </tr>
+                      <tr>
+                        <td>Frisch</td>
+                        <td>Jean</td>
+                        <td>Vicques</td>
+                        <td>Delémont</td>
+                        <td>1681</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>exposition publique</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 52</td>
+                      </tr>
+                      <tr>
+                        <td>Broquet</td>
+                        <td>Annelé</td>
+                        <td>Movelier</td>
+                        <td>Delémont</td>
+                        <td>1681</td>
+                        <td>Infanticide</td>
+                        <td></td>
+                        <td>bannissement temporaire de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 52-53</td>
+                      </tr>
+                      <tr>
+                        <td>Pierre
+                          ou Steiner</td>
+                        <td>Conrad</td>
+                        <td></td>
+                        <td></td>
+                        <td>1682</td>
+                        <td>Vol</td>
+                        <td>sorcellerie</td>
+                        <td>mort (décapitation)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 53-54</td>
+                      </tr>
+                      <tr>
+                        <td>Walcker</td>
+                        <td>Joannes</td>
+                        <td></td>
+                        <td></td>
+                        <td>1682</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>mort (décapitation)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 54</td>
+                      </tr>
+                      <tr>
+                        <td>Schmidt</td>
+                        <td>Anthoni</td>
+                        <td>Ettingen</td>
+                        <td>Birseck</td>
+                        <td>1682</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 54-55</td>
+                      </tr>
+                      <tr>
+                        <td>Nabel</td>
+                        <td>Urs</td>
+                        <td></td>
+                        <td>Pfeffingen?</td>
+                        <td>1682</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 55-56</td>
+                      </tr>
+                      <tr>
+                        <td>Brouse</td>
+                        <td>Pierre</td>
+                        <td>Carcassonne</td>
+                        <td>Languedoc</td>
+                        <td>1682</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 56</td>
+                      </tr>
+                      <tr>
+                        <td>Lardon</td>
+                        <td>Jean</td>
+                        <td></td>
+                        <td>Moutier-Grandval</td>
+                        <td>1682</td>
+                        <td>Infanticide</td>
+                        <td></td>
+                        <td>bannissement temporaire de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 57-59</td>
+                      </tr>
+                      <tr>
+                        <td>Sautebin</td>
+                        <td>Jacques</td>
+                        <td></td>
+                        <td>Moutier-Grandval</td>
+                        <td>1682</td>
+                        <td>Infanticide</td>
+                        <td></td>
+                        <td>bannissement temporaire de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 57-59</td>
+                      </tr>
+                      <tr>
+                        <td>Sautebin</td>
+                        <td>Etienne</td>
+                        <td></td>
+                        <td>Moutier-Grandval</td>
+                        <td>1682</td>
+                        <td>Infanticide</td>
+                        <td></td>
+                        <td>exposition publique</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 57-60</td>
+                      </tr>
+                      <tr>
+                        <td>Feusier</td>
+                        <td>Claude</td>
+                        <td></td>
+                        <td>Moutier-Grandval</td>
+                        <td>1682</td>
+                        <td>Infanticide</td>
+                        <td></td>
+                        <td>interdiction de tenir hôtellerie</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 57-60</td>
+                      </tr>
+                      <tr>
+                        <td>Feusier</td>
+                        <td>NN</td>
+                        <td></td>
+                        <td>Moutier-Grandval</td>
+                        <td>1682</td>
+                        <td>Infanticide</td>
+                        <td></td>
+                        <td>interdiction de tenir hôtellerie</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 57-60</td>
+                      </tr>
+                      <tr>
+                        <td>Lardon</td>
+                        <td>François</td>
+                        <td></td>
+                        <td>Moutier-Grandval</td>
+                        <td>1682</td>
+                        <td>Infanticide</td>
+                        <td></td>
+                        <td>prison</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 59-60</td>
+                      </tr>
+                      <tr>
+                        <td>Gauthier</td>
+                        <td>Christ</td>
+                        <td>Sonceboz</td>
+                        <td>Erguël</td>
+                        <td>1683</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>mort</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 61</td>
+                      </tr>
+                      <tr>
+                        <td>Chavanne</td>
+                        <td>Jean</td>
+                        <td>Coeuve</td>
+                        <td>Ajoie</td>
+                        <td>1683</td>
+                        <td>Homicide</td>
+                        <td></td>
+                        <td>mort (décapitation)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 62-63</td>
+                      </tr>
+                      <tr>
+                        <td>Monnier</td>
+                        <td>Suzanne</td>
+                        <td></td>
+                        <td></td>
+                        <td>1684</td>
+                        <td>Fornication</td>
+                        <td></td>
+                        <td></td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 63-65</td>
+                      </tr>
+                      <tr>
+                        <td>Berberat</td>
+                        <td>Christat</td>
+                        <td></td>
+                        <td></td>
+                        <td>1684</td>
+                        <td>Fornication</td>
+                        <td></td>
+                        <td>relaxe</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 65</td>
+                      </tr>
+                      <tr>
+                        <td>Bojeanquet</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>1684</td>
+                        <td>Insultes contre le prince</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 66-67</td>
+                      </tr>
+                      <tr>
+                        <td>Corbat</td>
+                        <td>Jacques</td>
+                        <td>Bonfol</td>
+                        <td>Ajoie</td>
+                        <td>1685</td>
+                        <td>Viol</td>
+                        <td></td>
+                        <td>exposition publique</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 67-68</td>
+                      </tr>
+                      <tr>
+                        <td>Monbaron</td>
+                        <td>Madeleine</td>
+                        <td>Tramelan-Dessus</td>
+                        <td>Erguël</td>
+                        <td>1685</td>
+                        <td>Adultère</td>
+                        <td>avortement</td>
+                        <td>mort</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 68-70</td>
+                      </tr>
+                      <tr>
+                        <td>Borle</td>
+                        <td>Judith</td>
+                        <td>Renan</td>
+                        <td>Erguël</td>
+                        <td>1685</td>
+                        <td>Adultère</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 70</td>
+                      </tr>
+                      <tr>
+                        <td>Roth</td>
+                        <td>Hans</td>
+                        <td>Hubersdorf</td>
+                        <td>Soleure</td>
+                        <td>1685</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>mort (pendaison)</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 71-72</td>
+                      </tr>
+                      <tr>
+                        <td>Henry</td>
+                        <td>Pierre</td>
+                        <td>Sonceboz</td>
+                        <td>Erguël</td>
+                        <td>1685</td>
+                        <td>Homicide</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 72-73</td>
+                      </tr>
+                      <tr>
+                        <td>Pécaut</td>
+                        <td>Marguerite</td>
+                        <td>Sonceboz</td>
+                        <td>Erguël</td>
+                        <td>1685</td>
+                        <td>Homicide</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 72-73</td>
+                      </tr>
+                      <tr>
+                        <td>Pétremand</td>
+                        <td>Jean</td>
+                        <td>Villars-sur-Fontenais</td>
+                        <td>Ajoie</td>
+                        <td>1686</td>
+                        <td>Vol</td>
+                        <td>meurtre</td>
+                        <td>mort (roue)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 74-75</td>
+                      </tr>
+                      <tr>
+                        <td>Monnier</td>
+                        <td>Marguerite</td>
+                        <td>Sombeval</td>
+                        <td>Erguël</td>
+                        <td>1686</td>
+                        <td>Infanticide</td>
+                        <td></td>
+                        <td>mort (décapitation)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 75-76</td>
+                      </tr>
+                      <tr>
+                        <td>Fuchs</td>
+                        <td>Georg</td>
+                        <td>Blauen</td>
+                        <td>Zwingen-Laufon</td>
+                        <td>1687</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 76-78</td>
+                      </tr>
+                      <tr>
+                        <td>Galle</td>
+                        <td>Pierre</td>
+                        <td></td>
+                        <td></td>
+                        <td>1687</td>
+                        <td></td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 78-79</td>
+                      </tr>
+                      <tr>
+                        <td>Bourgeois</td>
+                        <td>Jean Jacques</td>
+                        <td></td>
+                        <td></td>
+                        <td>1687</td>
+                        <td>Superstition</td>
+                        <td>vol</td>
+                        <td>mort (pendaison)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 80-83</td>
+                      </tr>
+                      <tr>
+                        <td>Linzen</td>
+                        <td>Christian</td>
+                        <td>Schliengen</td>
+                        <td>Schliengen</td>
+                        <td>1688</td>
+                        <td>Homicide</td>
+                        <td></td>
+                        <td></td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 83-84</td>
+                      </tr>
+                      <tr>
+                        <td>Gendre</td>
+                        <td>Gratian</td>
+                        <td>Vuillafans</td>
+                        <td>Franche-Comté</td>
+                        <td>1688</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 85-86</td>
+                      </tr>
+                      <tr>
+                        <td>Bourquin
+                          dit Torron</td>
+                        <td>Abraham</td>
+                        <td></td>
+                        <td>Erguël</td>
+                        <td>1688</td>
+                        <td>Infanticide</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 86-87</td>
+                      </tr>
+                      <tr>
+                        <td>Etienne</td>
+                        <td>Adam</td>
+                        <td>Tramelan-Dessous</td>
+                        <td>Erguël</td>
+                        <td>1690</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>mort (pendaison)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 87-89</td>
+                      </tr>
+                      <tr>
+                        <td>Vuilmenot</td>
+                        <td>Jean</td>
+                        <td>Saignelégier</td>
+                        <td>Franches-Montagnes</td>
+                        <td>1690</td>
+                        <td>Viol</td>
+                        <td>pédophilie</td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 89-91</td>
+                      </tr>
+                      <tr>
+                        <td>Regenal</td>
+                        <td>Jean Pierre</td>
+                        <td></td>
+                        <td></td>
+                        <td>1691</td>
+                        <td>Séjour dans la principauté
+                          malgré l'interdiction<span n:yes'> </span></td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 91-92</td>
+                      </tr>
+                      <tr>
+                        <td>Haydt</td>
+                        <td>Hans Jacob</td>
+                        <td>Ortenberg in der Ortenau</td>
+                        <td>Bade-Wurtemberg</td>
+                        <td>1691</td>
+                        <td>Fausse monnaie</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 92-94</td>
+                      </tr>
+                      <tr>
+                        <td>Maillat</td>
+                        <td>Joseph</td>
+                        <td>Courtedoux</td>
+                        <td>Ajoie</td>
+                        <td>1692</td>
+                        <td>Assassinat</td>
+                        <td></td>
+                        <td>mort</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 95</td>
+                      </tr>
+                      <tr>
+                        <td>Stramm</td>
+                        <td>Anna Maria</td>
+                        <td></td>
+                        <td></td>
+                        <td>1692</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td></td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 96-102</td>
+                      </tr>
+                      <tr>
+                        <td>Tièche</td>
+                        <td>Suzanne</td>
+                        <td>Tavannes</td>
+                        <td>Moutier-Grandval</td>
+                        <td>1692</td>
+                        <td>Non respect du bannissement</td>
+                        <td></td>
+                        <td>expulsion de l'Evêché après non
+                          respect du bannissement</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 103-104</td>
+                      </tr>
+                      <tr>
+                        <td>Müller</td>
+                        <td>Hans Heinrich</td>
+                        <td>Langnau im Emmental</td>
+                        <td>Berne</td>
+                        <td>1692</td>
+                        <td>Vagabondage</td>
+                        <td>vol</td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 105-107</td>
+                      </tr>
+                      <tr>
+                        <td>Tritt</td>
+                        <td>Christ</td>
+                        <td>Trub</td>
+                        <td>Berne</td>
+                        <td>1692</td>
+                        <td>Vagabondage</td>
+                        <td>vol</td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 105-107</td>
+                      </tr>
+                      <tr>
+                        <td>Baumann</td>
+                        <td>Joseph</td>
+                        <td>Worb</td>
+                        <td>Berne</td>
+                        <td>1692</td>
+                        <td>Vagabondage</td>
+                        <td>vol</td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 105-107</td>
+                      </tr>
+                      <tr>
+                        <td>Oster</td>
+                        <td>François</td>
+                        <td></td>
+                        <td>Berne</td>
+                        <td>1693</td>
+                        <td>Homicide</td>
+                        <td></td>
+                        <td>bannissement temporaire de la
+                          seigneurie</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 109-110</td>
+                      </tr>
+                      <tr>
+                        <td>De
+                          Casays</td>
+                        <td>Jeanne</td>
+                        <td></td>
+                        <td>Bayonne (en)</td>
+                        <td>1692</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 108</td>
+                      </tr>
+                      <tr>
+                        <td>Vouille
+                          (Vuille)</td>
+                        <td>Adam</td>
+                        <td>Tramelan</td>
+                        <td>Erguël</td>
+                        <td>1693</td>
+                        <td>Adultère</td>
+                        <td></td>
+                        <td>prison et amende</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 111</td>
+                      </tr>
+                      <tr>
+                        <td>Schweytzer</td>
+                        <td>Christ</td>
+                        <td></td>
+                        <td></td>
+                        <td>1693</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td></td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 112-114</td>
+                      </tr>
+                      <tr>
+                        <td>Scherer</td>
+                        <td>Jacob Hans</td>
+                        <td></td>
+                        <td></td>
+                        <td>1693</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td></td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 112-114</td>
+                      </tr>
+                      <tr>
+                        <td>Müller</td>
+                        <td>Claus</td>
+                        <td></td>
+                        <td></td>
+                        <td>1693</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 115</td>
+                      </tr>
+                      <tr>
+                        <td>Bajol</td>
+                        <td>Jean</td>
+                        <td>Croux</td>
+                        <td></td>
+                        <td>1693</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 116-117</td>
+                      </tr>
+                      <tr>
+                        <td>Böhm</td>
+                        <td>Hans Jacob</td>
+                        <td>Neuwiler</td>
+                        <td></td>
+                        <td>1694</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>mort (pendaison)</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 118-119</td>
+                      </tr>
+                      <tr>
+                        <td>Vismüller</td>
+                        <td>Steff</td>
+                        <td>Orvin</td>
+                        <td>Orvin</td>
+                        <td>1694</td>
+                        <td>Adultère</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 121-123</td>
+                      </tr>
+                      <tr>
+                        <td>Wullenschneider</td>
+                        <td>Lienardt</td>
+                        <td>Burg im Leimental</td>
+                        <td>La Bourg</td>
+                        <td>1694</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>galères (10 ans)</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 125-127</td>
+                      </tr>
+                      <tr>
+                        <td>Vauterè
+                          (Vautrey?)</td>
+                        <td>Hansele</td>
+                        <td></td>
+                        <td>Berne</td>
+                        <td>1694</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 128</td>
+                      </tr>
+                      <tr>
+                        <td>Cain</td>
+                        <td>Abraham</td>
+                        <td>Ichenhausen</td>
+                        <td>Souabe</td>
+                        <td>1694</td>
+                        <td>Blasphème</td>
+                        <td></td>
+                        <td>mort (feu)</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 129-130</td>
+                      </tr>
+                      <tr>
+                        <td>Süterle</td>
+                        <td>Hans</td>
+                        <td>Oberwil</td>
+                        <td>Birseck</td>
+                        <td>1694</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement temporaire de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 131</td>
+                      </tr>
+                      <tr>
+                        <td>Zeündin</td>
+                        <td>Jacob</td>
+                        <td>Oberwil</td>
+                        <td>Birseck</td>
+                        <td>1694</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>prison et amende</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 131</td>
+                      </tr>
+                      <tr>
+                        <td>Feürman</td>
+                        <td>Hans Jacob</td>
+                        <td>Istein</td>
+                        <td>Schliengen</td>
+                        <td>1695</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 132</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td>Hans</td>
+                        <td>Huttingen</td>
+                        <td>Schliengen</td>
+                        <td>1695</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 132</td>
+                      </tr>
+                      <tr>
+                        <td>Luz</td>
+                        <td>Hans</td>
+                        <td>Schönenbuch</td>
+                        <td>Birseck</td>
+                        <td>1695</td>
+                        <td>Homicide</td>
+                        <td></td>
+                        <td>bannissement temporaire de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 133-134</td>
+                      </tr>
+                      <tr>
+                        <td>Simon</td>
+                        <td>Martin</td>
+                        <td>Schönenbuch</td>
+                        <td>Birseck</td>
+                        <td>1695</td>
+                        <td>Homicide</td>
+                        <td></td>
+                        <td>relaxe provisoire</td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>Thevenot</td>
+                        <td>Joseph</td>
+                        <td>Courtemautruy</td>
+                        <td>Ajoie</td>
+                        <td>1695</td>
+                        <td>Empoisonnement</td>
+                        <td></td>
+                        <td>bannissement temporaire de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 135</td>
+                      </tr>
+                      <tr>
+                        <td>Lardon</td>
+                        <td>David</td>
+                        <td>Court</td>
+                        <td>Moutier-Grandval</td>
+                        <td>1696</td>
+                        <td>Assassinat</td>
+                        <td></td>
+                        <td>mort (tenaille, roue)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 136-140</td>
+                      </tr>
+                      <tr>
+                        <td>Guerne</td>
+                        <td>Madeleine</td>
+                        <td>Court</td>
+                        <td>Moutier-Grandval</td>
+                        <td>1696</td>
+                        <td>Assassinat</td>
+                        <td></td>
+                        <td>mort (tenaille, roue)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 136-140</td>
+                      </tr>
+                      <tr>
+                        <td>Billechoz</td>
+                        <td>Joseph</td>
+                        <td>Porrentruy</td>
+                        <td></td>
+                        <td>1697</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement temporaire de la
+                          ville</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 140</td>
+                      </tr>
+                      <tr>
+                        <td>Henzi</td>
+                        <td>Bendichtli</td>
+                        <td>Pieterlen</td>
+                        <td>Erguël</td>
+                        <td>1696</td>
+                        <td>Sorcellerie</td>
+                        <td></td>
+                        <td>mort (décapitation)</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 143-144</td>
+                      </tr>
+                      <tr>
+                        <td>De Roche</td>
+                        <td>Catherine</td>
+                        <td></td>
+                        <td>Moutier-Grandval</td>
+                        <td>1696</td>
+                        <td>Inceste</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 145</td>
+                      </tr>
+                      <tr>
+                        <td>De Roche</td>
+                        <td>Jean Jacques</td>
+                        <td></td>
+                        <td>Moutier-Grandval</td>
+                        <td>1696</td>
+                        <td>Inceste</td>
+                        <td></td>
+                        <td>mort (décapitation)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 146-147</td>
+                      </tr>
+                      <tr>
+                        <td>Cuttat</td>
+                        <td>Jean</td>
+                        <td>Rossemaison</td>
+                        <td>Ajoie</td>
+                        <td>1697</td>
+                        <td>Violence avec arme</td>
+                        <td></td>
+                        <td>bannissement temporaire de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 148-149</td>
+                      </tr>
+                      <tr>
+                        <td>Aubry</td>
+                        <td>Madeleine</td>
+                        <td></td>
+                        <td></td>
+                        <td>1698</td>
+                        <td>Lubricité</td>
+                        <td>non respect du bannissement</td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 150</td>
+                      </tr>
+                      <tr>
+                        <td>Bardot</td>
+                        <td>Hans Henry</td>
+                        <td>Les Genevez</td>
+                        <td>Bellelay</td>
+                        <td>1698</td>
+                        <td>Viol</td>
+                        <td></td>
+                        <td>mort (décapitation)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 151-152</td>
+                      </tr>
+                      <tr>
+                        <td>Cattin</td>
+                        <td>Jean François</td>
+                        <td>Le Noirmont (Le Peu-Péquignot)</td>
+                        <td>Franches-Montagnes</td>
+                        <td>1698</td>
+                        <td>Viol</td>
+                        <td></td>
+                        <td>mort (décapitation)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 153-154</td>
+                      </tr>
+                      <tr>
+                        <td>Schiby</td>
+                        <td>Michel</td>
+                        <td>Wimmis</td>
+                        <td>Berne</td>
+                        <td>1698</td>
+                        <td>Meurtre (complicité de)</td>
+                        <td>tentative de suicide présumée</td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 155-156</td>
+                      </tr>
+                      <tr>
+                        <td>Schiby</td>
+                        <td>Nicolas</td>
+                        <td>Wimmis</td>
+                        <td>Berne</td>
+                        <td>1698</td>
+                        <td>Meurtre (complicité de)</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 157-158</td>
+                      </tr>
+                      <tr>
+                        <td>Rheinhardt</td>
+                        <td>Johannes</td>
+                        <td>Schramberg im Schwarzwald</td>
+                        <td>Bade-Wurtemberg</td>
+                        <td>1698</td>
+                        <td>Vol</td>
+                        <td>meurtre</td>
+                        <td>galères (perpétuité)</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 159-162</td>
+                      </tr>
+                      <tr>
+                        <td>Thiebot</td>
+                        <td>Gabriele</td>
+                        <td></td>
+                        <td></td>
+                        <td>1698</td>
+                        <td>Infanticide</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 162</td>
+                      </tr>
+                      <tr>
+                        <td>Theuvenat</td>
+                        <td>Claude</td>
+                        <td></td>
+                        <td></td>
+                        <td>1698</td>
+                        <td>Infanticide</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 162</td>
+                      </tr>
+                      <tr>
+                        <td>Kesseler</td>
+                        <td>Frantz</td>
+                        <td>Schliengen</td>
+                        <td>Schliengen</td>
+                        <td>1698</td>
+                        <td>Blasphème</td>
+                        <td></td>
+                        <td>exposition publique</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 162</td>
+                      </tr>
+                      <tr>
+                        <td>Bertschy</td>
+                        <td>Heinrich</td>
+                        <td>Höchstetten</td>
+                        <td>Berne</td>
+                        <td>1699</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>galères (7 ans)</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 163-164</td>
+                      </tr>
+                      <tr>
+                        <td>Thevenat</td>
+                        <td>François</td>
+                        <td>Salens</td>
+                        <td>Savoie</td>
+                        <td>1699</td>
+                        <td>Tromperie</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 165-166</td>
+                      </tr>
+                      <tr>
+                        <td>Chopard</td>
+                        <td>Suzanne</td>
+                        <td>Sonvilier</td>
+                        <td>Erguël</td>
+                        <td>1699</td>
+                        <td>Infanticide</td>
+                        <td></td>
+                        <td>mort (décapitation)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 167</td>
+                      </tr>
+                      <tr>
+                        <td>Leyenberg</td>
+                        <td>Johannes</td>
+                        <td></td>
+                        <td></td>
+                        <td>1699</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 168-169</td>
+                      </tr>
+                      <tr>
+                        <td>Leyenberg</td>
+                        <td>Hans Jacob</td>
+                        <td></td>
+                        <td></td>
+                        <td>1699</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 168-169</td>
+                      </tr>
+                      <tr>
+                        <td>Leyenberg</td>
+                        <td>Hans Georg</td>
+                        <td></td>
+                        <td></td>
+                        <td>1699</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 168-169</td>
+                      </tr>
+                      <tr>
+                        <td>Hirschern</td>
+                        <td>Jacob</td>
+                        <td></td>
+                        <td></td>
+                        <td>1699</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 168-169</td>
+                      </tr>
+                      <tr>
+                        <td>Hirschern</td>
+                        <td>Peter</td>
+                        <td></td>
+                        <td></td>
+                        <td>1699</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 168-169</td>
+                      </tr>
+                      <tr>
+                        <td>Hirschern</td>
+                        <td>Anthoni</td>
+                        <td></td>
+                        <td></td>
+                        <td>1699</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 168-169</td>
+                      </tr>
+                      <tr>
+                        <td>Paxman</td>
+                        <td>Antoine</td>
+                        <td>Bruchsal</td>
+                        <td>Palatinat</td>
+                        <td>1699</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>galères (5 ans)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 169-170</td>
+                      </tr>
+                      <tr>
+                        <td>Legeler</td>
+                        <td>Jean Georges</td>
+                        <td>Dornick</td>
+                        <td>Bade-Wurtemberg</td>
+                        <td>1699</td>
+                        <td>Vol</td>
+                        <td>fausse monnaie</td>
+                        <td>galères (15 ans)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 171-173</td>
+                      </tr>
+                      <tr>
+                        <td>Hüberlin</td>
+                        <td>Madeleine</td>
+                        <td></td>
+                        <td></td>
+                        <td>1699</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>fouet, marque</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 173</td>
+                      </tr>
+                      <tr>
+                        <td>Vaisse</td>
+                        <td>Elisabeth</td>
+                        <td></td>
+                        <td></td>
+                        <td>1699</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>fouet, marque</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 173</td>
+                      </tr>
+                      <tr>
+                        <td>Vaisse</td>
+                        <td>Ferdinand</td>
+                        <td></td>
+                        <td></td>
+                        <td>1699</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>fouet, marque</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 173</td>
+                      </tr>
+                      <tr>
+                        <td>Vaisse</td>
+                        <td>Christian</td>
+                        <td></td>
+                        <td></td>
+                        <td>1699</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>envoyé à Bâle pour la
+                          déconfrontation demandée par la ville</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 173</td>
+                      </tr>
+                      <tr>
+                        <td>Vaisse</td>
+                        <td>Marie Eve</td>
+                        <td></td>
+                        <td></td>
+                        <td>1699</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>envoyée à Bâle pour la
+                          déconfrontation demandée par la ville</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 173</td>
+                      </tr>
+                      <tr>
+                        <td>Kässlerin</td>
+                        <td>Anna Katharina</td>
+                        <td></td>
+                        <td></td>
+                        <td>1699</td>
+                        <td>Vol</td>
+                        <td>fausse monnaie</td>
+                        <td>mort (décapitation)</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 175-176</td>
+                      </tr>
+                      <tr>
+                        <td>Cuntz</td>
+                        <td>Marx</td>
+                        <td>Schliengen</td>
+                        <td>Schliengen</td>
+                        <td>1700</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 177-179</td>
+                      </tr>
+                      <tr>
+                        <td>Schwarzentraub</td>
+                        <td>Christ</td>
+                        <td>Vendlincourt</td>
+                        <td>Ajoie</td>
+                        <td>1700</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR, DE</td>
+                        <td>Cod. 205A p. 180-184</td>
+                      </tr>
+                      <tr>
+                        <td>Petitrichard</td>
+                        <td>Maurice</td>
+                        <td>Vendlincourt</td>
+                        <td>Ajoie</td>
+                        <td>1700</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>relaxe</td>
+                        <td>FR, DE</td>
+                        <td>Cod. 205A p. 180-184</td>
+                      </tr>
+                      <tr>
+                        <td>Louillet</td>
+                        <td>Louis</td>
+                        <td>Breitenbach</td>
+                        <td>Soleure</td>
+                        <td>1700</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>galères</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 185</td>
+                      </tr>
+                      <tr>
+                        <td>Aubry</td>
+                        <td>Jacob</td>
+                        <td>Les Convers</td>
+                        <td>Erguël</td>
+                        <td>1701</td>
+                        <td>Vol</td>
+                        <td>assassinat</td>
+                        <td>mort (pendaison)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 186-187</td>
+                      </tr>
+                      <tr>
+                        <td>Lardon</td>
+                        <td>Pierre</td>
+                        <td>Montsevelier</td>
+                        <td>Delémont</td>
+                        <td>1701</td>
+                        <td>Incendie</td>
+                        <td>homicide</td>
+                        <td>mort (roue)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 188-191</td>
+                      </tr>
+                      <tr>
+                        <td>Desbrosse</td>
+                        <td>Thomas</td>
+                        <td>Chervillers</td>
+                        <td>Saint-Ursanne</td>
+                        <td>1701</td>
+                        <td>Violence avec arme</td>
+                        <td>superstition</td>
+                        <td>bannissement temporaire de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 192</td>
+                      </tr>
+                      <tr>
+                        <td>Morel</td>
+                        <td>Jean-Baptiste</td>
+                        <td>La Chaux des Hostaz</td>
+                        <td></td>
+                        <td>1701</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 193</td>
+                      </tr>
+                      <tr>
+                        <td>N.</td>
+                        <td>Barbara</td>
+                        <td>Levoncourt</td>
+                        <td>Alsace</td>
+                        <td>1701</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 194</td>
+                      </tr>
+                      <tr>
+                        <td>Jausslein</td>
+                        <td>Niclaus Gérard</td>
+                        <td></td>
+                        <td></td>
+                        <td>1701</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>galères (3 ans)</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 195-196</td>
+                      </tr>
+                      <tr>
+                        <td>Hauwillerin
+                          Margaretha</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>1701</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 195-196</td>
+                      </tr>
+                      <tr>
+                        <td>Mattmann</td>
+                        <td>Regina</td>
+                        <td></td>
+                        <td></td>
+                        <td>1701</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 195-196</td>
+                      </tr>
+                      <tr>
+                        <td>Mattmann</td>
+                        <td>Caspar</td>
+                        <td></td>
+                        <td></td>
+                        <td>1701</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 195-196</td>
+                      </tr>
+                      <tr>
+                        <td>Länger</td>
+                        <td>Adam</td>
+                        <td>Istein</td>
+                        <td>Schliengen</td>
+                        <td>1701</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 197-198</td>
+                      </tr>
+                      <tr>
+                        <td>Chevillat</td>
+                        <td>Jean Claude</td>
+                        <td>Saint-Ursanne</td>
+                        <td>Saint-Ursanne</td>
+                        <td>1702</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td></td>
+                        <td>Latin</td>
+                        <td>Cod. 205A p. 199</td>
+                      </tr>
+                      <tr>
+                        <td>Simon</td>
+                        <td>Elisabeth</td>
+                        <td>Nods</td>
+                        <td>Montagne de Diesse</td>
+                        <td>1703</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 200-201</td>
+                      </tr>
+                      <tr>
+                        <td>Gaignat</td>
+                        <td>Marguerite</td>
+                        <td>Cornol</td>
+                        <td>Ajoie</td>
+                        <td>1703</td>
+                        <td>Adultère</td>
+                        <td>inceste, enfant illégitime</td>
+                        <td>exposition publique</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 202</td>
+                      </tr>
+                      <tr>
+                        <td>Jolie</td>
+                        <td>Marie</td>
+                        <td>Pleujouse</td>
+                        <td>Ajoie</td>
+                        <td>1703</td>
+                        <td>Adultère</td>
+                        <td>enfant illégitime</td>
+                        <td>exposition publique</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 203</td>
+                      </tr>
+                      <tr>
+                        <td>Baidevole</td>
+                        <td>Marguerite</td>
+                        <td>Miécourt</td>
+                        <td>Ajoie</td>
+                        <td>1704</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>exposition publique</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 204-205</td>
+                      </tr>
+                      <tr>
+                        <td>Terron</td>
+                        <td>Servois Joseph</td>
+                        <td>Saint-Hippolyte</td>
+                        <td>Franche-Comté</td>
+                        <td>1704</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>galères (5 ans)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 206</td>
+                      </tr>
+                      <tr>
+                        <td>Quelain</td>
+                        <td>Anne</td>
+                        <td>Roche-d'Or</td>
+                        <td>Ajoie</td>
+                        <td>1704</td>
+                        <td>Adultère</td>
+                        <td>inceste, enfant illégitime,
+                          avortement</td>
+                        <td>exposition publique</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 207</td>
+                      </tr>
+                      <tr>
+                        <td>Heinrich</td>
+                        <td>Zacharias</td>
+                        <td>Spire</td>
+                        <td>Palatinat</td>
+                        <td>1704</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 208-209</td>
+                      </tr>
+                      <tr>
+                        <td>Tissot</td>
+                        <td>Hugue Baptiste</td>
+                        <td>Charquemont</td>
+                        <td>Franche-Comté</td>
+                        <td>1704</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 210-211</td>
+                      </tr>
+                      <tr>
+                        <td>Kobel</td>
+                        <td>Philip</td>
+                        <td>Arlesheim</td>
+                        <td>Birseck</td>
+                        <td>1704</td>
+                        <td>Fornication contre nature</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 212-213</td>
+                      </tr>
+                      <tr>
+                        <td>Scherrer</td>
+                        <td>Frantz</td>
+                        <td>Aesch</td>
+                        <td>Pfeffingen</td>
+                        <td>1704</td>
+                        <td>Rixe, blessures graves</td>
+                        <td></td>
+                        <td>amende</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 214-215</td>
+                      </tr>
+                      <tr>
+                        <td>Gutzweiler
+                          (Gutzwiller)</td>
+                        <td>Hans</td>
+                        <td>Aesch</td>
+                        <td>Pfeffingen</td>
+                        <td>1704</td>
+                        <td>Rixe, blessures graves</td>
+                        <td></td>
+                        <td>amende</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 214-215</td>
+                      </tr>
+                      <tr>
+                        <td>Guerry</td>
+                        <td>Richard</td>
+                        <td>Le Bémont</td>
+                        <td>Franches-Montagnes</td>
+                        <td>1704</td>
+                        <td>Vol (complicité de)</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 216-217</td>
+                      </tr>
+                      <tr>
+                        <td>Guerne</td>
+                        <td>Abram</td>
+                        <td>Tavannes</td>
+                        <td>Moutier-Grandval</td>
+                        <td>1705</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>exposition publique</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 218-219</td>
+                      </tr>
+                      <tr>
+                        <td>Voiroz
+                          (Voirol)</td>
+                        <td>Marguerite</td>
+                        <td>Tavannes</td>
+                        <td>Moutier-Grandval</td>
+                        <td>1705</td>
+                        <td>Enfant illégitime</td>
+                        <td>infanticide</td>
+                        <td>mort (décapitation)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 220-221</td>
+                      </tr>
+                      <tr>
+                        <td>Flury
+                          (Fleury)</td>
+                        <td>Gerie</td>
+                        <td>Vermes</td>
+                        <td>Delémont</td>
+                        <td>1705</td>
+                        <td>Superstition</td>
+                        <td></td>
+                        <td>amende</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 222-223</td>
+                      </tr>
+                      <tr>
+                        <td>Feriot</td>
+                        <td>Marie</td>
+                        <td>Grandvillars</td>
+                        <td>Delle</td>
+                        <td>1705</td>
+                        <td>Recel</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 225-226</td>
+                      </tr>
+                      <tr>
+                        <td>Peignard
+                          (Pagnard)</td>
+                        <td>Marx</td>
+                        <td>Moutier</td>
+                        <td>Moutier-Grandval</td>
+                        <td>1705</td>
+                        <td>Adultère</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 224</td>
+                      </tr>
+                      <tr>
+                        <td>Domon
+                          dit Collet</td>
+                        <td>Abraham</td>
+                        <td></td>
+                        <td>Delémont</td>
+                        <td>1706</td>
+                        <td>Homicide</td>
+                        <td></td>
+                        <td>Amende</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 227-230</td>
+                      </tr>
+                      <tr>
+                        <td>Domon
+                          dit Collet</td>
+                        <td>Pierra</td>
+                        <td></td>
+                        <td>Delémont</td>
+                        <td>1706</td>
+                        <td>Homicide</td>
+                        <td></td>
+                        <td>Amende</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 227-230</td>
+                      </tr>
+                      <tr>
+                        <td>Schaffter</td>
+                        <td>Pierra</td>
+                        <td></td>
+                        <td>Delémont</td>
+                        <td>1706</td>
+                        <td>Homicide</td>
+                        <td></td>
+                        <td>prison et journées de travail,
+                          amende</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 227-230</td>
+                      </tr>
+                      <tr>
+                        <td>Tendon</td>
+                        <td>Claudat</td>
+                        <td></td>
+                        <td>Delémont</td>
+                        <td>1706</td>
+                        <td>Homicide</td>
+                        <td></td>
+                        <td>prison et journées de travail,
+                          amende</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 227-230</td>
+                      </tr>
+                      <tr>
+                        <td>Tendon</td>
+                        <td>Georges</td>
+                        <td></td>
+                        <td>Delémont</td>
+                        <td>1706</td>
+                        <td>Homicide</td>
+                        <td></td>
+                        <td>prison et journées de travail,
+                          amende</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 227-230</td>
+                      </tr>
+                      <tr>
+                        <td>Tendon</td>
+                        <td>Jean</td>
+                        <td></td>
+                        <td>Delémont</td>
+                        <td>1706</td>
+                        <td>Homicide</td>
+                        <td></td>
+                        <td>prison et journées de travail,
+                          amende</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 227-230</td>
+                      </tr>
+                      <tr>
+                        <td>Beuchat</td>
+                        <td>Nicolas</td>
+                        <td></td>
+                        <td>Delémont</td>
+                        <td>1706</td>
+                        <td>Homicide</td>
+                        <td></td>
+                        <td>prison et journées de travail,
+                          amende</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 227-230</td>
+                      </tr>
+                      <tr>
+                        <td>Beuchat</td>
+                        <td>Jean</td>
+                        <td></td>
+                        <td>Delémont</td>
+                        <td>1706</td>
+                        <td>Homicide</td>
+                        <td></td>
+                        <td>prison et journées de travail,
+                          amende</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 227-230</td>
+                      </tr>
+                      <tr>
+                        <td>Beuchat</td>
+                        <td>François</td>
+                        <td></td>
+                        <td>Delémont</td>
+                        <td>1706</td>
+                        <td>Homicide</td>
+                        <td></td>
+                        <td>prison et journées de travail,
+                          amende</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 227-230</td>
+                      </tr>
+                      <tr>
+                        <td>Nicol</td>
+                        <td>Pierra</td>
+                        <td></td>
+                        <td>Delémont</td>
+                        <td>1706</td>
+                        <td>Homicide</td>
+                        <td></td>
+                        <td>prison et journées de travail,
+                          amende</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 227-230</td>
+                      </tr>
+                      <tr>
+                        <td>La
+                          Fontaine</td>
+                        <td>Eustache</td>
+                        <td>Troyes</td>
+                        <td>Champagne</td>
+                        <td>1707</td>
+                        <td>Vol</td>
+                        <td>évasion de prison avec violence</td>
+                        <td>galères (7 ans)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 231-233</td>
+                      </tr>
+                      <tr>
+                        <td>Burnin</td>
+                        <td>Judith</td>
+                        <td>Corgémont</td>
+                        <td>Erguël</td>
+                        <td>1707</td>
+                        <td>Sorcellerie</td>
+                        <td></td>
+                        <td>mort (feu)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 234-235</td>
+                      </tr>
+                      <tr>
+                        <td>Nicolet</td>
+                        <td>Barbelet</td>
+                        <td>Corgémont</td>
+                        <td>Erguël</td>
+                        <td>1707</td>
+                        <td>Sorcellerie</td>
+                        <td></td>
+                        <td>mort (feu)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 238-239</td>
+                      </tr>
+                      <tr>
+                        <td>François</td>
+                        <td>Jean Henri</td>
+                        <td>Porrentruy</td>
+                        <td>Ajoie</td>
+                        <td>1708</td>
+                        <td>Blasphème</td>
+                        <td></td>
+                        <td>bannissement temporaire de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 240-245</td>
+                      </tr>
+                      <tr>
+                        <td>Claude</td>
+                        <td>Etienne</td>
+                        <td>Saciol</td>
+                        <td>Auvergne</td>
+                        <td>1708</td>
+                        <td>Scandale public</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 246-247</td>
+                      </tr>
+                      <tr>
+                        <td>Carré</td>
+                        <td>Claude</td>
+                        <td>Pompey</td>
+                        <td>Lorraine</td>
+                        <td>1708</td>
+                        <td>Homicide</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 248-249</td>
+                      </tr>
+                      <tr>
+                        <td>La Croix</td>
+                        <td>François</td>
+                        <td></td>
+                        <td>Lyon</td>
+                        <td>1709</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 250</td>
+                      </tr>
+                      <tr>
+                        <td>Grosbacher
+                          (Grossenbacher)</td>
+                        <td>Johannes</td>
+                        <td>Schmidigen</td>
+                        <td>Berne</td>
+                        <td>1709</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>galères (7 ans)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 251-254</td>
+                      </tr>
+                      <tr>
+                        <td>Chappuis</td>
+                        <td>Antoine</td>
+                        <td>Chairgé (Chargey?) près de
+                          Prejurot (?)</td>
+                        <td>Bourgogne</td>
+                        <td>1709</td>
+                        <td>Fausse monnaie</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 255-256</td>
+                      </tr>
+                      <tr>
+                        <td>Dag(u)et
+                          dit Chovet</td>
+                        <td>David</td>
+                        <td></td>
+                        <td>Neuchâtel</td>
+                        <td>1709</td>
+                        <td>Fausse monnaie</td>
+                        <td></td>
+                        <td>mort (décapitation)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 257-258</td>
+                      </tr>
+                      <tr>
+                        <td>Tüeller</td>
+                        <td>Frantz</td>
+                        <td>Laufon</td>
+                        <td>Zwingen-Laufon</td>
+                        <td>1709</td>
+                        <td>Fausse monnaie (complicité de)</td>
+                        <td></td>
+                        <td>prison perpétuelle dans sa
+                          maison</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 259-260</td>
+                      </tr>
+                      <tr>
+                        <td>Monot</td>
+                        <td>Georges</td>
+                        <td>Le Russey</td>
+                        <td>Franche-Comté</td>
+                        <td>1709</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 261-262</td>
+                      </tr>
+                      <tr>
+                        <td>Pechatjean</td>
+                        <td>Catherine</td>
+                        <td>Les Breuleux</td>
+                        <td>Franches-Montagnes</td>
+                        <td></td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 261-262</td>
+                      </tr>
+                      <tr>
+                        <td>Binder</td>
+                        <td>Martin</td>
+                        <td>Holzkirch</td>
+                        <td></td>
+                        <td>1709</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 263-264</td>
+                      </tr>
+                      <tr>
+                        <td>Son</td>
+                        <td>Jean Pierre</td>
+                        <td>Montreux-Jeune</td>
+                        <td>Alsace</td>
+                        <td>1709</td>
+                        <td>Meurtre (tentative de)</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 265-266</td>
+                      </tr>
+                      <tr>
+                        <td>La Tour</td>
+                        <td>Claudine</td>
+                        <td>Arbois</td>
+                        <td>Franche-Comté</td>
+                        <td>1709</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 267-268</td>
+                      </tr>
+                      <tr>
+                        <td>Guenin</td>
+                        <td>Suzanne</td>
+                        <td>Cortébert</td>
+                        <td>Erguël</td>
+                        <td>1709</td>
+                        <td>Suicide (tentative de)</td>
+                        <td>reniement de Dieu et abandon au
+                          démon, mais sans nuire à quiconque</td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 269</td>
+                      </tr>
+                      <tr>
+                        <td>Chapuis</td>
+                        <td>Joseph</td>
+                        <td>Bonfol</td>
+                        <td>Ajoie</td>
+                        <td>1709</td>
+                        <td>Fausse monnaie</td>
+                        <td></td>
+                        <td>mort (pendaison en effigie)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 270-271</td>
+                      </tr>
+                      <tr>
+                        <td>Rain</td>
+                        <td>Marie Anne</td>
+                        <td>Boncourt</td>
+                        <td>Ajoie</td>
+                        <td>1710</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement de Porrentruy</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 272-273</td>
+                      </tr>
+                      <tr>
+                        <td>Lingme
+                          (Liengme)</td>
+                        <td>Madeleine</td>
+                        <td>Cormoret</td>
+                        <td>Erguël</td>
+                        <td>1710</td>
+                        <td>Sorcellerie</td>
+                        <td></td>
+                        <td>mort (feu)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 274-275</td>
+                      </tr>
+                      <tr>
+                        <td>Meyerin</td>
+                        <td>Anna Maria</td>
+                        <td>Schliengen</td>
+                        <td>Schliengen</td>
+                        <td>1710</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>mort</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 276-277</td>
+                      </tr>
+                      <tr>
+                        <td>Billechoz</td>
+                        <td>Joseph</td>
+                        <td>Porrentruy</td>
+                        <td>Ajoie</td>
+                        <td>1710</td>
+                        <td>Non respect du bannissement</td>
+                        <td>menaces de tuer certains de ses
+                          juges et d'incendier la ville</td>
+                        <td>galères (7 ans)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 279-281</td>
+                      </tr>
+                      <tr>
+                        <td>Grosjean</td>
+                        <td>Daniel</td>
+                        <td>Saules</td>
+                        <td>Moutier-Grandval</td>
+                        <td>1711</td>
+                        <td>Adultère</td>
+                        <td>meurtre</td>
+                        <td>érection d'une roue à l'endroit
+                          du crime, avec un poteau portant le nom du meurtrier (Grosjean s'est suicidé
+                          en prison à Neuchâtel)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 282-285</td>
+                      </tr>
+                      <tr>
+                        <td>Dangel</td>
+                        <td>Hans Adam</td>
+                        <td>Vieux-Ferrette</td>
+                        <td>Alsace</td>
+                        <td>1711</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>mort (décapitation)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 286-287</td>
+                      </tr>
+                      <tr>
+                        <td>Weissmüller</td>
+                        <td>Hans Georg</td>
+                        <td>Zeiningen</td>
+                        <td>Rheinfelden</td>
+                        <td>1711</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 288-289</td>
+                      </tr>
+                      <tr>
+                        <td>Morlette</td>
+                        <td>Marie</td>
+                        <td>Lauterbach</td>
+                        <td>Alsace</td>
+                        <td>1712</td>
+                        <td>Vagabondage</td>
+                        <td>vol (complicité de)</td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 290-291</td>
+                      </tr>
+                      <tr>
+                        <td>Biétry</td>
+                        <td>Maury</td>
+                        <td>Fregiécourt</td>
+                        <td>Ajoie</td>
+                        <td>1712</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>mort (pendaison)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 292-293</td>
+                      </tr>
+                      <tr>
+                        <td>Matille
+                          (Métille)</td>
+                        <td>Nicolas</td>
+                        <td>Fregiécourt</td>
+                        <td>Ajoie</td>
+                        <td>1712</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>mort (pendaison)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 294-295</td>
+                      </tr>
+                      <tr>
+                        <td>Biétry</td>
+                        <td>François</td>
+                        <td>Fregiécourt</td>
+                        <td>Ajoie</td>
+                        <td>1712</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement temporaire de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 296-297</td>
+                      </tr>
+                      <tr>
+                        <td>La Croix</td>
+                        <td>Jacques</td>
+                        <td>Lille</td>
+                        <td>Flandre</td>
+                        <td>1712</td>
+                        <td>Vagabondage</td>
+                        <td>vol</td>
+                        <td>mort (pendaison)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 298-299</td>
+                      </tr>
+                      <tr>
+                        <td>Vögtlerin</td>
+                        <td>Anna</td>
+                        <td>Hochwald</td>
+                        <td>Soleure</td>
+                        <td>1712</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 300</td>
+                      </tr>
+                      <tr>
+                        <td>Amann</td>
+                        <td>Johannes</td>
+                        <td>Dürkhen (Turckheim, Elsass?)</td>
+                        <td>Alsace?</td>
+                        <td>1712</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 301</td>
+                      </tr>
+                      <tr>
+                        <td>Jaquerez</td>
+                        <td>Henry</td>
+                        <td>Saicourt</td>
+                        <td>Moutier-Grandval</td>
+                        <td>1712</td>
+                        <td>Homicide</td>
+                        <td></td>
+                        <td>mort (décapitation)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 302-303</td>
+                      </tr>
+                      <tr>
+                        <td>Olier</td>
+                        <td>François</td>
+                        <td>Montpezat</td>
+                        <td></td>
+                        <td>1713</td>
+                        <td>Vagabondage</td>
+                        <td>vol</td>
+                        <td>galères (5 ans)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 304-305</td>
+                      </tr>
+                      <tr>
+                        <td>Olier</td>
+                        <td>Jean</td>
+                        <td>Saint-Cirq</td>
+                        <td></td>
+                        <td>1713</td>
+                        <td>Vagabondage</td>
+                        <td>vol (complicité de)</td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 306-307</td>
+                      </tr>
+                      <tr>
+                        <td>Saxerinne</td>
+                        <td>Elisabeth</td>
+                        <td>Neuwiller près de Strasbourg</td>
+                        <td>Alsace</td>
+                        <td>1713</td>
+                        <td>Vagabondage</td>
+                        <td>vol (complicité de)</td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 306-307</td>
+                      </tr>
+                      <tr>
+                        <td>Purné</td>
+                        <td>Jeanne</td>
+                        <td>Bévilard</td>
+                        <td>Moutier-Grandval</td>
+                        <td>1713</td>
+                        <td>Assassinat</td>
+                        <td></td>
+                        <td>mort (roue)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 308-309</td>
+                      </tr>
+                      <tr>
+                        <td>Perlet</td>
+                        <td>Joseph</td>
+                        <td>Lajoux</td>
+                        <td>Bellelay</td>
+                        <td>1713</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 310</td>
+                      </tr>
+                      <tr>
+                        <td>Terrier</td>
+                        <td>Jean Georges</td>
+                        <td>Montignez</td>
+                        <td>Ajoie</td>
+                        <td>1713</td>
+                        <td>Vol</td>
+                        <td>menaces, irrespect de l'autorité</td>
+                        <td>bannissement temporaire de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 311-312</td>
+                      </tr>
+                      <tr>
+                        <td>Füegen</td>
+                        <td>Franz</td>
+                        <td>Laufon</td>
+                        <td>Zwingen-Laufon</td>
+                        <td>1713</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td ></td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 313</td>
+                      </tr>
+                      <tr>
+                        <td>Frisch</td>
+                        <td>Christen</td>
+                        <td>Laufon</td>
+                        <td>Zwingen-Laufon</td>
+                        <td>1713</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td ></td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 313</td>
+                      </tr>
+                      <tr>
+                        <td>Dubois</td>
+                        <td>Jean Pierre</td>
+                        <td>Chambéry (région de)</td>
+                        <td>Savoie</td>
+                        <td>1713</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 314-315</td>
+                      </tr>
+                      <tr>
+                        <td>Hinzenin</td>
+                        <td>Barbara</td>
+                        <td>Bärschwil</td>
+                        <td>Soleure</td>
+                        <td>1714</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement temporaire de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 315-316</td>
+                      </tr>
+                      <tr>
+                        <td>Haitz</td>
+                        <td>Bartle</td>
+                        <td>Bamlach</td>
+                        <td>Autriche antérieure</td>
+                        <td>1714</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 317</td>
+                      </tr>
+                      <tr>
+                        <td>Schadell</td>
+                        <td>Jean</td>
+                        <td>Les Verrières</td>
+                        <td>Neuchâtel</td>
+                        <td>1714</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 318</td>
+                      </tr>
+                      <tr>
+                        <td>Meier</td>
+                        <td>Vincenz</td>
+                        <td>Baumgarten</td>
+                        <td>Soleure</td>
+                        <td>1714</td>
+                        <td>Homicide</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 319-320</td>
+                      </tr>
+                      <tr>
+                        <td>Ittin</td>
+                        <td>Barbara</td>
+                        <td>Schliengen</td>
+                        <td>Schliengen</td>
+                        <td>1714</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 321</td>
+                      </tr>
+                      <tr>
+                        <td>Gagnebin</td>
+                        <td>Lucrèce</td>
+                        <td>Renan</td>
+                        <td>Erguël</td>
+                        <td>1715</td>
+                        <td>Vol<span n:yes'> </span></td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 322</td>
+                      </tr>
+                      <tr>
+                        <td>Perret</td>
+                        <td>Catherine</td>
+                        <td></td>
+                        <td></td>
+                        <td>1715</td>
+                        <td>Suicide</td>
+                        <td></td>
+                        <td>encrottement du cadavre</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 323</td>
+                      </tr>
+                      <tr>
+                        <td>Schmidlin</td>
+                        <td>Carle</td>
+                        <td></td>
+                        <td></td>
+                        <td>1715</td>
+                        <td>Blasphème</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 324-326</td>
+                      </tr>
+                      <tr>
+                        <td>Helstab</td>
+                        <td>Joseph</td>
+                        <td>Orschwihr</td>
+                        <td>Alsace</td>
+                        <td>1715</td>
+                        <td>Vagabondage</td>
+                        <td>vol</td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 327-328</td>
+                      </tr>
+                      <tr>
+                        <td>Helstab</td>
+                        <td>Joseph</td>
+                        <td>Orschwihr</td>
+                        <td>Alsace</td>
+                        <td>1715</td>
+                        <td>Non respect du bannissement</td>
+                        <td>vol</td>
+                        <td>galères (5 ans)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 329-330</td>
+                      </tr>
+                      <tr>
+                        <td>Regine</td>
+                        <td>Madeleine</td>
+                        <td>Sebelin</td>
+                        <td>Souabe</td>
+                        <td>1716</td>
+                        <td>Vagabondage</td>
+                        <td>vol</td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 331-332</td>
+                      </tr>
+                      <tr>
+                        <td>Nussbaumer</td>
+                        <td>Jacob</td>
+                        <td>Liesberg</td>
+                        <td>Zwingen-Laufon</td>
+                        <td>1716</td>
+                        <td>Zoophilie</td>
+                        <td></td>
+                        <td>mort (brûlé en effigie)</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 333-335</td>
+                      </tr>
+                      <tr>
+                        <td>Mouillet</td>
+                        <td>Jean Jacques</td>
+                        <td>Courrendlin</td>
+                        <td>Moutier-Grandval</td>
+                        <td>1716</td>
+                        <td>Adultère</td>
+                        <td></td>
+                        <td>bannissement temporaire de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 337-338</td>
+                      </tr>
+                      <tr>
+                        <td>Franc</td>
+                        <td>Jean Jacques</td>
+                        <td>Pleigne</td>
+                        <td>Delémont</td>
+                        <td>1716</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement temporaire de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 339</td>
+                      </tr>
+                      <tr>
+                        <td>Bey</td>
+                        <td>Joseph</td>
+                        <td>Grandvillars</td>
+                        <td>Delle</td>
+                        <td>1716</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 340</td>
+                      </tr>
+                      <tr>
+                        <td>Butz</td>
+                        <td>Lorentz</td>
+                        <td>Schönenbuch</td>
+                        <td>Birseck</td>
+                        <td>1717</td>
+                        <td>Inceste</td>
+                        <td>assassinat</td>
+                        <td>mort (décapitation)</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 341-342</td>
+                      </tr>
+                      <tr>
+                        <td>Butz</td>
+                        <td>Catharina</td>
+                        <td>Schönenbuch</td>
+                        <td>Birseck</td>
+                        <td>1717</td>
+                        <td>Inceste</td>
+                        <td>assassinat</td>
+                        <td>mort (décapitation)</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 341-342</td>
+                      </tr>
+                      <tr>
+                        <td>Butz</td>
+                        <td>Martin</td>
+                        <td>Schönenbuch</td>
+                        <td>Birseck</td>
+                        <td>1717</td>
+                        <td>Assassinat (complicité de)</td>
+                        <td></td>
+                        <td>mort (décapitation)</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 341-342</td>
+                      </tr>
+                      <tr>
+                        <td>Erny</td>
+                        <td>Christoff</td>
+                        <td>Steinenstadt</td>
+                        <td>Schliengen</td>
+                        <td>1717</td>
+                        <td>Homicide</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 343-344</td>
+                      </tr>
+                      <tr>
+                        <td>Gerber</td>
+                        <td>Hans</td>
+                        <td>Röthenbach im Emmental</td>
+                        <td>Berne</td>
+                        <td>1717</td>
+                        <td>Vagabondage</td>
+                        <td>vol</td>
+                        <td>mort</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 345-346</td>
+                      </tr>
+                      <tr>
+                        <td>Castella</td>
+                        <td>Jean</td>
+                        <td></td>
+                        <td>Fribourg</td>
+                        <td>1717</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>mort (pendaison)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 347-348</td>
+                      </tr>
+                      <tr>
+                        <td>Vallet</td>
+                        <td>Humbert</td>
+                        <td>Epauvillers</td>
+                        <td>Saint-Ursanne</td>
+                        <td>1717</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>mort (pendaison)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 349-350</td>
+                      </tr>
+                      <tr>
+                        <td>Combe
+                          (en fait Charbonnier)</td>
+                        <td>Antoine</td>
+                        <td>La Tour-de-Peilz</td>
+                        <td>Berne</td>
+                        <td>1717</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>mort (pendaison)</td>
+                        <td>FR</td>
+                        <td>Cod. 205A p. 351-354</td>
+                      </tr>
+                      <tr>
+                        <td>Marti</td>
+                        <td>Christoffel</td>
+                        <td>Schangnau, paroisse de</td>
+                        <td>Berne</td>
+                        <td>1717</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>mort (pendaison)</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 356-362</td>
+                      </tr>
+                      <tr>
+                        <td>Diebelschweyl</td>
+                        <td>Catharina</td>
+                        <td>Eggiwil</td>
+                        <td>Berne</td>
+                        <td>1717</td>
+                        <td>Vol (complicité de)</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 361-362</td>
+                      </tr>
+                      <tr>
+                        <td>Hundschbergerin
+                          (Honsperger)</td>
+                        <td>Catharina</td>
+                        <td>Eggiwil</td>
+                        <td>Berne</td>
+                        <td>1717</td>
+                        <td>Vol (complicité de)</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 361-362</td>
+                      </tr>
+                      <tr>
+                        <td>Hundschbergerin
+                          (Honsperger)</td>
+                        <td>Barbara</td>
+                        <td>Eggiwil</td>
+                        <td>Berne</td>
+                        <td>1717</td>
+                        <td>Vol (complicité de)</td>
+                        <td></td>
+                        <td>bannissement perpétuel de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 361-362</td>
+                      </tr>
+                      <tr>
+                        <td>Beck</td>
+                        <td>Anthoni</td>
+                        <td ></td>
+                        <td>Schliengen?</td>
+                        <td>1717</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement temporaire de
+                          l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 363-364</td>
+                      </tr>
+                      <tr>
+                        <td>Schwan</td>
+                        <td>Georg</td>
+                        <td></td>
+                        <td>Schliengen?</td>
+                        <td>1717</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement temporaire de l'Evêché</td>
+                        <td></td>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <td>Hassler</td>
+                        <td>Caspar</td>
+                        <td></td>
+                        <td>Zwingen-Laufon</td>
+                        <td>1717</td>
+                        <td>Vol</td>
+                        <td></td>
+                        <td>bannissement perpétuel de l'Evêché</td>
+                        <td>DE</td>
+                        <td>Cod. 205A p. 365</td>
+                      </tr>
+                </tbody>
+            </table>
+            
+        </div>
+
+
+        <script>
+            // Tri dynamique de tableau HTML
+            // Auteur : Copyright © 2015 - Django Blais
+            // Source : http://trucsweb.com/tutoriels/Javascript/tableau-tri/
+            // Sous licence du MIT.
+            function twInitTableau() {
+              // Initialise chaque tableau de classe « avectri »
+                 [].forEach.call( document.getElementsByClassName("avectri"), function(oTableau) {
+                 var oEntete = oTableau.getElementsByTagName("tr")[0];
+                 var nI = 1;
+                  // Ajoute à chaque entête (th) la capture du clic
+                  // Un picto flèche, et deux variable data-*
+                  // - Le sens du tri (0 ou 1)
+                  // - Le numéro de la colonne
+                [].forEach.call( oEntete.querySelectorAll("th"), function(oTh) {
+                  oTh.addEventListener("click", twTriTableau, false);
+                  oTh.setAttribute("data-pos", nI);
+                  if(oTh.getAttribute("data-tri")=="1") {
+                   oTh.innerHTML += "<span class=\"flecheDesc\"></span>";
+                  } else {
+                    oTh.setAttribute("data-tri", "0");
+                    oTh.innerHTML += "<span class=\"flecheAsc\"></span>";
+                  }
+                  // Tri par défaut
+                  if (oTh.className=="selection") {
+                    oTh.click();
+                  }
+                  nI++;
+                });
+              });
+            }
+            
+            function twInit() {
+              twInitTableau();
+            }
+            function twPret(maFonction) {
+              if (document.readyState != "loading"){
+                maFonction();
+              } else {
+                document.addEventListener("DOMContentLoaded", maFonction);
+              }
+            }
+            twPret(twInit);
+          
+            function twTriTableau() {
+              // Ajuste le tri
+              var nBoolDir = this.getAttribute("data-tri");
+              this.setAttribute("data-tri", (nBoolDir=="0") ? "1" : "0");
+              // Supprime la classe « selection » de chaque colonne.
+              [].forEach.call( this.parentNode.querySelectorAll("th"), function(oTh) {oTh.classList.remove("selection");});
+              // Ajoute la classe « selection » à la colonne cliquée.
+              this.className = "selection";
+              // Ajuste la flèche
+              this.querySelector("span").className = (nBoolDir=="0") ? "flecheAsc" : "flecheDesc";
+          
+              // Construit la matrice
+              // Récupère le tableau (tbody)
+              var oTbody = this.parentNode.parentNode.parentNode.getElementsByTagName("tbody")[0]; 
+              var oLigne = oTbody.rows;
+              var nNbrLigne = oLigne.length;
+              var aColonne = new Array(), i, j, oCel;
+              for(i = 0; i < nNbrLigne; i++) {
+                oCel = oLigne[i].cells;
+                aColonne[i] = new Array();
+                for(j = 0; j < oCel.length; j++){
+                  aColonne[i][j] = oCel[j].innerHTML;
+                }
+              }
+          
+              // Trier la matrice (array)
+              // Récupère le numéro de la colonne
+              var nIndex = this.getAttribute("data-pos");
+              // Récupère le type de tri (numérique ou par défaut « local »)
+              var sFonctionTri = (this.getAttribute("data-type")=="num") ? "compareNombres" : "compareLocale";
+              // Tri
+              aColonne.sort(eval(sFonctionTri));
+              // Tri numérique
+              function compareNombres(a, b) {return a[nIndex-1] - b[nIndex-1];}
+              // Tri local (pour support utf-8)
+              function compareLocale(a, b) {return a[nIndex-1].localeCompare(b[nIndex-1]);}
+              // Renverse la matrice dans le cas d’un tri descendant
+              if (nBoolDir==0) aColonne.reverse();
+              
+              // Construit les colonne du nouveau tableau
+              for(i = 0; i < nNbrLigne; i++){
+                aColonne[i] = "<td>"+aColonne[i].join("</td><td>")+"</td>";
+              }
+          
+              // assigne les lignes au tableau
+              oTbody.innerHTML = "<tr>"+aColonne.join("</tr><tr>")+"</tr>";
+            }
+            
+        
+            </script>
+        <p>
+            Créé le: 01/07/2022, par Bregnard Damien.
+        </p>
+    </div>
+
+    <footer>
+        <p>Archives de l'ancien Évêché de Bâle – <a href="mailto:jean-claude.rebetez@aaeb.ch">Nous écrire</a></p>
+        <p>2022 - Tous droits réservés.</p>
+    </footer>
+</body>
+
+</html>

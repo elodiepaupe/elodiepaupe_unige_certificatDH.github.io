@@ -1,0 +1,198 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#">
+   <teiHeader xml:lang="fr">
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <editionStmt>
+            <edition>Version électronique TEI des procédures criminelles de la principauté épiscopale de Bâle</edition>
+            <respStmt>
+               <name xml:id="EP">Élodie Paupe</name>
+               <resp>Encodage</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Archives de l'ancien Évêché de Bâle</authority>
+            <address>
+               <addrLine>rue des Annonciades 10</addrLine>
+               <addrLine>2900 Porrentruy</addrLine>
+               <addrLine>www.aaeb.ch</addrLine>
+            </address>
+            <availability status="restricted" n="CC-BY-NC-SA">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+               <p>Creative Commons Attribution 4.0 CC BY-NC-SA 4.0 FR</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Porrentruy</settlement>
+                  <repository>Archives de l'ancien Évêché de Bâle</repository>
+                  <idno type="cote"/>
+                  <idno type="url">https://archives-aaeb.jura.ch/detail.aspx?ID=223582</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab source="https://github.com/aaeb-porrentruy/corpus_prevot_farine_fr/blob/main/README.md">Les normes de transcription sont disponibles en ligne.</ab>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Moyen français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-07-31" who="#EP">Création du fichier TEI à partir des sources alto</change>
+      </revisionDesc>
+   </teiHeader>
+   <sourceDoc xml:id="transcription">
+      <surface xml:id="B_168_15-2-2_0010">
+         <graphic url=""/>
+         <zone xml:id="eSc_textblock_251b1da5"
+               type="segmontoZone"
+               corresp="MainZone"
+               n="1"
+               points="2251,325 2305,400 2439,413 2402,735 2276,835 1503,873 1374,923 501,860 526,726 676,723 689,325 974,313 1039,162 1976,200 2029,313 "
+               source="/501,162,1938,761/full/0/default.jpg">
+            <zone xml:id="eSc_line_2d64a674"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="2"
+                  points="1008,272 1002,165 1143,165 1146,165 1155,169 1249,206 1318,175 1321,175 1324,175 1327,175 1331,175 1368,200 1406,178 1428,162 1431,162 1434,162 1437,162 1440,162 1484,181 1544,203 1609,184 1644,175 1647,175 1650,175 1653,175 1694,187 1738,200 1782,190 1847,175 1850,175 1954,197 1960,256 1957,284 1628,278 1487,294 1475,294 1471,294 1465,294 1387,278 1008,300 "
+                  source="/1002,162,958,138/full/0/default.jpg">
+               <path n="2"
+                     xml:id="eSc_line_2d64a674_baseline_2"
+                     type="baseline"
+                     points="1008,272 1960,256 "/>
+               <line xml:id="eSc_line_2d64a674_ligne_2">Le 22 de Novembre 1608.</line>
+            </zone>
+            <zone xml:id="eSc_line_a0f74e81"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="3"
+                  points="673,416 667,322 826,319 829,319 833,319 836,319 839,322 873,353 1024,353 1074,328 1093,319 1096,319 1099,319 1102,319 1136,328 1221,350 1305,331 1359,319 1362,319 1440,331 1503,344 1515,334 1534,319 1537,319 1540,319 1544,319 1625,334 1666,344 1675,338 1681,331 1684,331 1688,331 1691,331 1694,331 1697,331 1703,338 1719,347 1738,338 1794,313 1797,313 1800,313 1803,313 1857,341 1866,344 2004,341 2098,341 2145,319 2148,319 2151,319 2264,347 2267,410 2264,425 1882,413 1835,428 1832,428 1829,428 1825,428 1785,413 1688,431 1666,435 1663,435 1600,431 1334,416 1315,431 1315,435 1312,435 1309,435 1227,438 1227,441 1140,441 1136,438 1133,438 1130,438 1130,435 1105,419 1061,438 1055,438 1052,438 1049,438 1046,438 1042,438 1014,422 999,435 999,438 995,438 992,438 992,441 673,441 "
+                  source="/667,313,1600,128/full/0/default.jpg">
+               <path n="3"
+                     xml:id="eSc_line_a0f74e81_baseline_3"
+                     type="baseline"
+                     points="673,416 1540,397 2267,410 "/>
+               <line xml:id="eSc_line_a0f74e81_ligne_3">Les presentes Informations sont estees leutes Par</line>
+            </zone>
+            <zone xml:id="eSc_line_7efd2f55"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="4"
+                  points="726,494 720,428 911,406 914,406 917,406 974,422 1005,400 1008,400 1011,400 1014,400 1121,422 1199,406 1202,406 1331,422 1431,400 1434,400 1550,422 1609,400 1612,400 1616,400 1619,400 1678,422 1797,397 1800,397 1803,397 1866,419 2001,397 2004,397 2007,397 2082,419 2380,397 2383,397 2386,397 2439,422 2439,485 2436,491 2301,513 2298,513 2217,497 2204,494 2198,497 2167,510 2164,510 2160,510 2157,510 2154,510 2154,507 2142,497 2139,494 1875,494 1838,503 1778,516 1775,516 1772,516 1769,516 1753,503 1741,497 1562,507 1387,516 1384,516 1381,516 1378,516 1378,513 1371,510 1362,497 1212,497 1196,513 1193,513 1193,516 1190,516 1186,516 1186,519 999,519 995,516 992,516 989,516 974,500 955,516 952,516 948,516 726,519 "
+                  source="/720,397,1719,122/full/0/default.jpg">
+               <path n="4"
+                     xml:id="eSc_line_7efd2f55_baseline_4"
+                     type="baseline"
+                     points="726,494 1475,472 2439,485 "/>
+               <line xml:id="eSc_line_7efd2f55_ligne_4">devant Le conseil de son Excellence Reverendissime</line>
+            </zone>
+            <zone xml:id="eSc_line_0e5f317a"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="5"
+                  points="679,569 673,516 729,513 751,491 751,488 754,488 757,488 761,488 883,510 1042,510 1102,485 1105,485 1108,485 1111,485 1114,485 1136,507 1208,507 1237,482 1240,482 1243,482 1246,482 1249,482 1309,497 1327,482 1327,478 1331,478 1334,478 1337,478 1340,478 1396,500 1446,478 1450,478 1453,478 1456,478 1503,500 1522,485 1525,485 1528,485 1531,485 1609,497 1634,478 1634,475 1637,475 1641,475 1644,475 1782,488 1957,469 1960,469 2088,491 2092,491 2095,491 2135,472 2139,472 2142,472 2145,472 2148,472 2160,485 2179,469 2179,466 2182,466 2186,466 2189,466 2192,466 2239,488 2383,488 2392,544 2392,572 1161,572 1114,588 1108,591 1105,591 1102,591 1071,591 895,575 861,594 858,594 855,594 851,594 839,594 767,579 679,594 "
+                  source="/673,466,1719,128/full/0/default.jpg">
+               <path n="5"
+                     xml:id="eSc_line_0e5f317a_baseline_5"
+                     type="baseline"
+                     points="679,569 2392,544 "/>
+               <line xml:id="eSc_line_0e5f317a_ligne_5">Lequel ayant le tout veu et pese Ont declaire</line>
+            </zone>
+            <zone xml:id="eSc_line_38685859"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="6"
+                  points="679,657 676,582 1509,582 1534,563 1537,563 1540,563 1544,563 1584,563 1875,575 1919,557 1922,557 1926,557 1929,557 1932,557 1935,557 1973,572 2073,554 2085,554 2088,554 2101,554 2207,569 2367,550 2373,635 2373,644 2079,660 2076,660 2038,654 1995,644 1969,654 1951,663 1948,663 1944,663 1894,657 1835,647 1772,660 1719,669 1716,669 1637,663 1550,654 1525,666 1506,672 1503,672 1500,672 1497,672 1468,666 1418,654 1337,669 1327,669 1324,669 1312,669 1215,657 1199,669 1199,672 1196,672 1193,672 1190,672 1174,672 1030,660 1005,676 1002,676 999,676 995,676 992,676 908,663 870,679 855,685 851,685 848,685 676,682 "
+                  source="/676,550,1697,135/full/0/default.jpg">
+               <path n="6"
+                     xml:id="eSc_line_38685859_baseline_6"
+                     type="baseline"
+                     points="679,657 1844,629 2373,635 "/>
+               <line xml:id="eSc_line_38685859_ligne_6">ladite Annelin debvoir estre tiree en cause et en</line>
+            </zone>
+            <zone xml:id="eSc_line_7b03044b"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="7"
+                  points="726,738 720,682 1158,651 1161,651 1259,663 1302,669 1337,663 1390,647 1393,647 1396,647 1500,657 1575,663 1590,654 1606,644 1609,644 1612,644 1616,644 1619,644 1641,654 1669,663 1694,651 1706,644 1710,644 1713,644 1782,647 1872,654 1888,644 1897,638 1901,638 1904,638 1907,638 2004,641 2283,654 2348,632 2358,726 2348,757 2276,732 2214,760 2211,760 2095,763 2092,763 2088,763 2082,763 1973,732 1766,732 1741,751 1738,751 1735,751 1731,751 1728,751 1725,751 1710,735 1581,769 1578,769 1575,769 1572,769 1490,748 1368,763 1365,763 1362,763 1359,763 1331,741 1202,741 1165,776 1161,776 1158,776 1077,779 1052,779 1049,779 1046,779 961,748 923,782 920,782 917,782 914,782 911,782 811,751 729,785 "
+                  source="/720,632,1638,153/full/0/default.jpg">
+               <path n="7"
+                     xml:id="eSc_line_7b03044b_baseline_7"
+                     type="baseline"
+                     points="726,738 2120,713 2358,726 "/>
+               <line xml:id="eSc_line_7b03044b_ligne_7">prison. Et estant Illec tost sur les faictz predits</line>
+            </zone>
+            <zone xml:id="eSc_line_41b0340b"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="8"
+                  points="501,838 491,776 613,757 616,757 620,757 623,757 645,773 654,779 704,773 764,763 767,763 873,769 970,776 980,769 999,751 999,748 1002,748 1005,748 1008,748 1230,766 1299,769 1334,763 1465,738 1468,738 1540,738 1544,738 1547,738 1572,760 1578,763 1747,763 1753,760 1800,735 1803,735 1807,735 1948,748 1960,732 1963,732 1963,729 1966,729 1969,729 1973,729 2082,754 2085,754 2258,754 2264,810 2264,829 2179,829 2176,829 2145,851 2142,851 2139,851 2135,851 1844,835 1816,835 1813,835 1778,867 1775,867 1772,867 1587,873 1584,873 1581,873 1578,873 1553,854 1481,882 1478,882 1293,885 1290,885 1287,885 1199,854 1174,876 1174,879 1171,879 1168,879 1165,879 1161,879 1080,860 945,892 942,892 939,892 864,867 820,895 817,895 814,895 814,898 720,898 717,895 714,895 710,895 676,870 667,876 667,879 663,879 660,879 660,882 657,879 654,879 651,879 651,876 635,863 501,863 "
+                  source="/491,729,1773,169/full/0/default.jpg">
+               <path n="8"
+                     xml:id="eSc_line_41b0340b_baseline_8"
+                     type="baseline"
+                     points="501,838 1672,810 2264,810 "/>
+               <line xml:id="eSc_line_41b0340b_ligne_8">debvoir estre gehennee et examinee a la torture.</line>
+            </zone>
+         </zone>
+         <zone xml:id="eSc_textblock_583ada3c"
+               type="segmontoZone"
+               corresp="NumberingZone:page"
+               n="2"
+               points="2294,3621 2317,3555 2364,3555 2385,3620 "
+               source="/2294,3555,91,66/full/0/default.jpg">
+            <zone xml:id="eSc_line_4cf5dcd5"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="2"
+                  points="2311,3599 2311,3543 2373,3543 2373,3599 2370,3630 2308,3618 "
+                  source="/2308,3543,65,87/full/0/default.jpg">
+               <path n="2"
+                     xml:id="eSc_line_4cf5dcd5_baseline_2"
+                     type="baseline"
+                     points="2312,3600 2376,3602 "/>
+               <line xml:id="eSc_line_4cf5dcd5_ligne_2">10</line>
+            </zone>
+         </zone>
+      </surface>
+   </sourceDoc>
+   <text>
+      <body>
+         <div n="B_168_15-2-2_0010" type="page">
+            <pb n="B_168_15-2-2_0010"/>
+            <div type="decoration"/>
+            <div type="texte_principal">
+               <div type="MainZone">
+                  <lg xml:id="eSc_textblock_251b1da5_lg_1">
+                     <l ana="DefaultLine">Le 22 de Novembre 1608.</l>
+                     <l ana="DefaultLine">Les presentes Informations sont estees leutes Par</l>
+                     <l ana="DefaultLine">devant Le conseil de son Excellence Reverendissime</l>
+                     <l ana="DefaultLine">Lequel ayant le tout veu et pese Ont declaire</l>
+                     <l ana="DefaultLine">ladite Annelin debvoir estre tiree en cause et en</l>
+                     <l ana="DefaultLine">prison. Et estant Illec tost sur les faictz predits</l>
+                     <l ana="DefaultLine">debvoir estre gehennee et examinee a la torture.</l>
+                  </lg>
+               </div>
+            </div>
+            <div type="notes_marginales">
+               <div type="notes_marginales_auteur"/>
+               <div type="notes_marginales_archives"/>
+               <div type="notes_marginales_archives">
+                  <div type="NumberingZone:page">
+                     <lg xml:id="eSc_textblock_583ada3c_lg_1">
+                        <l ana="DefaultLine">10</l>
+                     </lg>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

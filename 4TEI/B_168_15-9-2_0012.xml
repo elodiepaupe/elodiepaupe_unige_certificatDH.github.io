@@ -1,0 +1,196 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#">
+   <teiHeader xml:lang="fr">
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <editionStmt>
+            <edition>Version électronique TEI des procédures criminelles de la principauté épiscopale de Bâle</edition>
+            <respStmt>
+               <name xml:id="EP">Élodie Paupe</name>
+               <resp>Encodage</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Archives de l'ancien Évêché de Bâle</authority>
+            <address>
+               <addrLine>rue des Annonciades 10</addrLine>
+               <addrLine>2900 Porrentruy</addrLine>
+               <addrLine>www.aaeb.ch</addrLine>
+            </address>
+            <availability status="restricted" n="CC-BY-NC-SA">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+               <p>Creative Commons Attribution 4.0 CC BY-NC-SA 4.0 FR</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Porrentruy</settlement>
+                  <repository>Archives de l'ancien Évêché de Bâle</repository>
+                  <idno type="cote"/>
+                  <idno type="url">https://archives-aaeb.jura.ch/detail.aspx?ID=223582</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab source="https://github.com/aaeb-porrentruy/corpus_prevot_farine_fr/blob/main/README.md">Les normes de transcription sont disponibles en ligne.</ab>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Moyen français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-07-31" who="#EP">Création du fichier TEI à partir des sources alto</change>
+      </revisionDesc>
+   </teiHeader>
+   <sourceDoc xml:id="transcription">
+      <surface xml:id="B_168_15-9-2_0012">
+         <graphic url=""/>
+         <zone xml:id="eSc_textblock_bb9d77a1"
+               type="segmontoZone"
+               corresp="MainZone"
+               n="1"
+               points="1683,1656 1617,1793 1174,1768 1120,1643 524,1618 537,1497 1133,1497 1149,1434 1361,1335 1595,1409 1979,1409 2017,1447 2004,1593 "
+               source="/524,1335,1493,458/full/0/default.jpg">
+            <zone xml:id="eSc_line_306fd578"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="2"
+                  points="1601,1662 1606,1795 1176,1759 1189,1668 1186,1631 1336,1618 1355,1637 1442,1637 1498,1609 1542,1634 "
+                  source="/1176,1609,430,186/full/0/default.jpg">
+               <path n="2"
+                     xml:id="eSc_line_306fd578_baseline_2"
+                     type="baseline"
+                     points="1604,1665 1190,1671 "/>
+               <line xml:id="eSc_line_306fd578_ligne_2">Information</line>
+            </zone>
+            <zone xml:id="eSc_line_c3d7fa9f"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="3"
+                  points="1960,1490 1970,1615 1867,1634 1864,1634 1860,1634 1857,1634 1836,1618 1814,1606 1779,1621 1761,1628 1757,1628 1754,1628 1751,1628 1748,1628 1739,1621 1711,1606 1530,1606 1511,1625 1508,1625 1505,1625 1501,1625 1380,1615 1361,1631 1345,1643 1342,1643 1339,1643 1336,1643 1333,1643 1311,1631 1277,1615 1220,1615 1139,1634 1067,1653 1064,1653 1064,1656 927,1656 924,1653 921,1653 883,1640 836,1625 796,1643 774,1653 771,1653 768,1653 765,1653 746,1643 718,1628 686,1646 658,1659 655,1659 652,1659 552,1646 558,1543 558,1497 671,1534 836,1490 839,1490 1064,1484 1067,1484 1071,1484 1074,1484 1149,1531 1195,1531 1289,1509 1292,1509 1295,1509 1348,1525 1377,1506 1380,1506 1383,1506 1386,1506 1389,1506 1392,1506 1411,1522 1526,1522 1614,1475 1617,1475 1620,1475 1623,1475 1729,1515 1851,1512 1901,1469 1904,1469 1907,1469 1910,1469 1957,1469 "
+                  source="/552,1469,1418,190/full/0/default.jpg">
+               <path n="3"
+                     xml:id="eSc_line_c3d7fa9f_baseline_3"
+                     type="baseline"
+                     points="1961,1491 1884,1529 1095,1558 561,1545 "/>
+               <line xml:id="eSc_line_c3d7fa9f_ligne_3">Contre Agatte femme de henry vouelin</line>
+            </zone>
+            <zone xml:id="eSc_line_1281e0a2"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="4"
+                  points="1873,1444 1867,1509 1761,1503 1745,1506 1698,1525 1695,1525 1692,1525 1689,1525 1686,1525 1651,1503 1639,1497 1617,1503 1598,1509 1595,1509 1592,1509 1520,1500 1470,1494 1461,1500 1430,1522 1426,1522 1423,1522 1423,1525 1292,1525 1289,1522 1286,1522 1214,1490 1224,1437 1217,1369 1252,1350 1255,1350 1258,1350 1455,1350 1458,1350 1461,1350 1526,1394 1561,1416 1645,1416 1667,1403 1683,1394 1686,1394 1689,1394 1692,1394 1873,1422 "
+                  source="/1214,1350,659,175/full/0/default.jpg">
+               <path n="4"
+                     xml:id="eSc_line_1281e0a2_baseline_4"
+                     type="baseline"
+                     points="1874,1447 1226,1441 "/>
+               <line xml:id="eSc_line_1281e0a2_ligne_4">de Beurnevesain</line>
+            </zone>
+         </zone>
+         <zone xml:id="eSc_textblock_38acddb4"
+               type="segmontoZone"
+               corresp="MainZone"
+               n="2"
+               points="212,795 212,686 262,658 249,511 299,474 1099,386 1283,436 1308,733 1183,857 424,870 "
+               source="/212,386,1096,484/full/0/default.jpg">
+            <zone xml:id="eSc_line_15820d1b"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="2"
+                  points="1283,704 1280,835 1239,832 1230,839 1155,879 1152,879 1152,882 1030,882 1027,879 1024,879 1021,879 974,839 955,823 893,820 608,823 587,842 549,876 549,879 546,879 543,879 543,882 455,882 452,879 449,879 380,845 387,708 384,689 1280,695 "
+                  source="/380,689,903,193/full/0/default.jpg">
+               <path n="2"
+                     xml:id="eSc_line_15820d1b_baseline_2"
+                     type="baseline"
+                     points="1284,707 390,710 "/>
+               <line xml:id="eSc_line_15820d1b_ligne_2">Criminalia</line>
+            </zone>
+            <zone xml:id="eSc_line_3df306da"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="3"
+                  points="1186,548 1183,676 1105,692 1102,692 1099,692 1036,670 1027,667 1008,667 805,689 802,689 799,689 730,651 696,636 543,636 533,642 518,655 515,655 512,655 508,655 352,630 362,545 362,514 459,514 462,514 465,514 496,536 777,517 780,517 783,517 836,542 868,530 871,530 874,530 999,545 1183,520 "
+                  source="/352,514,834,178/full/0/default.jpg">
+               <path n="3"
+                     xml:id="eSc_line_3df306da_baseline_3"
+                     type="baseline"
+                     points="1187,549 980,573 715,549 365,548 "/>
+               <line xml:id="eSc_line_3df306da_ligne_3">de Beurneve</line>
+            </zone>
+            <zone xml:id="eSc_line_3d0cc61b"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="4"
+                  points="1245,380 1252,483 1108,477 1083,489 1046,514 1042,514 1039,514 899,524 896,524 893,524 836,495 827,492 727,499 727,436 724,402 930,421 986,393 989,393 992,393 1099,408 1158,371 1161,371 1164,371 1239,368 "
+                  source="/724,368,528,156/full/0/default.jpg">
+               <path n="4"
+                     xml:id="eSc_line_3d0cc61b_baseline_4"
+                     type="baseline"
+                     points="1248,382 1069,438 728,437 "/>
+               <line xml:id="eSc_line_3d0cc61b_ligne_4">sain</line>
+            </zone>
+         </zone>
+         <zone xml:id="eSc_textblock_9cec7c07"
+               type="segmontoZone"
+               corresp="NumberingZone:page"
+               n="3"
+               points="2454,3580 2441,3627 2394,3627 2407,3568 "
+               source="/2394,3568,60,59/full/0/default.jpg">
+            <zone xml:id="eSc_line_30f759f3"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="2"
+                  points="2398,3618 2404,3552 2448,3558 2441,3624 2438,3633 2394,3636 "
+                  source="/2394,3552,54,84/full/0/default.jpg">
+               <path n="2"
+                     xml:id="eSc_line_30f759f3_baseline_2"
+                     type="baseline"
+                     points="2398,3618 2441,3624 "/>
+               <line xml:id="eSc_line_30f759f3_ligne_2">12</line>
+            </zone>
+         </zone>
+      </surface>
+   </sourceDoc>
+   <text>
+      <body>
+         <div n="B_168_15-9-2_0012" type="page">
+            <pb n="B_168_15-9-2_0012"/>
+            <div type="decoration"/>
+            <div type="texte_principal">
+               <div type="MainZone">
+                  <lg xml:id="eSc_textblock_bb9d77a1_lg_1">
+                     <l ana="DefaultLine">Information</l>
+                     <l ana="DefaultLine">Contre Agatte femme de henry vouelin</l>
+                     <l ana="DefaultLine">de Beurnevesain</l>
+                  </lg>
+               </div>
+               <div type="MainZone">
+                  <lg xml:id="eSc_textblock_38acddb4_lg_1">
+                     <l ana="DefaultLine">Criminalia</l>
+                     <l ana="DefaultLine">de Beurneve</l>
+                     <l ana="DefaultLine">sain</l>
+                  </lg>
+               </div>
+            </div>
+            <div type="notes_marginales">
+               <div type="notes_marginales_auteur"/>
+               <div type="notes_marginales_archives"/>
+               <div type="notes_marginales_archives">
+                  <div type="NumberingZone:page">
+                     <lg xml:id="eSc_textblock_9cec7c07_lg_1">
+                        <l ana="DefaultLine">12</l>
+                     </lg>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

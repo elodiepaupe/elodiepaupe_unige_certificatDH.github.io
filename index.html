@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Projet Crimes et Châtiments</title>
+        <link rel="stylesheet" href="style/feuilledestyle.css"> 
+        <link rel="stylesheet" href="style/caroussel.css"> 
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Bâle, procédures criminelles, sorcellerie, sorcière, évêché de Bâle"/>
+        <meta name="description" content="Procédures criminelles de la principauté épiscopale de Bâle (16-17e siècles)"/>
+        <meta name="author" content="Elodie Paupe"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    </head>
+
+    <body>
+        <!-- Menus -->
+        <header>
+            <!-- En-tête du site des aaeb: 
+              <img id="logo" src="http://aaeb.ch/htdocs/images/header.jpg"/> -->
+            <a href="index.html"><img id="logo" src="site/photos/logo_bis.png"/></a>
+            <nav id="primary_nav_wrap">
+            <ul>
+                <li class="current-menu-item"><a href="index.html">Accueil</a></li>
+                <li><a href="#">Description du projet</a>
+                  <ul>
+                      <li><a href="site/description_projet.html">"Crimes et Châtiments"</a></li>
+                      <li><a href="site/calendrier.html">Calendrier du projet</a></li>
+                  </ul>
+              </li>
+                <li><a href="#">Ressources</a>
+                    <ul>
+                        <li><a href="site/modele_HTR.html">Modèles HTR</a></li>
+                        <li><a href="site/bdd_cod205a.html">Base de données: Cod.205a</a></li>
+                        <li><a href="site/bdd_sorciere.html">Base de données: socières</a></li>
+                        <li><a href="site/abecedaire.html">Abécédaire</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Accéder aux sources</a>
+                    <ul>
+                      <li><a href="site/lecture.html">Lire les sources</a></li>
+                    </ul>
+                </li>
+                <li><a href="site/liens.html">Liens</a></li>
+            </ul>
+            </nav>
+        </header>
+
+        <!-- Début de la page. -->
+        <div style="height: 600px;">
+                <!-- Carrousel d'images: code repris ici https://codepen.io/ancaspatariu/pen/WpQYOP -->
+                <div style="display: block; float: left; width: 66%;">
+                    <div class="carousel">
+                      <ul class="slides">
+                        <input type="radio" name="radio-buttons" id="img-1" checked />
+                        <li class="slide-container">
+                          <div class="slide-image">
+                            <figure>
+                              <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Zeitung_Derenburg_1555_crop.jpg">
+                              <figcaption>R. Decker, Bûcher de sorcières à Derenburg (comté de Reinstein) en 1555. Public domain, via <a href="https://commons.wikimedia.org/wiki/File:Zeitung_Derenburg_1555_crop.jpg">Wikimedia Commons</a></figcaption>
+                            </figure>
+                            
+                          </div>
+                          <div class="carousel-controls">
+                            <label for="img-3" class="prev-slide">
+                              <span>&lsaquo;</span>
+                            </label>
+                            <label for="img-2" class="next-slide">
+                              <span>&rsaquo;</span>
+                            </label>
+                          </div>
+                        </li>
+                        <input type="radio" name="radio-buttons" id="img-2" />
+                        <li class="slide-container">
+                          <div class="slide-image">
+                            <figure>
+                              <img src="site/photos/PCrim_Dt_1756-02-14_Pierre_Joly_sodomie_citation_edictale_A_20209.jpg">
+                              <figcaption>La Cour ordonne à Pierre Joly, accusé d’homosexualité, de se présenter en justice dans les 45 jours, sous peine d’être reconnu coupable. AAEB, PCrim Dt, 14 fév. 1756. </figcaption>
+                            </figure>
+                            
+                          </div>
+                          <div class="carousel-controls">
+                            <label for="img-1" class="prev-slide">
+                              <span>&lsaquo;</span>
+                            </label>
+                            <label for="img-3" class="next-slide">
+                              <span>&rsaquo;</span>
+                            </label>
+                          </div>
+                        </li>
+                        <input type="radio" name="radio-buttons" id="img-3" />
+                        <li class="slide-container">
+                          <div class="slide-image">
+                            <figure>
+                              <img src="http://www.aaeb.ch/htdocs/Images/Pictures/Images_taille_par_defaut/2roggenbourgresize1233235852129.jpg">
+                              <figcaption>Roggenbourg - la métairie fief de Hoffersgrund (1777)</figcaption>
+                            </figure>
+                            
+                          </div>
+                          <div class="carousel-controls">
+                            <label for="img-2" class="prev-slide">
+                              <span>&lsaquo;</span>
+                            </label>
+                            <label for="img-4" class="next-slide">
+                              <span>&rsaquo;</span>
+                            </label>
+                          </div>
+                        </li>
+
+                        <input type="radio" name="radio-buttons" id="img-4" />
+                        <li class="slide-container">
+                          <div class="slide-image">
+                            <figure>
+                              <img src="site/photos/B_137-7_1437-16-avril_Bailli_Birseck_dessin_paysan_180 dpi.JPG"/>
+                              <figcaption>AAEB B137/7 Dessin d'un paysan. </figcaption>
+                            </figure>
+                            
+                          </div>
+                          <div class="carousel-controls">
+                            <label for="img-3" class="prev-slide">
+                              <span>&lsaquo;</span>
+                            </label>
+                            <label for="img-1" class="next-slide">
+                              <span>&rsaquo;</span>
+                            </label>
+                          </div>
+                        </li>
+                        <div class="carousel-dots">
+                          <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+                          <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+                          <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
+                          <label for="img-4" class="carousel-dot" id="img-dot-4"></label>
+                        </div>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div style="display:block; float:right; width:33%; ">
+                    <div style="margin-top: 30%;">
+                      <!--
+                      <img style="width:340px;" src="photos/logo.png"/>
+                      
+                      <p>
+                        Avec le projet « Crimes et châtiments », les Archives de l'ancien Évêché de Bâle à Porrentruy (Jura, Suisse) entendent présenter en ligne plus de 110'000 pages de procès criminels et de sorcellerie d’ici à 2025.
+                      </p>
+                      -->
+                      <h1>Crimes et châtiments</h1>
+                      <h2>– Procès de sorcelleries et procédures criminelles: numérisation, mise en ligne et médiation</h2>
+                      <p style="font-style: italic; line-height: 150%;">
+                        Objectif: faciliter l'accès aux sources criminelles de la principauté épiscopale de Bâle, notamment 
+                        grâce à différents outils numériques à la pointe de la technologie!
+                      </p>
+                    </div>
+                  </div>
+
+        </div>
+        
+          <footer>
+              <p>Archives de l'ancien Évêché de Bâle – <a href="mailto:jean-claude.rebetez@aaeb.ch">Nous écrire</a></p>
+              <p>2022 - Tous droits réservés.</p>
+          </footer>
+    </body>
+</html>

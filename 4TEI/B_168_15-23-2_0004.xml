@@ -1,0 +1,146 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#">
+   <teiHeader xml:lang="fr">
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <editionStmt>
+            <edition>Version électronique TEI des procédures criminelles de la principauté épiscopale de Bâle</edition>
+            <respStmt>
+               <name xml:id="EP">Élodie Paupe</name>
+               <resp>Encodage</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Archives de l'ancien Évêché de Bâle</authority>
+            <address>
+               <addrLine>rue des Annonciades 10</addrLine>
+               <addrLine>2900 Porrentruy</addrLine>
+               <addrLine>www.aaeb.ch</addrLine>
+            </address>
+            <availability status="restricted" n="CC-BY-NC-SA">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+               <p>Creative Commons Attribution 4.0 CC BY-NC-SA 4.0 FR</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Porrentruy</settlement>
+                  <repository>Archives de l'ancien Évêché de Bâle</repository>
+                  <idno type="cote"/>
+                  <idno type="url">https://archives-aaeb.jura.ch/detail.aspx?ID=223582</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab source="https://github.com/aaeb-porrentruy/corpus_prevot_farine_fr/blob/main/README.md">Les normes de transcription sont disponibles en ligne.</ab>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Moyen français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-07-31" who="#EP">Création du fichier TEI à partir des sources alto</change>
+      </revisionDesc>
+   </teiHeader>
+   <sourceDoc xml:id="transcription">
+      <surface xml:id="B_168_15-23-2_0004">
+         <graphic url=""/>
+         <zone xml:id="eSc_textblock_2f2cbba0"
+               type="segmontoZone"
+               corresp="MainZone"
+               n="1"
+               points="2114,2020 2190,2170 1987,2221 1077,2208 1065,2046 1115,1944 "
+               source="/1065,1944,1125,277/full/0/default.jpg">
+            <zone xml:id="eSc_line_c98c0d46"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="2"
+                  points="1122,2052 1122,1931 1227,1935 1230,1935 1233,1935 1236,1938 1262,1960 1306,1947 1309,1947 1313,1947 1316,1947 1379,1982 1433,1957 1437,1957 1440,1957 1443,1957 1510,1992 1907,1998 1952,1989 2025,1973 2028,1973 2031,1973 2114,2001 2111,2093 2111,2106 2056,2132 2053,2132 2050,2132 2047,2132 1939,2103 1901,2093 1840,2100 1719,2116 1716,2116 1713,2116 1665,2097 1624,2081 1580,2097 1554,2103 1551,2103 1548,2103 1545,2103 1526,2093 1500,2081 1360,2090 1344,2090 1341,2090 1338,2090 1335,2090 1249,2062 1119,2084 "
+                  source="/1119,1931,995,201/full/0/default.jpg">
+               <path n="2"
+                     xml:id="eSc_line_c98c0d46_baseline_2"
+                     type="baseline"
+                     points="1125,2055 1337,2047 1652,2069 2114,2096 "/>
+               <line xml:id="eSc_line_c98c0d46_ligne_2">Proces Criminel de Adelheit</line>
+            </zone>
+            <zone xml:id="eSc_line_69811d58"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="3"
+                  points="1208,2116 1214,2046 1239,2068 1278,2052 1284,2049 1287,2049 1290,2049 1293,2049 1303,2052 1351,2068 1452,2062 1503,2059 1506,2059 1510,2059 1522,2065 1557,2084 1716,2087 1815,2084 1964,2074 1967,2074 2142,2103 2142,2151 2139,2186 1974,2205 1971,2205 1630,2173 1551,2189 1548,2189 1545,2189 1541,2189 1497,2160 1491,2154 1354,2151 1347,2151 1303,2170 1300,2170 1297,2170 1293,2170 1198,2144 "
+                  source="/1198,2046,944,159/full/0/default.jpg">
+               <path n="3"
+                     xml:id="eSc_line_69811d58_baseline_3"
+                     type="baseline"
+                     points="1211,2119 2145,2154 "/>
+               <line xml:id="eSc_line_69811d58_ligne_3">vefve Borquin Betteny de</line>
+            </zone>
+            <zone xml:id="eSc_line_70000547"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="4"
+                  points="1150,2195 1144,2132 1573,2128 1576,2208 1576,2217 1513,2243 1510,2243 1506,2243 1503,2243 1500,2243 1471,2224 1459,2217 1430,2227 1421,2230 1417,2230 1414,2230 1411,2230 1405,2230 1360,2214 1300,2236 1265,2246 1262,2246 1258,2246 1144,2243 "
+                  source="/1144,2128,432,118/full/0/default.jpg">
+               <path n="4"
+                     xml:id="eSc_line_70000547_baseline_4"
+                     type="baseline"
+                     points="1154,2198 1342,2194 1578,2209 "/>
+               <line xml:id="eSc_line_70000547_ligne_4">Boncourt.</line>
+            </zone>
+         </zone>
+         <zone xml:id="eSc_textblock_7f65f776"
+               type="segmontoZone"
+               corresp="NumberingZone:page"
+               n="2"
+               points="2348,3575 2348,3677 2465,3677 2465,3575 "
+               source="/2348,3575,117,102/full/0/default.jpg">
+            <zone xml:id="eSc_line_59994f08"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="2"
+                  points="2374,3647 2371,3577 2435,3574 2438,3647 2438,3670 2374,3676 "
+                  source="/2371,3574,67,102/full/0/default.jpg">
+               <path n="2"
+                     xml:id="eSc_line_59994f08_baseline_2"
+                     type="baseline"
+                     points="2377,3648 2440,3648 "/>
+               <line xml:id="eSc_line_59994f08_ligne_2">4</line>
+            </zone>
+         </zone>
+      </surface>
+   </sourceDoc>
+   <text>
+      <body>
+         <div n="B_168_15-23-2_0004" type="page">
+            <pb n="B_168_15-23-2_0004"/>
+            <div type="decoration"/>
+            <div type="texte_principal">
+               <div type="MainZone">
+                  <lg xml:id="eSc_textblock_2f2cbba0_lg_1">
+                     <l ana="DefaultLine">Proces Criminel de Adelheit</l>
+                     <l ana="DefaultLine">vefve Borquin Betteny de</l>
+                     <l ana="DefaultLine">Boncourt.</l>
+                  </lg>
+               </div>
+            </div>
+            <div type="notes_marginales">
+               <div type="notes_marginales_auteur"/>
+               <div type="notes_marginales_archives"/>
+               <div type="notes_marginales_archives">
+                  <div type="NumberingZone:page">
+                     <lg xml:id="eSc_textblock_7f65f776_lg_1">
+                        <l ana="DefaultLine">4</l>
+                     </lg>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,63 @@
+/* Classe obligatoire pour les flèches */
+#tab{
+  overflow: auto;
+  height: 500px;
+}
+
+table{
+    font-size: small;
+}
+
+#tabl thead th {
+  position: sticky;
+  top: 0;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+th{
+  position: sticky; 
+  top: 0;
+}
+
+
+.flecheDesc {
+    width: 0; 
+    height: 0; 
+    float:right;
+    margin: 10px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid black;
+  }
+  .flecheAsc {
+    width: 0; 
+    height: 0;
+    float:right;
+    margin: 10px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+  }
+  
+  /* Classe optionnelle pour le style */
+  .tableau {width:100%;table-layout: fixed;border-collapse: collapse;}
+  .tableau td {padding:.3rem}
+  tr:nth-child(even) {
+    background-color: rgb(201, 225, 255) ;;
+  }
+  .avectri th {text-align:center;padding:5px 0 0 5px;vertical-align: middle;background-color:rgb(73 135 212);color:#fff;cursor:pointer;
+      -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+  }
+  .avectri th.selection {background-color:rgb(73 135 212);color:darkblue;}
+  .avectri th.selection .flecheDesc {border-bottom-color: white;}
+  .avectri th.selection .flecheAsc {border-top-color: white;}

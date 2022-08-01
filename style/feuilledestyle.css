@@ -1,0 +1,373 @@
+/* Tout le document */ 
+html{
+    max-width:auto;
+    min-width: 650px;
+    margin: auto;
+    font-family: Verdana, Arial, "Helvetica Neue", "Lucida Grande", Helvetica, sans-serif;
+}
+
+/* Menu principal */
+
+header{
+    padding-bottom: 70px;
+}
+
+#primary_nav_wrap
+{
+	margin-top:15px;
+    display:-webkit-inline-flex; 
+    height: 50px;
+    float:right; 
+    background-color: inherit;
+}
+
+#primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul a
+{
+	display:block;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+#primary_nav_wrap ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:auto 0;
+    height: 50px; 
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+    height: 50px;
+    margin:auto;
+}
+
+#primary_nav_wrap ul li:hover a
+{
+	background: rgb(73 135 212);
+    color: #fafafa;
+}
+
+#primary_nav_wrap ul li a
+{
+	height: 50px;
+    line-height: 50px;
+}
+
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#fff;
+	padding:0
+}
+
+#primary_nav_wrap ul ul li
+{
+	float:none;
+	width:200px; 
+}
+
+#primary_nav_wrap ul ul a
+{
+	line-height:100%;
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block
+}
+
+#primary_nav_wrap ul li ul li a
+{
+	height: 50px;
+    line-height: 50px;
+}
+
+#primary_nav_wrap ul li ul li:hover a
+{
+	background: #fafafa;
+    color: grey;
+    border: 1px solid grey;
+}
+
+/* Corps de texte */
+
+body{
+    max-width: 1000px;
+    margin: auto; 
+    background-color:#fafafa;
+    color:grey;
+    overflow-x:scroll;
+}
+
+h1{
+    display: block;
+    height: 50px;
+    color: rgb(73 135 212);
+    font-size:x-large;
+	letter-spacing: 3px;
+    padding: auto 0;
+    margin-top: 50px;
+    font-weight:bold;
+}
+
+h2{
+    font-size:larger;
+    font-weight:bold;
+
+}
+
+h3{
+    font-size:medium;
+    line-height: 20px;
+    color: rgb(73 135 212);
+    font-weight:bold;
+    line-height: 40px;
+}
+
+a{
+    color: rgb(73 135 212);
+}
+
+.lettre{
+    font-family: 'Babylonica';
+    font-size: 30px;
+}
+
+button{
+    margin-top: 12px;
+}
+
+/* Images et médias */
+
+aside {
+    width: 100%; /* use the required width for image here */
+  }
+
+figure{
+    max-width: 500px;
+    margin:auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+img{
+    max-width: 500px; 
+    z-index: -1;
+}
+
+.intext{
+    width:400px;
+    margin:10px;
+    margin-right:24px;
+}
+.intext:hover{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}  
+
+figcaption{
+   color: rgb(73 135 212);
+   font-style: italic;
+   font-size: small;
+   text-align: left;
+}
+
+iframe{
+    width: 1010px; /* Je suis désolée pour ça. */
+    height:500px;
+}
+
+.salle_de_lecture{
+    width: 1000px; /* Je suis désolée pour ça. */
+    height:500px;
+}
+
+/* menu déroulant salle de lecture */
+
+#salle_lecture {
+    display: block;
+    width: 100%;
+    position: absolute;
+    float:left;
+    margin:0 auto;
+    z-index: 1;
+}
+
+#salle_lecture ul{
+    list-style:none;
+    
+}
+
+#salle_lecture ul a{
+    display:block;
+	text-decoration:none;
+}
+
+#salle_lecture ul li{
+    float: left;
+    position: relative;
+    width: 30%;
+    text-align: left;
+
+}
+
+
+#salle_lecture ul li:hover a{
+    color: orange;
+    border-bottom: 2px solid gold;
+}
+
+#salle_lecture ul li a
+{
+	height: auto;
+    line-height: auto;
+}
+
+#salle_lecture ul ul{
+    display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	padding:0;
+}
+
+#salle_lecture ul ul li
+{
+	float:none;
+	width:100%; 
+    height: auto;
+    line-height: auto;
+}
+
+#salle_lecture ul ul a
+{
+	line-height:200%;
+}
+
+#salle_lecture ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#salle_lecture ul li:hover > ul
+{
+	display:block
+}
+
+#salle_lecture ul li ul li a
+{
+	height: auto;
+    line-height: auto;
+    background: white;
+}
+
+#salle_lecture ul li ul li:hover a
+{
+	background: white;
+    color: orange;
+    border: 2px solid gold;
+}
+
+.deroulant a{
+    color:orange; 
+}
+
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+
+
+/* Salle de lecture virtuelle */
+
+.lecture{
+    display: block;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+    margin-bottom: 12px;
+}
+
+.lecture_transcription{
+    display: block;
+    float: left;
+    padding:100px 12px; 
+    width: 50%;
+    height: 100%;
+    overflow: auto;
+    line-height: 150%;
+    color: rgb(73 135 212);
+}
+
+.lecture_image{
+    display: block;
+    position: relative;
+    float: right;
+    width: 50%;
+    height: 100%;
+    overflow: scroll;
+}
+
+.bouton_lecture{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    
+}
+
+.note_ajoute{
+    color: orange;
+
+}
+
+.interlinear_line{
+    font-size:small;
+    vertical-align: super; 
+}
+
+.heading_line{
+    font-weight: bold;
+}
+
+
+/* En-tête */ 
+#logo{
+    display: block;
+    height: 60px;
+    float: left;
+    margin-right: 15px;
+    margin-left: 0px;
+}
+
+/* Pied de page */
+
+footer{
+    font-size: x-small;
+    text-align: center;
+    margin-top: 2cm;
+    position:sticky;
+    bottom:0;
+    width: 100%;
+}

@@ -1,0 +1,146 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#">
+   <teiHeader xml:lang="fr">
+      <fileDesc>
+         <titleStmt>
+            <title/>
+         </titleStmt>
+         <editionStmt>
+            <edition>Version électronique TEI des procédures criminelles de la principauté épiscopale de Bâle</edition>
+            <respStmt>
+               <name xml:id="EP">Élodie Paupe</name>
+               <resp>Encodage</resp>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <authority>Archives de l'ancien Évêché de Bâle</authority>
+            <address>
+               <addrLine>rue des Annonciades 10</addrLine>
+               <addrLine>2900 Porrentruy</addrLine>
+               <addrLine>www.aaeb.ch</addrLine>
+            </address>
+            <availability status="restricted" n="CC-BY-NC-SA">
+               <licence target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+               <p>Creative Commons Attribution 4.0 CC BY-NC-SA 4.0 FR</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Suisse</country>
+                  <settlement>Porrentruy</settlement>
+                  <repository>Archives de l'ancien Évêché de Bâle</repository>
+                  <idno type="cote"/>
+                  <idno type="url">https://archives-aaeb.jura.ch/detail.aspx?ID=223582</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <ab source="https://github.com/aaeb-porrentruy/corpus_prevot_farine_fr/blob/main/README.md">Les normes de transcription sont disponibles en ligne.</ab>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Moyen français</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2022-07-31" who="#EP">Création du fichier TEI à partir des sources alto</change>
+      </revisionDesc>
+   </teiHeader>
+   <sourceDoc xml:id="transcription">
+      <surface xml:id="B_168_15-2-2_0011">
+         <graphic url=""/>
+         <zone xml:id="eSc_textblock_56303d97"
+               type="segmontoZone"
+               corresp="MainZone"
+               n="1"
+               points="2283,2210 2258,2331 2408,2347 2433,2456 2371,2494 1449,2481 1387,2406 1374,2260 1596,2222 1637,1997 2333,2022 2346,2169 "
+               source="/1374,1997,1059,497/full/0/default.jpg">
+            <zone xml:id="eSc_line_26143dc8"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="2"
+                  points="1646,2172 1634,2007 1762,2004 1765,2004 1765,2004 1768,2004 1768,2004 1768,2004 1780,2010 1852,2044 1983,2025 1983,2025 1987,2025 1987,2025 2112,2038 2137,2019 2168,1994 2168,1994 2171,1994 2171,1994 2171,1994 2174,1994 2174,1994 2177,1994 2177,1994 2177,1994 2180,1994 2180,1994 2180,1994 2183,1994 2221,2022 2233,2029 2293,2025 2305,2150 2305,2169 2240,2172 2227,2182 2168,2222 2165,2222 2165,2222 2165,2222 2162,2222 2162,2222 2158,2222 2158,2222 2158,2222 2155,2222 2155,2222 2152,2222 2112,2197 2083,2182 2008,2197 2008,2197 2008,2197 2005,2197 2005,2197 2005,2197 2002,2197 2002,2197 2002,2197 1977,2185 1862,2222 1852,2231 1837,2253 1834,2253 1834,2256 1834,2256 1830,2256 1830,2256 1830,2256 1827,2256 1827,2256 1827,2256 1649,2260 "
+                  source="/1634.0,1994.0,671.0,266.0/full/0/default.jpg">
+               <path n="2"
+                     xml:id="eSc_line_26143dc8_baseline_2"
+                     type="baseline"
+                     points="1646,2172 2305,2150 "/>
+               <line xml:id="eSc_line_26143dc8_ligne_2">Informations</line>
+            </zone>
+            <zone xml:id="eSc_line_ac65191b"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="3"
+                  points="1399,2335 1393,2228 1530,2244 1605,2231 1652,2222 1652,2222 1652,2222 1655,2222 1655,2222 1659,2222 1659,2222 1659,2222 1662,2222 1662,2222 1662,2225 1671,2231 1690,2250 1777,2250 1993,2247 2018,2238 2090,2213 2093,2213 2093,2213 2093,2213 2096,2213 2096,2213 2096,2213 2215,2241 2221,2316 2218,2347 1399,2363 "
+                  source="/1393.0,2213.0,828.0,150.0/full/0/default.jpg">
+               <path n="3"
+                     xml:id="eSc_line_ac65191b_baseline_3"
+                     type="baseline"
+                     points="1402,2336 2224,2319 "/>
+               <line xml:id="eSc_line_ac65191b_ligne_3">Contre Annelin vefve</line>
+            </zone>
+            <zone xml:id="eSc_line_b0703873"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="4"
+                  points="1462,2419 1465,2316 1565,2356 1655,2356 1687,2331 1687,2331 1690,2331 1690,2331 1690,2331 1693,2331 1693,2331 1696,2331 1696,2331 1696,2331 1699,2331 1771,2353 1821,2331 1821,2331 1821,2331 1824,2331 1824,2331 1827,2331 1827,2331 1827,2331 1962,2356 1996,2328 2008,2319 2008,2319 2012,2319 2012,2319 2015,2319 2015,2319 2015,2319 2018,2319 2396,2341 2396,2438 2393,2469 2171,2491 2171,2491 2168,2491 2168,2491 2165,2491 2165,2491 2165,2491 2162,2491 2162,2491 2162,2487 2146,2475 2124,2450 2021,2450 1902,2478 1852,2487 1852,2487 1852,2487 1849,2487 1849,2487 1780,2478 1568,2447 1530,2478 1530,2481 1530,2481 1527,2481 1527,2481 1527,2481 1527,2481 1524,2481 1524,2481 1524,2484 1459,2484 "
+                  source="/1459.0,2316.0,937.0,175.0/full/0/default.jpg">
+               <path n="4"
+                     xml:id="eSc_line_b0703873_baseline_4"
+                     type="baseline"
+                     points="1462,2419 2230,2425 2396,2438 "/>
+               <line xml:id="eSc_line_b0703873_ligne_4">Pierrat vauthier de Courthedoubs</line>
+            </zone>
+         </zone>
+         <zone xml:id="eSc_textblock_96b9423a"
+               type="segmontoZone"
+               corresp="NumberingZone:page"
+               n="2"
+               points="2299,3630 2299,3546 2371,3558 2358,3628 "
+               source="/2299,3546,72,84/full/0/default.jpg">
+            <zone xml:id="eSc_line_04df3e63"
+                  type="segmontoLine"
+                  corresp="DefaultLine"
+                  n="2"
+                  points="2302,3621 2302,3518 2346,3524 2346,3621 2346,3705 2302,3708 "
+                  source="/2302,3518,44,190/full/0/default.jpg">
+               <path n="2"
+                     xml:id="eSc_line_04df3e63_baseline_2"
+                     type="baseline"
+                     points="2302,3621 2346,3621 "/>
+               <line xml:id="eSc_line_04df3e63_ligne_2">16</line>
+            </zone>
+         </zone>
+      </surface>
+   </sourceDoc>
+   <text>
+      <body>
+         <div n="B_168_15-2-2_0011" type="page">
+            <pb n="B_168_15-2-2_0011"/>
+            <div type="decoration"/>
+            <div type="texte_principal">
+               <div type="MainZone">
+                  <lg xml:id="eSc_textblock_56303d97_lg_1">
+                     <l ana="DefaultLine">Informations</l>
+                     <l ana="DefaultLine">Contre Annelin vefve</l>
+                     <l ana="DefaultLine">Pierrat vauthier de Courthedoubs</l>
+                  </lg>
+               </div>
+            </div>
+            <div type="notes_marginales">
+               <div type="notes_marginales_auteur"/>
+               <div type="notes_marginales_archives"/>
+               <div type="notes_marginales_archives">
+                  <div type="NumberingZone:page">
+                     <lg xml:id="eSc_textblock_96b9423a_lg_1">
+                        <l ana="DefaultLine">16</l>
+                     </lg>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

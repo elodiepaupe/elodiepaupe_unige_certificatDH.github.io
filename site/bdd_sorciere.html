@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Projet Crimes et Châtiments</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="../style/feuilledestyle.css">
+    <link rel="stylesheet" href="../style/tableau.css">
+    <link rel="stylesheet" href="../style/sorcieres.css">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Bâle, procédures criminelles, sorcellerie, sorcière, évêché de Bâle"/>
+        <meta name="description" content="Procédures criminelles de la principauté épiscopale de Bâle (16-17e siècles)"/>
+        <meta name="author" content="Elodie Paupe"/>
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0, maximum-scale=1.0">
+</head>
+
+<body>
+    <!-- Menus -->
+    <header>
+        <!-- En-tête du site des aaeb: 
+              <img id="logo" src="http://aaeb.ch/htdocs/images/header.jpg"/> -->
+        <a href="../index.html"><img id="logo" src="photos/logo_bis.png" /></a>
+        <nav id="primary_nav_wrap">
+            <ul>
+                <li class="current-menu-item"><a href="../index.html">Accueil</a></li>
+                <li><a href="#">Description du projet</a>
+                    <ul>
+                        <li><a href="description_projet.html">"Crimes et Châtiments"</a></li>
+                        <li><a href="calendrier.html">Calendrier du projet</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Ressources</a>
+                    <ul>
+                        <li><a href="modele_HTR.html">Modèles HTR</a></li>
+                        <li><a href="bdd_cod205a.html">Base de données: Cod.205a</a></li>
+                        <li><a href="bdd_sorciere.html">Base de données: socières</a></li>
+                        <li><a href="abecedaire.html">Abécédaire</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Accéder aux sources</a>
+                    <ul>
+                        <li><a href="lecture.html">Lire les sources</a></li>
+                        <li><a href="#">Infographie</a>
+                    </ul>
+                </li>
+                <li><a href="liens.html">Liens</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+            <!-- https://gitlab.com/ErwanDelory/tableau-interactif/-/blob/master/index.html pour le tableau qui n'a pas marché (impossible de trier)
+            http://www.trucsweb.com/tutoriels/javascript/tableau-tri/ pour la seconde solution testée.-->
+
+            <h1>Tableau des sorcières et sorciers
+                <a href="https://docs.google.com/spreadsheets/d/1tee5tgTixYpys_GyJXRyUlfu3c43vYx8TEMcqQsBRo8/edit?usp=sharing">
+                    <button class="w3-button w3-white w3-border w3-border-blue w3-round-large w3-hover-blue w3-small" style="float:right">Télécharger le fichier</button>
+                </a>
+            </h1>
+
+            
+
+           <div>
+            <iframe src="sorciere_bis.html"></iframe>
+            </div>
+            <script>
+                // Tri dynamique de tableau HTML
+                // Auteur : Copyright © 2015 - Django Blais
+                // Source : http://trucsweb.com/tutoriels/Javascript/tableau-tri/
+                // Sous licence du MIT.
+                function twInitTableau() {
+                  // Initialise chaque tableau de classe « avectri »
+                     [].forEach.call( document.getElementsByClassName("avectri"), function(oTableau) {
+                     var oEntete = oTableau.getElementsByTagName("tr")[0];
+                     var nI = 1;
+                      // Ajoute à chaque entête (td) la capture du clic
+                      // Un picto flèche, et deux variable data-*
+                      // - Le sens du tri (0 ou 1)
+                      // - Le numéro de la colonne
+                    [].forEach.call( oEntete.querySelectorAll("td"), function(oTh) {
+                      oTh.addEventListener("click", twTriTableau, false);
+                      oTh.setAttribute("data-pos", nI);
+                      if(oTh.getAttribute("data-tri")=="1") {
+                       oTh.innerHTML += "<span class=\"flecheDesc\"></span>";
+                      } else {
+                        oTh.setAttribute("data-tri", "0");
+                        oTh.innerHTML += "<span class=\"flecheAsc\"></span>";
+                      }
+                      // Tri par défaut
+                      if (oTh.className=="selection") {
+                        oTh.click();
+                      }
+                      nI++;
+                    });
+                  });
+                }
+                
+                function twInit() {
+                  twInitTableau();
+                }
+                function twPret(maFonction) {
+                  if (document.readyState != "loading"){
+                    maFonction();
+                  } else {
+                    document.addEventListener("DOMContentLoaded", maFonction);
+                  }
+                }
+                twPret(twInit);
+              
+                function twTriTableau() {
+                  // Ajuste le tri
+                  var nBoolDir = tdis.getAttribute("data-tri");
+                  tdis.setAttribute("data-tri", (nBoolDir=="0") ? "1" : "0");
+                  // Supprime la classe « selection » de chaque colonne.
+                  [].forEach.call( tdis.parentNode.querySelectorAll("td"), function(oTh) {oTh.classList.remove("selection");});
+                  // Ajoute la classe « selection » à la colonne cliquée.
+                  tdis.className = "selection";
+                  // Ajuste la flèche
+                  tdis.querySelector("span").className = (nBoolDir=="0") ? "flecheAsc" : "flecheDesc";
+              
+                  // Construit la matrice
+                  // Récupère le tableau (tbody)
+                  var oTbody = tdis.parentNode.parentNode.parentNode.getElementsByTagName("tbody")[0]; 
+                  var oLigne = oTbody.rows;
+                  var nNbrLigne = oLigne.lengtd;
+                  var aColonne = new Array(), i, j, oCel;
+                  for(i = 0; i < nNbrLigne; i++) {
+                    oCel = oLigne[i].cells;
+                    aColonne[i] = new Array();
+                    for(j = 0; j < oCel.lengtd; j++){
+                      aColonne[i][j] = oCel[j].innerHTML;
+                    }
+                  }
+              
+                  // Trier la matrice (array)
+                  // Récupère le numéro de la colonne
+                  var nIndex = tdis.getAttribute("data-pos");
+                  // Récupère le type de tri (numérique ou par défaut « local »)
+                  var sFonctionTri = (tdis.getAttribute("data-type")=="num") ? "compareNombres" : "compareLocale";
+                  // Tri
+                  aColonne.sort(eval(sFonctionTri));
+                  // Tri numérique
+                  function compareNombres(a, b) {return a[nIndex-1] - b[nIndex-1];}
+                  // Tri local (pour support utf-8)
+                  function compareLocale(a, b) {return a[nIndex-1].localeCompare(b[nIndex-1]);}
+                  // Renverse la matrice dans le cas d’un tri descendant
+                  if (nBoolDir==0) aColonne.reverse();
+                  
+                  // Construit les colonne du nouveau tableau
+                  for(i = 0; i < nNbrLigne; i++){
+                    aColonne[i] = "<td>"+aColonne[i].join("</td><td>")+"</td>";
+                  }
+              
+                  // assigne les lignes au tableau
+                  oTbody.innerHTML = "<tr>"+aColonne.join("</tr><tr>")+"</tr>";
+                }
+                
+            
+                </script>
+        <p>
+            Créé le: 17/06/2022, par Bregnard Damien.
+        </p>
+    </div>
+
+    <footer>
+        <p>Archives de l'ancien Évêché de Bâle – <a href="mailto:jean-claude.rebetez@aaeb.ch">Nous écrire</a></p>
+        <p>2022 - Tous droits réservés.</p>
+    </footer>
+</body>
+
+</html>
