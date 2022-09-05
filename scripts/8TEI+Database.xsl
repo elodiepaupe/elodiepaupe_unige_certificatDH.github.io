@@ -30,7 +30,7 @@
         
         <!-- On récupère les données. -->
         <xsl:variable name="contenu">
-            <xsl:copy-of select= "document('../9Database_lgxmlid/aaeb-procedures-criminelles-v7.xml')/root/div[child::div[@type='ID']/w=$filename]/div[@type='MainZone']" xpath-default-namespace=""/>    
+            <xsl:copy-of select= "document('../9Database_lgxmlid/aaeb-procedures-criminelles-v7.xml')/root/div[child::div[@type='ID']/w=$filename]/div[@type='MainZone']" xpath-default-namespace="/>    
         </xsl:variable>
         
        <!-- On copie les données dans la div. -->
@@ -50,7 +50,7 @@
         
         <!-- Creating a variable for the information to copy -->
         <xsl:variable name="contenu">
-            <xsl:copy-of select= "document('../9Database_lgxmlid/aaeb-procedures-criminelles-v7.xml')/root/div[child::div[@type='ID']/w=$filename]/div[@type='MarginTextZone']" xpath-default-namespace=""/>    
+            <xsl:copy-of select= "document('../9Database_lgxmlid/aaeb-procedures-criminelles-v7.xml')/root/div[child::div[@type='ID']/w=$filename]/div[@type='MarginTextZone']" xpath-default-namespace="/>    
         </xsl:variable>
 
         <xsl:element name="div" xpath-default-namespace="http://www.tei-c.org/ns/1.0">

@@ -971,7 +971,7 @@
             <pb facs="https://iiif.unige.ch/iiif/2/fedora_ug27803362/full/full/0/default.jpg"/>
             <div type="decoration"/>
             <div>
-               <div xmlns="" type="MainZone">
+               <div xmlns=" type="MainZone">
                   <lg xml:id="eSc_textblock_a3bfa56a_lg_1">
                      <l ana="DefaultLine">
                         <w xml:id="t5715"
@@ -1204,7 +1204,7 @@
                      </l>
                   </lg>
                </div>
-               <div xmlns="" type="MainZone">
+               <div xmlns=" type="MainZone">
                   <lg xml:id="eSc_textblock_61fde3d5_lg_1">
                      <l ana="DefaultLine">
                         <w xml:id="t5919" lemma="Alix" type="POS=NOMpro|NOMB.=s|GENRE=m">Alix</w>

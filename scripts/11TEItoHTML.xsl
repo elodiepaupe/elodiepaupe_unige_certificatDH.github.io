@@ -45,11 +45,11 @@
                                 <a href="#">Description du projet</a>
                                 <ul>
                                     <li>
-                                        <a href="../description_projet.html">"Crimes et
+                                        <a href="../site/description_projet.html">"Crimes et
                                             Châtiments"</a>
                                     </li>
                                     <li>
-                                        <a href="../calendrier.html">Calendrier du projet</a>
+                                        <a href="../site/calendrier.html">Calendrier du projet</a>
                                     </li>
                                 </ul>
                             </li>
@@ -57,16 +57,16 @@
                                 <a href="#">Ressources</a>
                                 <ul>
                                     <li>
-                                        <a href="../modele_HTR.html">Modèles HTR</a>
+                                        <a href="../site/modele_HTR.html">Modèles HTR</a>
                                     </li>
                                     <li>
-                                        <a href="../bdd_cod205a.html">Base de données: Cod.205a</a>
+                                        <a href="../site/bdd_cod205a.html">Base de données: Cod.205a</a>
                                     </li>
                                     <li>
-                                        <a href="../bdd_sorciere.html">Base de données: socières</a>
+                                        <a href="../site/bdd_sorciere.html">Base de données: socières</a>
                                     </li>
                                     <li>
-                                        <a href="../abecedaire.html">Abécédaire</a>
+                                        <a href="../site/abecedaire.html">Abécédaire</a>
                                     </li>
                                 </ul>
                             </li>
@@ -74,15 +74,15 @@
                                 <a href="#">Accéder aux sources</a>
                                 <ul>
                                     <li>
-                                        <a href="../lecture.html">Lire les sources</a>
+                                        <a href="../site/lecture.html">Lire les sources</a>
                                     </li>
                                     <li>
-                                        <a href="../infographie.html">Infographie</a>
+                                        <a href="../site/infographie.html">Infographie</a>
                                     </li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="../liens.html">Liens</a>
+                                <a href="../site/liens.html">Liens</a>
                             </li>
                         </ul>
                     </nav>
@@ -187,7 +187,7 @@
                             <xsl:variable name="contenu">
                                 <xsl:copy-of
                                     select="document('../4TEI/recolement.xml')/root/row[Heading3 = $filename]/Heading4"
-                                    xpath-default-namespace=""/>
+                                    xpath-default-namespace="/>
                             </xsl:variable>
 
                             <xsl:value-of select="$contenu"/>

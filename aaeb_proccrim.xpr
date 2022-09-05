@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="22.1">
     <meta>
-        <filters directoryPatterns="" filePatterns="\Qatlo_import1.xpr\E" positiveFilePatterns="" showHiddenFiles="false"/>
+        <filters directoryPatterns=" filePatterns="\Qatlo_import1.xpr\E" positiveFilePatterns=" showHiddenFiles="false"/>
         <options>
             <serialized version="22.1" xml:space="preserve">
                 <serializableOrderedMap>

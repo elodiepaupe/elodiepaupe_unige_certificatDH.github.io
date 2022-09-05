@@ -24,7 +24,7 @@
   }
   /* Global ::before */
   .card::before {
-    content: "";
+    content: ";
     position: absolute;
     width: 50%;
     border: solid rgb(73 135 212);
@@ -83,7 +83,7 @@
   
   /* Timeline dot  */
   .title::before {
-    content: "";
+    content: ";
     position: absolute;
     width: 10px;
     height: 10px;

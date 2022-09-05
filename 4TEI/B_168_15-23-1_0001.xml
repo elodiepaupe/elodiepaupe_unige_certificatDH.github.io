@@ -50,7 +50,7 @@
    </teiHeader>
    <sourceDoc xml:id="transcription">
       <surface xml:id="B_168_15-23-1_0001">
-         <graphic url=""/>
+         <graphic url="/>
          <zone xml:id="eSc_textblock_3b955928"
                type="segmontoZone"
                corresp="NumberingZone:other"

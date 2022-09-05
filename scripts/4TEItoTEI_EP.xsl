@@ -27,7 +27,7 @@
         
         <!-- Rechercher la donnée à importer de la base de donnée -->
         <xsl:variable name="cote">
-            <xsl:copy-of select= "document('../4TEI/recolement.xml')/root/row[Heading5=$filename]/Heading12" xpath-default-namespace=""/>    
+            <xsl:copy-of select= "document('../4TEI/recolement.xml')/root/row[Heading5=$filename]/Heading12" xpath-default-namespace="/>    
         </xsl:variable>
         
         <!-- Insérer cette donnée dans le fichier TEI -->
@@ -46,7 +46,7 @@
         </xsl:variable>
         
         <xsl:variable name="cote">
-            <xsl:copy-of select= "document('../4TEI/recolement.xml')/root/row[Heading5=$filename]/Heading12" xpath-default-namespace=""/>    
+            <xsl:copy-of select= "document('../4TEI/recolement.xml')/root/row[Heading5=$filename]/Heading12" xpath-default-namespace="/>    
         </xsl:variable>
         
         <idno xmlns="http://www.tei-c.org/ns/1.0" type="cote">
@@ -65,7 +65,7 @@
         </xsl:variable>
         
         <xsl:variable name="graph">
-            <xsl:copy-of select= "document('../4TEI/recolement.xml')/root/row[Heading5=$filename]/Heading3" xpath-default-namespace=""/>    
+            <xsl:copy-of select= "document('../4TEI/recolement.xml')/root/row[Heading5=$filename]/Heading3" xpath-default-namespace="/>    
         </xsl:variable>
 
             <graphic xmlns="http://www.tei-c.org/ns/1.0">
@@ -85,7 +85,7 @@
         </xsl:variable>
         
         <xsl:variable name="facs">
-            <xsl:copy-of select="document('../4TEI/recolement.xml')/root/row[Heading5=$filename]/Heading3" xpath-default-namespace=""/>    
+            <xsl:copy-of select="document('../4TEI/recolement.xml')/root/row[Heading5=$filename]/Heading3" xpath-default-namespace="/>    
         </xsl:variable>
         
         <xsl:copy>
@@ -105,7 +105,7 @@
         </xsl:variable>
         
         <xsl:variable name="source">
-            <xsl:copy-of select= "document('../4TEI/recolement.xml')/root/row[Heading5=$filename]/Heading3" xpath-default-namespace=""/>    
+            <xsl:copy-of select= "document('../4TEI/recolement.xml')/root/row[Heading5=$filename]/Heading3" xpath-default-namespace="/>    
         </xsl:variable>
         
         <!-- On copie les attributs de l'élément zone et on en ajoute un. -->
