@@ -187,7 +187,7 @@
                             <xsl:variable name="contenu">
                                 <xsl:copy-of
                                     select="document('../4TEI/recolement.xml')/root/row[Heading3 = $filename]/Heading4"
-                                    xpath-default-namespace="/>
+                                    xpath-default-namespace=""/>
                             </xsl:variable>
 
                             <xsl:value-of select="$contenu"/>
